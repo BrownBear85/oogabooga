@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "filler:blocks/dldgsf",
-    "up": "filler:blocks/dldgsf",
-    "north": "filler:blocks/dldgsf",
-    "east": "filler:blocks/dldgsf",
-    "south": "filler:blocks/dldgsf",
-    "west": "filler:blocks/dldgsf",
-    "particle": "filler:blocks/dldgsf"
+    "down": "filler:blocks/bismuth_ore",
+    "up": "filler:blocks/bismuth_ore",
+    "north": "filler:blocks/bismuth_ore",
+    "east": "filler:blocks/bismuth_ore",
+    "south": "filler:blocks/bismuth_ore",
+    "west": "filler:blocks/bismuth_ore",
+    "particle": "filler:blocks/bismuth_ore"
   }
 }

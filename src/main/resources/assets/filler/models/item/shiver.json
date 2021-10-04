@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "filler:items/spectrolite"
+    "layer0": "filler:items/spectrolite_disk"
   }
 }
