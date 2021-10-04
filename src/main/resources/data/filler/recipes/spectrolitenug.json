@@ -1,0 +1,13 @@
+{
+  "group": "filler",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "filler:spectrolite"
+    }
+  ],
+  "result": {
+    "item": "filler:spectronug",
+    "count": 9
+  }
+}

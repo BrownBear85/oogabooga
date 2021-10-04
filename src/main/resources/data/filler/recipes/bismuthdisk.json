@@ -1,0 +1,30 @@
+{
+  "group": "filler",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 4 ",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "filler:bismuthnugget"
+    },
+    "2": {
+      "item": "filler:bismuthnugget"
+    },
+    "4": {
+      "item": "filler:empty_disk"
+    },
+    "6": {
+      "item": "filler:bismuthnugget"
+    },
+    "8": {
+      "item": "filler:bismuthnugget"
+    }
+  },
+  "result": {
+    "item": "filler:freedom_08",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "freedom08",
+    "name": "FREEDOM 0 8",
+    "description": "xi - Freedom Dive",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:freedomdive"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

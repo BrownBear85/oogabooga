@@ -1,0 +1,20 @@
+{
+  "freedomdive": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "filler:freedom-dive",
+        "stream": false
+      }
+    ]
+  },
+  "shiver": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "filler:shiver_1",
+        "stream": false
+      }
+    ]
+  }
+}

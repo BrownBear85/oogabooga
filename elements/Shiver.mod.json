@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "spectrolite",
+    "name": "Shiver",
+    "description": "False Noise - Shiver",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:shiver"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

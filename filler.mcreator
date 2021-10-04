@@ -1,0 +1,235 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "FREEDOM08",
+      "type": "musicdisc",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freedom_08"
+    },
+    {
+      "name": "Bismuth",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bismuth"
+    },
+    {
+      "name": "Busmuth",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "busmuth"
+    },
+    {
+      "name": "EmptyDisk",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "empty_disk"
+    },
+    {
+      "name": "Bismuthnugget",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bismuthnugget"
+    },
+    {
+      "name": "Bismuthdisk",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bismuthdisk"
+    },
+    {
+      "name": "Bisnug",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bisnug"
+    },
+    {
+      "name": "BismuthPick",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bismuth_pick"
+    },
+    {
+      "name": "Bismuthpic",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bismuthpic"
+    },
+    {
+      "name": "Spectroliteore",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spectroliteore"
+    },
+    {
+      "name": "SpectrolitePick",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spectrolite_pick"
+    },
+    {
+      "name": "Shiver",
+      "type": "musicdisc",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shiver"
+    },
+    {
+      "name": "SpectroliteItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spectrolite_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Spectrolite",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spectrolite"
+    },
+    {
+      "name": "Spectronug",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spectronug"
+    },
+    {
+      "name": "Spectrolitepic",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spectrolitepic"
+    },
+    {
+      "name": "Spectrolitenug",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spectrolitenug"
+    },
+    {
+      "name": "Spectrolitedisk",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spectrolitedisk"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "freedomdive",
+      "files": [
+        "freedom-dive"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "shiver",
+      "files": [
+        "shiver_1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.filler.spectronug": "Spectronug",
+      "item.filler.shiver": "Shiver",
+      "subtitles.freedomdive": "",
+      "item.filler.bismuth_pick": "Bismuth Pickaxe",
+      "item.filler.freedom_08.desc": "xi - Freedom Dive",
+      "block.filler.spectroliteore": "Spectroliteore",
+      "item.filler.shiver.desc": "False Noise - Shiver",
+      "item.filler.busmuth": "Bismuth",
+      "item.filler.empty_disk": "Empty Disk",
+      "item.filler.spectrolite": "Spectrolite",
+      "subtitles.shiver": "",
+      "item.filler.spectrolite_pick": "Spectrolite Pick",
+      "item.filler.freedom_08": "FREEDOM 0 8",
+      "block.filler.bismuth": "Bismuth Ore",
+      "item.filler.bismuthnugget": "Bismuthnugget"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "filler",
+    "modName": "filler",
+    "version": "1.0.0",
+    "author": "16505, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.filler",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
+}

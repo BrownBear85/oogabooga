@@ -1,0 +1,33 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "bis_pick",
+    "customModelName": "Normal",
+    "name": "Bismuth Pickaxe",
+    "specialInfo": [
+      "Dreams come true..."
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 5,
+    "efficiency": 12.0,
+    "attackSpeed": 2.1,
+    "enchantability": 25,
+    "damageVsEntity": 4.0,
+    "usageCount": 2500,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Busmuth"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
