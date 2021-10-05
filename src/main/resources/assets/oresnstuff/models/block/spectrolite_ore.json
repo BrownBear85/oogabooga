@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "oresnstuff:blocks/bismuth_ore",
+    "up": "oresnstuff:blocks/bismuth_ore",
+    "north": "oresnstuff:blocks/bismuth_ore",
+    "east": "oresnstuff:blocks/bismuth_ore",
+    "south": "oresnstuff:blocks/bismuth_ore",
+    "west": "oresnstuff:blocks/bismuth_ore",
+    "particle": "oresnstuff:blocks/bismuth_ore"
+  }
+}
