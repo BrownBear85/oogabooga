@@ -40,7 +40,7 @@ public class BismuthPickItem extends FillerModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return 3f;
 			}
 
 			public int getHarvestLevel() {

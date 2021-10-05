@@ -1,5 +1,5 @@
 {
-  "parent": "filler:block/spectroliteore",
+  "parent": "filler:block/bismuth_ore",
   "display": {
     "thirdperson": {
       "rotation": [

@@ -38,7 +38,7 @@ public class SpectrolitePickItem extends FillerModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return 4f;
 			}
 
 			public int getHarvestLevel() {
