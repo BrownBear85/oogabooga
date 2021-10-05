@@ -3,17 +3,14 @@ loaderVersion="[36,)"
 license="Academic Free License v3.0"
 
 [[mods]]
-modId="oresnstuff"
+modId="filler"
 version="1.0.0"
-displayName="oresnstuff"
+displayName="filler"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="BrownBear85, UnhealthyPoro"
-description='''
-adds ores, n, stuff
-'''
+authors="16505, MCreator"
 
-[[dependencies.oresnstuff]]
+[[dependencies.filler]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.16.5]"
