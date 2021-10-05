@@ -193,8 +193,8 @@
   ],
   "language_map": {
     "en_us": {
-      "item.filler.shiver": "Shiver",
       "item.filler.spectronug": "Spectronug",
+      "item.filler.shiver": "Shiver",
       "subtitles.freedomdive": "",
       "item.filler.bismuth_pick": "Bismuth Pickaxe",
       "item.filler.freedom_08.desc": "xi - Freedom Dive",
