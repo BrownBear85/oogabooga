@@ -5,10 +5,10 @@
     "renderType": 0,
     "texture": "spectrolite_nug",
     "customModelName": "Normal",
-    "name": "Spectronug",
+    "name": "Spectrolite Nugget",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:CreativeTab"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -24,9 +24,7 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "Small enough it doesn't slow"
-    ],
+    "specialInfo": [],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
