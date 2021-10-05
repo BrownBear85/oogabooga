@@ -1,0 +1,20 @@
+{
+  "freedomdive": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "oresnstuff:freedom-dive",
+        "stream": false
+      }
+    ]
+  },
+  "shiver": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "oresnstuff:shiver_1",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "FREEDOM08",
+      "type": "musicdisc",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freedom_08"
+    },
+    {
+      "name": "Busmuth",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "busmuth"
+    },
+    {
+      "name": "EmptyDisk",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "empty_disk"
+    },
+    {
+      "name": "Bismuthnugget",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bismuthnugget"
+    },
+    {
+      "name": "BismuthPick",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bismuth_pick"
+    },
+    {
+      "name": "SpectrolitePick",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spectrolite_pick"
+    },
+    {
+      "name": "Shiver",
+      "type": "musicdisc",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shiver"
+    },
+    {
+      "name": "SpectroliteItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spectrolite_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Spectrolite",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spectrolite"
+    },
+    {
+      "name": "BismuthOre",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bismuth_ore"
+    },
+    {
+      "name": "SpectroliteOre",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spectrolite_ore"
+    },
+    {
+      "name": "CreativeTab",
+      "type": "tab",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creative_tab"
+    },
+    {
+      "name": "SpectroliteNugget",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spectrolite_nugget"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "freedomdive",
+      "files": [
+        "freedom-dive"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "shiver",
+      "files": [
+        "shiver_1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.oresnstuff.freedom_08": "FREEDOM 0 8",
+      "item.oresnstuff.bismuth_pick": "Bismuth Pickaxe",
+      "item.filler.bismuth_pick": "Bismuth Pickaxe",
+      "block.filler.spectrolite_ore": "Spectrolite Ore",
+      "item.oresnstuff.empty_disk": "Empty Disk",
+      "item.oresnstuff.busmuth": "Bismuth",
+      "block.oresnstuff.spectrolite_ore": "Spectrolite Ore",
+      "block.oresnstuff.bismuth_ore": "Bismuth Ore",
+      "item.filler.shiver.desc": "False Noise - Shiver",
+      "item.filler.busmuth": "Bismuth",
+      "item.oresnstuff.spectrolite_pick": "Spectrolite Pick",
+      "item.filler.empty_disk": "Empty Disk",
+      "item.filler.spectrolite": "Spectrolite",
+      "subtitles.shiver": "",
+      "item.filler.freedom_08": "FREEDOM 0 8",
+      "item.filler.bismuthnugget": "Bismuthnugget",
+      "item.filler.shiver": "Shiver",
+      "subtitles.freedomdive": "",
+      "item.oresnstuff.shiver": "Shiver",
+      "item.oresnstuff.shiver.desc": "False Noise - Shiver",
+      "item.oresnstuff.freedom_08.desc": "xi - Freedom Dive",
+      "itemGroup.tabcreative_tab": "Ooga Booga",
+      "item.filler.freedom_08.desc": "xi - Freedom Dive",
+      "item.oresnstuff.bismuthnugget": "Bismuthnugget",
+      "item.oresnstuff.spectrolite_nugget": "Spectrolite Nugget",
+      "item.oresnstuff.spectrolite": "Spectrolite",
+      "item.filler.spectrolite_pick": "Spectrolite Pick",
+      "item.filler.spectrolite_nugget": "Spectrolite Nugget",
+      "block.filler.bismuth_ore": "Bismuth Ore"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "oresnstuff",
+    "modName": "oresnstuff",
+    "version": "1.0.0",
+    "description": "adds ores, n, stuff",
+    "author": "BrownBear85, UnhealthyPoro",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.zachandconnor.oresnstuff",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
+}
