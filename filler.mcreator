@@ -170,15 +170,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "spectrolitedisk"
-    },
-    {
-      "name": "Asdfasdf",
-      "type": "food",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "asdfasdf"
     }
   ],
   "variable_elements": [],
@@ -202,8 +193,8 @@
   ],
   "language_map": {
     "en_us": {
-      "item.filler.spectronug": "Spectronug",
       "item.filler.shiver": "Shiver",
+      "item.filler.spectronug": "Spectronug",
       "subtitles.freedomdive": "",
       "item.filler.bismuth_pick": "Bismuth Pickaxe",
       "item.filler.freedom_08.desc": "xi - Freedom Dive",
@@ -213,7 +204,6 @@
       "item.filler.empty_disk": "Empty Disk",
       "item.filler.spectrolite": "Spectrolite",
       "subtitles.shiver": "",
-      "item.filler.asdfasdf": "Asdfasdf",
       "item.filler.spectrolite_pick": "Spectrolite Pick",
       "item.filler.freedom_08": "FREEDOM 0 8",
       "block.filler.bismuth": "Bismuth Ore",
