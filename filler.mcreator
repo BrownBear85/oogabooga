@@ -281,6 +281,26 @@
       "ids": {},
       "registry_name": "blazing_crystal_fuel",
       "path": "~/Items"
+    },
+    {
+      "name": "BlazingRod",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blazing_rod",
+      "path": "~/Items"
+    },
+    {
+      "name": "SpectrolitePickaxeCrafting",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spectrolite_pickaxe_crafting",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -319,6 +339,7 @@
       "item.filler.bismuth": "Bismuth",
       "item.filler.empty_disk": "Empty Disk",
       "item.filler.spectrolite": "Spectrolite",
+      "item.filler.blazing_rod": "Blazing Rod",
       "subtitles.shiver": "",
       "item.filler.iron_rod": "Iron Rod",
       "item.filler.spectrolite_pick": "Spectrolite Pick",
