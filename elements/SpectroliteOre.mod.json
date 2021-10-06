@@ -155,7 +155,7 @@
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 3,
+    "frequencyPerChunks": 4,
     "frequencyOnChunk": 4,
     "minGenerateHeight": 32,
     "maxGenerateHeight": 64
