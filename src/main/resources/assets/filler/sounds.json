@@ -16,5 +16,14 @@
         "stream": false
       }
     ]
+  },
+  "manganesedisksound": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "filler:bliss",
+        "stream": false
+      }
+    ]
   }
 }

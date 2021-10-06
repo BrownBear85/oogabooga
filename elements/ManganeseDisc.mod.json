@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "manganese_disc",
+    "name": "Manganese Disc",
+    "description": "Viscerality - Bliss",
+    "creativeTab": {
+      "value": "CUSTOM:CreativeTab"
+    },
+    "music": {
+      "value": "CUSTOM:manganesedisksound"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

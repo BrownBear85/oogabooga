@@ -56,7 +56,7 @@ public class SpectrolitePickItem extends FillerModElements.ModElement {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("Still feels a bit cold..."));
+				list.add(new StringTextComponent("\u00A77\u00A7oStill feels a bit cold..."));
 			}
 		}.setRegistryName("spectrolite_pick"));
 	}
