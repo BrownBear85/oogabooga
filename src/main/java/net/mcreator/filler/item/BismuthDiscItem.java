@@ -6,17 +6,17 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.MusicDiscItem;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 
+import net.mcreator.filler.itemgroup.CreativeTabItemGroup;
 import net.mcreator.filler.FillerModElements;
 
 @FillerModElements.ModElement.Tag
-public class FREEDOM08Item extends FillerModElements.ModElement {
-	@ObjectHolder("filler:freedom_08")
+public class BismuthDiscItem extends FillerModElements.ModElement {
+	@ObjectHolder("filler:bismuth_disc")
 	public static final Item block = null;
-	public FREEDOM08Item(FillerModElements instance) {
-		super(instance, 1);
+	public BismuthDiscItem(FillerModElements instance) {
+		super(instance, 16);
 	}
 
 	@Override
@@ -26,8 +26,8 @@ public class FREEDOM08Item extends FillerModElements.ModElement {
 	public static class MusicDiscItemCustom extends MusicDiscItem {
 		public MusicDiscItemCustom() {
 			super(0, FillerModElements.sounds.get(new ResourceLocation("filler:freedomdive")),
-					new Item.Properties().group(ItemGroup.MISC).maxStackSize(1).rarity(Rarity.RARE));
-			setRegistryName("freedom_08");
+					new Item.Properties().group(CreativeTabItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
+			setRegistryName("bismuth_disc");
 		}
 	}
 }

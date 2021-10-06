@@ -2,7 +2,7 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "bithmuth_ore",
+    "texture": "bismuth_ore",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -32,18 +32,18 @@
         "subtract": false
       }
     ],
-    "name": "Bismuth Ore",
+    "name": "Spectrolite Ore",
     "specialInfo": [],
-    "hardness": 50.0,
+    "hardness": 75.0,
     "resistance": 1200.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:CreativeTab"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:Bismuth"
+      "value": "CUSTOM:Spectrolite"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -96,7 +96,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 4,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -124,15 +124,40 @@
     "spawnWorldTypes": [
       "Surface"
     ],
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "frozen_ocean"
+      },
+      {
+        "value": "frozen_river"
+      },
+      {
+        "value": "mutated_ice_flats"
+      },
+      {
+        "value": "snowy_mountains"
+      },
+      {
+        "value": "taiga_cold"
+      },
+      {
+        "value": "taiga_cold_hills"
+      },
+      {
+        "value": "snowy_tundra"
+      },
+      {
+        "value": "taiga_cold_hills"
+      }
+    ],
     "blocksToReplace": [
       {
-        "value": "Blocks.COAL_ORE"
+        "value": "Blocks.STONE"
       }
     ],
     "frequencyPerChunks": 3,
-    "frequencyOnChunk": 3,
-    "minGenerateHeight": 0,
+    "frequencyOnChunk": 4,
+    "minGenerateHeight": 32,
     "maxGenerateHeight": 64
   }
 }

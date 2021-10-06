@@ -6,7 +6,6 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
 import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.common.ToolType;
 import net.minecraftforge.common.MinecraftForge;
 
 import net.minecraft.world.gen.feature.template.RuleTest;
@@ -36,7 +35,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.filler.itemgroup.CreativeTabItemGroup;
-import net.mcreator.filler.item.BismuthItem;
+import net.mcreator.filler.item.SpectroliteItem;
 import net.mcreator.filler.FillerModElements;
 
 import java.util.Random;
@@ -44,11 +43,11 @@ import java.util.List;
 import java.util.Collections;
 
 @FillerModElements.ModElement.Tag
-public class BismuthOreBlock extends FillerModElements.ModElement {
-	@ObjectHolder("filler:bismuth_ore")
+public class SpectroliteOreBlock extends FillerModElements.ModElement {
+	@ObjectHolder("filler:spectrolite_ore")
 	public static final Block block = null;
-	public BismuthOreBlock(FillerModElements instance) {
-		super(instance, 14);
+	public SpectroliteOreBlock(FillerModElements instance) {
+		super(instance, 20);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -61,9 +60,8 @@ public class BismuthOreBlock extends FillerModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(50f, 1200f).setLightLevel(s -> 0)
-					.harvestLevel(4).harvestTool(ToolType.PICKAXE).setRequiresTool());
-			setRegistryName("bismuth_ore");
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(75f, 1200f).setLightLevel(s -> 0));
+			setRegistryName("spectrolite_ore");
 		}
 
 		@Override
@@ -76,7 +74,7 @@ public class BismuthOreBlock extends FillerModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(BismuthItem.block));
+			return Collections.singletonList(new ItemStack(SpectroliteItem.block));
 		}
 	}
 	private static Feature<OreFeatureConfig> feature = null;
@@ -87,7 +85,7 @@ public class BismuthOreBlock extends FillerModElements.ModElement {
 		static final com.mojang.serialization.Codec<CustomRuleTest> codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
-			if (blockAt.getBlock() == Blocks.COAL_ORE)
+			if (blockAt.getBlock() == Blocks.STONE)
 				blockCriteria = true;
 			return blockCriteria;
 		}
@@ -100,7 +98,7 @@ public class BismuthOreBlock extends FillerModElements.ModElement {
 	private static class FeatureRegisterHandler {
 		@SubscribeEvent
 		public void registerFeature(RegistryEvent.Register<Feature<?>> event) {
-			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("filler:bismuth_ore_match"), () -> CustomRuleTest.codec);
+			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("filler:spectrolite_ore_match"), () -> CustomRuleTest.codec);
 			feature = new OreFeature(OreFeatureConfig.CODEC) {
 				@Override
 				public boolean generate(ISeedReader world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
@@ -113,14 +111,33 @@ public class BismuthOreBlock extends FillerModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 3)).range(64)
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 4)).range(64)
 					.square().func_242731_b(3);
-			event.getRegistry().register(feature.setRegistryName("bismuth_ore"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("filler:bismuth_ore"), configuredFeature);
+			event.getRegistry().register(feature.setRegistryName("spectrolite_ore"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("filler:spectrolite_ore"), configuredFeature);
 		}
 	}
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
+		boolean biomeCriteria = false;
+		if (new ResourceLocation("frozen_ocean").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("frozen_river").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("ice_spikes").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("snowy_mountains").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("snowy_taiga").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("snowy_taiga_hills").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("snowy_tundra").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("snowy_taiga_hills").equals(event.getName()))
+			biomeCriteria = true;
+		if (!biomeCriteria)
+			return;
 		event.getGeneration().getFeatures(GenerationStage.Decoration.UNDERGROUND_ORES).add(() -> configuredFeature);
 	}
 }

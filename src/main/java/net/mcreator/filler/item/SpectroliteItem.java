@@ -8,13 +8,13 @@ import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.filler.procedures.SpectroliteItemInInventoryTickProcedure;
+import net.mcreator.filler.itemgroup.CreativeTabItemGroup;
 import net.mcreator.filler.FillerModElements;
 
 import java.util.Map;
@@ -35,7 +35,7 @@ public class SpectroliteItem extends FillerModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(CreativeTabItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("spectrolite");
 		}
 

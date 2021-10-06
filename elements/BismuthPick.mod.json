@@ -10,7 +10,7 @@
       "Dreams come true..."
     ],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:CreativeTab"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 5,
@@ -23,7 +23,7 @@
     "hasGlow": true,
     "repairItems": [
       {
-        "value": "CUSTOM:Busmuth"
+        "value": "CUSTOM:Bismuth"
       }
     ],
     "immuneToFire": true,

@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "bis_n",
+    "texture": "bismuth_pickaxe",
     "customModelName": "Normal",
-    "name": "Bismuthnugget",
+    "name": "Bismuth",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:CreativeTab"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -24,9 +24,7 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "Destiny's nugget"
-    ],
+    "specialInfo": [],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,

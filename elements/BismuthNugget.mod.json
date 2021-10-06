@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "bismuth_ore",
+    "texture": "bismuth_nugget",
     "customModelName": "Normal",
-    "name": "Bismuth",
+    "name": "Bismuth Nugget",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:CreativeTab"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -24,10 +24,8 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "Exposed to O2 it loses it's red-green colors"
-    ],
-    "hasGlow": true,
+    "specialInfo": [],
+    "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,

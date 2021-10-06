@@ -1,17 +1,18 @@
 {
-  "item.filler.spectronug": "Spectronug",
-  "item.filler.shiver": "Shiver",
+  "item.filler.bismuth_disc": "Bismuth Disc",
+  "item.filler.spectrolite_disc.desc": "False Noise - Shiver",
+  "item.filler.bismuth_nugget": "Bismuth Nugget",
+  "item.filler.bismuth_disc.desc": "xi - Freedom Dive",
   "subtitles.freedomdive": "",
   "item.filler.bismuth_pick": "Bismuth Pickaxe",
-  "item.filler.freedom_08.desc": "xi - Freedom Dive",
-  "block.filler.spectroliteore": "Spectroliteore",
-  "item.filler.shiver.desc": "False Noise - Shiver",
-  "item.filler.busmuth": "Bismuth",
+  "block.filler.spectrolite_ore": "Spectrolite Ore",
+  "item.filler.spectrolite_disc": "Spectrolite Disc",
+  "itemGroup.tabcreative_tab": "Cool Mod",
+  "item.filler.bismuth": "Bismuth",
   "item.filler.empty_disk": "Empty Disk",
   "item.filler.spectrolite": "Spectrolite",
   "subtitles.shiver": "",
   "item.filler.spectrolite_pick": "Spectrolite Pick",
-  "item.filler.freedom_08": "FREEDOM 0 8",
-  "block.filler.bismuth": "Bismuth Ore",
-  "item.filler.bismuthnugget": "Bismuthnugget"
+  "item.filler.spectrolite_nugget": "Spectrolite Nugget",
+  "block.filler.bismuth_ore": "Bismuth Ore"
 }

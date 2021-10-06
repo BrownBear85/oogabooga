@@ -2,67 +2,14 @@
   "id_map": {},
   "mod_elements": [
     {
-      "name": "FREEDOM08",
-      "type": "musicdisc",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "freedom_08"
-    },
-    {
-      "name": "Bismuth",
-      "type": "block",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bismuth"
-    },
-    {
-      "name": "Busmuth",
-      "type": "item",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "busmuth"
-    },
-    {
       "name": "EmptyDisk",
       "type": "item",
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "empty_disk"
-    },
-    {
-      "name": "Bismuthnugget",
-      "type": "item",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bismuthnugget"
-    },
-    {
-      "name": "Bismuthdisk",
-      "type": "recipe",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bismuthdisk"
-    },
-    {
-      "name": "Bisnug",
-      "type": "recipe",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bisnug"
+      "registry_name": "empty_disk",
+      "path": "~/Items"
     },
     {
       "name": "BismuthPick",
@@ -71,25 +18,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "bismuth_pick"
-    },
-    {
-      "name": "Bismuthpic",
-      "type": "recipe",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bismuthpic"
-    },
-    {
-      "name": "Spectroliteore",
-      "type": "block",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "spectroliteore"
+      "registry_name": "bismuth_pick",
+      "path": "~/Tools"
     },
     {
       "name": "SpectrolitePick",
@@ -98,16 +28,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "spectrolite_pick"
-    },
-    {
-      "name": "Shiver",
-      "type": "musicdisc",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "shiver"
+      "registry_name": "spectrolite_pick",
+      "path": "~/Tools"
     },
     {
       "name": "SpectroliteItemInInventoryTick",
@@ -124,7 +46,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Procedures"
     },
     {
       "name": "Spectrolite",
@@ -133,43 +56,107 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "spectrolite"
+      "registry_name": "spectrolite",
+      "path": "~/Items"
     },
     {
-      "name": "Spectronug",
-      "type": "item",
+      "name": "BismuthOre",
+      "type": "block",
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "spectronug"
+      "registry_name": "bismuth_ore",
+      "path": "~/Blocks"
     },
     {
-      "name": "Spectrolitepic",
-      "type": "recipe",
+      "name": "Bismuth",
+      "type": "item",
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "spectrolitepic"
+      "registry_name": "bismuth",
+      "path": "~/Items"
     },
     {
-      "name": "Spectrolitenug",
-      "type": "recipe",
+      "name": "BismuthDisc",
+      "type": "musicdisc",
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "spectrolitenug"
+      "registry_name": "bismuth_disc",
+      "path": "~/Items"
     },
     {
-      "name": "Spectrolitedisk",
-      "type": "recipe",
+      "name": "SpectroliteDisc",
+      "type": "musicdisc",
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "spectrolitedisk"
+      "registry_name": "spectrolite_disc",
+      "path": "~/Items"
+    },
+    {
+      "name": "CreativeTab",
+      "type": "tab",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creative_tab"
+    },
+    {
+      "name": "SpectroliteNugget",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spectrolite_nugget",
+      "path": "~/Items"
+    },
+    {
+      "name": "SpectroliteOre",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spectrolite_ore",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BismuthNugget",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bismuth_nugget",
+      "path": "~/Items"
+    },
+    {
+      "name": "BismuthNuggetCrafting",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bismuth_nugget_crafting",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SpectroliteNuggetCrafting",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spectrolite_nugget_crafting",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -193,26 +180,48 @@
   ],
   "language_map": {
     "en_us": {
-      "item.filler.spectronug": "Spectronug",
-      "item.filler.shiver": "Shiver",
+      "item.filler.bismuth_disc": "Bismuth Disc",
+      "item.filler.spectrolite_disc.desc": "False Noise - Shiver",
+      "item.filler.bismuth_nugget": "Bismuth Nugget",
+      "item.filler.bismuth_disc.desc": "xi - Freedom Dive",
       "subtitles.freedomdive": "",
       "item.filler.bismuth_pick": "Bismuth Pickaxe",
-      "item.filler.freedom_08.desc": "xi - Freedom Dive",
-      "block.filler.spectroliteore": "Spectroliteore",
-      "item.filler.shiver.desc": "False Noise - Shiver",
-      "item.filler.busmuth": "Bismuth",
+      "block.filler.spectrolite_ore": "Spectrolite Ore",
+      "item.filler.spectrolite_disc": "Spectrolite Disc",
+      "itemGroup.tabcreative_tab": "Cool Mod",
+      "item.filler.bismuth": "Bismuth",
       "item.filler.empty_disk": "Empty Disk",
       "item.filler.spectrolite": "Spectrolite",
       "subtitles.shiver": "",
       "item.filler.spectrolite_pick": "Spectrolite Pick",
-      "item.filler.freedom_08": "FREEDOM 0 8",
-      "block.filler.bismuth": "Bismuth Ore",
-      "item.filler.bismuthnugget": "Bismuthnugget"
+      "item.filler.spectrolite_nugget": "Spectrolite Nugget",
+      "block.filler.bismuth_ore": "Bismuth Ore"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Tools",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "filler",

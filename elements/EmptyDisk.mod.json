@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "emptydisk",
+    "texture": "empty_disc",
     "customModelName": "Normal",
     "name": "Empty Disk",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:CreativeTab"
     },
     "stackSize": 1,
     "enchantability": 0,

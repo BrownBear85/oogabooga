@@ -10,7 +10,7 @@
       "Still feels a bit cold..."
     ],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:CreativeTab"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 6,

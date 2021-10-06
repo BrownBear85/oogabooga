@@ -2,11 +2,11 @@
   "_fv": 24,
   "_type": "musicdisc",
   "definition": {
-    "texture": "freedom08",
-    "name": "FREEDOM 0 8",
+    "texture": "bismuth_disc",
+    "name": "Bismuth Disc",
     "description": "xi - Freedom Dive",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:CreativeTab"
     },
     "music": {
       "value": "CUSTOM:freedomdive"

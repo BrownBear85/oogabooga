@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "spectrolite_nug",
+    "texture": "spectrolite_nugget",
     "customModelName": "Normal",
     "name": "Spectrolite Nugget",
     "rarity": "COMMON",

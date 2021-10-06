@@ -5,18 +5,18 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.filler.itemgroup.CreativeTabItemGroup;
 import net.mcreator.filler.FillerModElements;
 
 @FillerModElements.ModElement.Tag
-public class AhItem extends FillerModElements.ModElement {
-	@ObjectHolder("filler:ah")
+public class BismuthNuggetItem extends FillerModElements.ModElement {
+	@ObjectHolder("filler:bismuth_nugget")
 	public static final Item block = null;
-	public AhItem(FillerModElements instance) {
-		super(instance, 18);
+	public BismuthNuggetItem(FillerModElements instance) {
+		super(instance, 21);
 	}
 
 	@Override
@@ -25,8 +25,8 @@ public class AhItem extends FillerModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("ah");
+			super(new Item.Properties().group(CreativeTabItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
+			setRegistryName("bismuth_nugget");
 		}
 
 		@Override

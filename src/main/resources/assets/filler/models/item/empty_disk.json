@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "filler:items/emptydisk"
+    "layer0": "filler:items/empty_disc"
   }
 }
