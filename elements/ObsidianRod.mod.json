@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "diamond_rod",
+    "texture": "obsidian_rod",
     "customModelName": "Normal",
-    "name": "Diamond Tool Rod",
+    "name": "Obsidian Tool Rod",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:CreativeTab"

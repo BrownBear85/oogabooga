@@ -141,7 +141,7 @@ public class RodMachineBlock extends FillerModElements.ModElement {
 				NetworkHooks.openGui((ServerPlayerEntity) entity, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("Rod Machine");
+						return new StringTextComponent("Tool Rod Factory");
 					}
 
 					@Override
@@ -273,7 +273,7 @@ public class RodMachineBlock extends FillerModElements.ModElement {
 
 		@Override
 		public ITextComponent getDisplayName() {
-			return new StringTextComponent("Rod Machine");
+			return new StringTextComponent("Tool Rod Factory");
 		}
 
 		@Override

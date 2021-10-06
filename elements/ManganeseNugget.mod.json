@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "diamond_rod",
+    "texture": "manganese_nug",
     "customModelName": "Normal",
-    "name": "Diamond Tool Rod",
+    "name": "Manganese Nugget",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:CreativeTab"
+      "value": "MISC"
     },
     "stackSize": 64,
     "enchantability": 0,

@@ -1,0 +1,13 @@
+{
+  "group": "filler",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "filler:manganese"
+    }
+  ],
+  "result": {
+    "item": "filler:manganese_nugget",
+    "count": 9
+  }
+}

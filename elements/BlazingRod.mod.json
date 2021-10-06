@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "blazing_rod",
     "customModelName": "Normal",
-    "name": "Blazing Rod",
+    "name": "Blazing Tool Rod",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:CreativeTab"

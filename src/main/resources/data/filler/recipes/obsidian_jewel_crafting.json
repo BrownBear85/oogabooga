@@ -1,0 +1,42 @@
+{
+  "group": "filler",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond"
+    },
+    "1": {
+      "item": "minecraft:obsidian"
+    },
+    "2": {
+      "item": "minecraft:diamond"
+    },
+    "3": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "4": {
+      "item": "filler:manganese_nugget"
+    },
+    "5": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "6": {
+      "item": "minecraft:diamond"
+    },
+    "7": {
+      "item": "minecraft:obsidian"
+    },
+    "8": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "filler:obsidian_jewel",
+    "count": 1
+  }
+}

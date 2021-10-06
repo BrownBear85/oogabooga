@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "diamond_rod",
+    "texture": "manganese",
     "customModelName": "Normal",
-    "name": "Diamond Tool Rod",
+    "name": "Manganese",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:CreativeTab"

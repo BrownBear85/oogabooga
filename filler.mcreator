@@ -240,7 +240,7 @@
           }
         ]
       },
-      "path": "~/Blocks"
+      "path": "~/Procedures"
     },
     {
       "name": "BismuthPickaxeCrafting",
@@ -311,6 +311,66 @@
       "ids": {},
       "registry_name": "blazing_crystal_recipe",
       "path": "~/Recipes"
+    },
+    {
+      "name": "Manganese",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "manganese",
+      "path": "~/Items"
+    },
+    {
+      "name": "ManganeseNugget",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "manganese_nugget",
+      "path": "~/Items"
+    },
+    {
+      "name": "ManganeseNuggetCrafting",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "manganese_nugget_crafting",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ObsidianJewel",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_jewel",
+      "path": "~/Items"
+    },
+    {
+      "name": "ObsidianRod",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_rod",
+      "path": "~/Items"
+    },
+    {
+      "name": "ObsidianJewelCrafting",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_jewel_crafting",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -337,23 +397,27 @@
       "item.filler.blazing_crystal": "Blazing Crystal",
       "item.filler.bismuth_disc": "Bismuth Disc",
       "item.filler.spectrolite_disc.desc": "False Noise - Shiver",
+      "item.filler.bismuth_pick": "Bismuth Pickaxe",
+      "item.filler.manganese": "Manganese",
+      "block.filler.spectrolite_ore": "Spectrolite Ore",
+      "item.filler.spectrolite_disc": "Spectrolite Disc",
+      "block.filler.rod_machine": "Tool Rod Factory",
+      "item.filler.empty_disk": "Empty Disk",
+      "item.filler.spectrolite": "Spectrolite",
+      "subtitles.shiver": "",
+      "item.filler.obsidian_rod": "Obsidian Tool Rod",
+      "item.filler.manganese_nugget": "Manganese Nugget",
       "item.filler.bismuth_nugget": "Bismuth Nugget",
       "item.filler.bismuth_disc.desc": "xi - Freedom Dive",
       "subtitles.freedomdive": "",
-      "item.filler.bismuth_pick": "Bismuth Pickaxe",
-      "block.filler.spectrolite_ore": "Spectrolite Ore",
-      "item.filler.diamond_rod": "Diamond Rod",
-      "item.filler.spectrolite_disc": "Spectrolite Disc",
+      "item.filler.diamond_rod": "Diamond Tool Rod",
       "itemGroup.tabcreative_tab": "Cool Mod",
-      "block.filler.rod_machine": "Rod Machine",
       "item.filler.bismuth": "Bismuth",
-      "item.filler.empty_disk": "Empty Disk",
-      "item.filler.spectrolite": "Spectrolite",
-      "item.filler.blazing_rod": "Blazing Rod",
-      "subtitles.shiver": "",
+      "item.filler.blazing_rod": "Blazing Tool Rod",
       "item.filler.iron_rod": "Iron Rod",
       "item.filler.spectrolite_pick": "Spectrolite Pick",
       "item.filler.spectrolite_nugget": "Spectrolite Nugget",
+      "item.filler.obsidian_jewel": "Obsidian Jewel",
       "block.filler.bismuth_ore": "Bismuth Ore"
     }
   },

@@ -57,7 +57,7 @@ public class RodMachineGUIGuiWindow extends ContainerScreen<RodMachineGUIGui.Gui
 		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("filler:textures/arrow_left.png"));
 		this.blit(ms, this.guiLeft + -2, this.guiTop + 43, 0, 0, 64, 32, 64, 32);
 		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("filler:textures/arrow_right.png"));
-		this.blit(ms, this.guiLeft + 58, this.guiTop + 42, 0, 0, 64, 32, 64, 32);
+		this.blit(ms, this.guiLeft + 58, this.guiTop + 45, 0, 0, 64, 32, 64, 32);
 		RenderSystem.disableBlend();
 	}
 
@@ -77,7 +77,7 @@ public class RodMachineGUIGuiWindow extends ContainerScreen<RodMachineGUIGui.Gui
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
-		this.font.drawString(ms, "Rod Machine", 6, 7, -12829636);
+		this.font.drawString(ms, "Tool Rod Factory", 6, 7, -12829636);
 	}
 
 	@Override
