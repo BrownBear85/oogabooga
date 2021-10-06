@@ -130,8 +130,8 @@
         "value": "Blocks.COAL_ORE"
       }
     ],
-    "frequencyPerChunks": 3,
-    "frequencyOnChunk": 3,
+    "frequencyPerChunks": 5,
+    "frequencyOnChunk": 4,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64
   }

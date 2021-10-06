@@ -75,6 +75,26 @@
           "x": 240,
           "y": 89
         }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_left.png",
+          "use1Xscale": false,
+          "name": "arrow_left.png",
+          "x": 123,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_right.png",
+          "use1Xscale": false,
+          "name": "arrow_right.png",
+          "x": 184,
+          "y": 79
+        }
       }
     ],
     "gridSettings": {
@@ -82,7 +102,7 @@
       "sy": 18,
       "ox": 11,
       "oy": 15,
-      "snapOnGrid": true
+      "snapOnGrid": false
     }
   }
 }

@@ -113,8 +113,8 @@ public class BismuthOreBlock extends FillerModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 3)).range(64)
-					.square().func_242731_b(3);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 4)).range(64)
+					.square().func_242731_b(5);
 			event.getRegistry().register(feature.setRegistryName("bismuth_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("filler:bismuth_ore"), configuredFeature);
 		}

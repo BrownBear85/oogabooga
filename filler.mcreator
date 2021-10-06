@@ -301,6 +301,16 @@
       "ids": {},
       "registry_name": "spectrolite_pickaxe_crafting",
       "path": "~/Recipes"
+    },
+    {
+      "name": "BlazingCrystalRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blazing_crystal_recipe",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],

@@ -54,6 +54,10 @@ public class RodMachineGUIGuiWindow extends ContainerScreen<RodMachineGUIGui.Gui
 		int k = (this.width - this.xSize) / 2;
 		int l = (this.height - this.ySize) / 2;
 		this.blit(ms, k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
+		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("filler:textures/arrow_left.png"));
+		this.blit(ms, this.guiLeft + -2, this.guiTop + 43, 0, 0, 64, 32, 64, 32);
+		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("filler:textures/arrow_right.png"));
+		this.blit(ms, this.guiLeft + 58, this.guiTop + 42, 0, 0, 64, 32, 64, 32);
 		RenderSystem.disableBlend();
 	}
 
