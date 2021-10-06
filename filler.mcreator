@@ -157,6 +157,110 @@
       "ids": {},
       "registry_name": "spectrolite_nugget_crafting",
       "path": "~/Recipes"
+    },
+    {
+      "name": "DiamondRod",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_rod",
+      "path": "~/Items"
+    },
+    {
+      "name": "IronRod",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_rod",
+      "path": "~/Items"
+    },
+    {
+      "name": "IronRodCrafting",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_rod_crafting",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RodMachineGUI",
+      "type": "gui",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rod_machine_gui",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RodMachine",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rod_machine",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RodButtonClicked",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rod_button_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BismuthPickaxeCrafting",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bismuth_pickaxe_crafting",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RodMachineRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rod_machine_recipe",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -187,12 +291,15 @@
       "subtitles.freedomdive": "",
       "item.filler.bismuth_pick": "Bismuth Pickaxe",
       "block.filler.spectrolite_ore": "Spectrolite Ore",
+      "item.filler.diamond_rod": "Diamond Rod",
       "item.filler.spectrolite_disc": "Spectrolite Disc",
       "itemGroup.tabcreative_tab": "Cool Mod",
+      "block.filler.rod_machine": "Rod Machine",
       "item.filler.bismuth": "Bismuth",
       "item.filler.empty_disk": "Empty Disk",
       "item.filler.spectrolite": "Spectrolite",
       "subtitles.shiver": "",
+      "item.filler.iron_rod": "Iron Rod",
       "item.filler.spectrolite_pick": "Spectrolite Pick",
       "item.filler.spectrolite_nugget": "Spectrolite Nugget",
       "block.filler.bismuth_ore": "Bismuth Ore"

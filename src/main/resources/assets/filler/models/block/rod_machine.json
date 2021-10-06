@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "filler:blocks/rod_machine_bottom",
+    "up": "filler:blocks/rod_machine_top",
+    "north": "filler:blocks/rod_machine_front",
+    "east": "filler:blocks/rod_machine_side",
+    "south": "filler:blocks/rod_machine_side",
+    "west": "filler:blocks/rod_machine_side",
+    "particle": "filler:blocks/rod_machine_bottom"
+  }
+}
