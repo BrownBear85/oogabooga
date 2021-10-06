@@ -261,6 +261,26 @@
       "ids": {},
       "registry_name": "rod_machine_recipe",
       "path": "~/Recipes"
+    },
+    {
+      "name": "BlazingCrystal",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blazing_crystal",
+      "path": "~/Items"
+    },
+    {
+      "name": "BlazingCrystalFuel",
+      "type": "fuel",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blazing_crystal_fuel",
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
@@ -284,6 +304,7 @@
   ],
   "language_map": {
     "en_us": {
+      "item.filler.blazing_crystal": "Blazing Crystal",
       "item.filler.bismuth_disc": "Bismuth Disc",
       "item.filler.spectrolite_disc.desc": "False Noise - Shiver",
       "item.filler.bismuth_nugget": "Bismuth Nugget",
