@@ -2,8 +2,6 @@
 package net.mcreator.filler.item;
 
 import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
 import net.minecraft.util.text.StringTextComponent;
@@ -54,17 +52,11 @@ public class BismuthPickItem extends FillerModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(BismuthItem.block));
 			}
-		}, 1, -1.9f, new Item.Properties().group(CreativeTabItemGroup.tab).isImmuneToFire()) {
+		}, 1, -2.8f, new Item.Properties().group(CreativeTabItemGroup.tab)) {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
 				list.add(new StringTextComponent("Dreams come true..."));
-			}
-
-			@Override
-			@OnlyIn(Dist.CLIENT)
-			public boolean hasEffect(ItemStack itemstack) {
-				return true;
 			}
 		}.setRegistryName("bismuth_pick"));
 	}

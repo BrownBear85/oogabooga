@@ -7,7 +7,7 @@ import net.minecraft.world.World;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.ShovelItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
@@ -19,45 +19,45 @@ import net.mcreator.filler.FillerModElements;
 import java.util.List;
 
 @FillerModElements.ModElement.Tag
-public class SpectrolitePickItem extends FillerModElements.ModElement {
-	@ObjectHolder("filler:spectrolite_pick")
+public class BismuthShovelItem extends FillerModElements.ModElement {
+	@ObjectHolder("filler:bismuth_shovel")
 	public static final Item block = null;
-	public SpectrolitePickItem(FillerModElements instance) {
-		super(instance, 11);
+	public BismuthShovelItem(FillerModElements instance) {
+		super(instance, 48);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new PickaxeItem(new IItemTier() {
+		elements.items.add(() -> new ShovelItem(new IItemTier() {
 			public int getMaxUses() {
-				return 2750;
+				return 2500;
 			}
 
 			public float getEfficiency() {
-				return 15f;
+				return 12f;
 			}
 
 			public float getAttackDamage() {
-				return 4f;
+				return 3f;
 			}
 
 			public int getHarvestLevel() {
-				return 6;
+				return 5;
 			}
 
 			public int getEnchantability() {
-				return 2;
+				return 25;
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(SpectroliteItem.block));
+				return Ingredient.fromStacks(new ItemStack(BismuthItem.block));
 			}
-		}, 1, -2.77f, new Item.Properties().group(CreativeTabItemGroup.tab)) {
+		}, 1, -2.8f, new Item.Properties().group(CreativeTabItemGroup.tab)) {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("Still feels a bit cold..."));
+				list.add(new StringTextComponent("Dreams come true..."));
 			}
-		}.setRegistryName("spectrolite_pick"));
+		}.setRegistryName("bismuth_shovel"));
 	}
 }

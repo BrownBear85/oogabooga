@@ -125,6 +125,18 @@ public class ManganeseOreBlock extends FillerModElements.ModElement {
 			biomeCriteria = true;
 		if (new ResourceLocation("desert_lakes").equals(event.getName()))
 			biomeCriteria = true;
+		if (new ResourceLocation("desert_lakes").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("badlands").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("badlands_plateau").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("eroded_badlands").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("modified_badlands_plateau").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("modified_wooded_badlands_plateau").equals(event.getName()))
+			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;
 		event.getGeneration().getFeatures(GenerationStage.Decoration.UNDERGROUND_ORES).add(() -> configuredFeature);

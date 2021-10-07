@@ -3,29 +3,31 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "manganese_pic",
+    "texture": "bismuth_hoe",
     "customModelName": "Normal",
-    "name": "Manganese Pick",
-    "specialInfo": [],
+    "name": "Bismuth Shovel",
+    "specialInfo": [
+      "Dreams come true..."
+    ],
     "creativeTab": {
       "value": "CUSTOM:CreativeTab"
     },
-    "toolType": "Pickaxe",
-    "harvestLevel": 7,
-    "efficiency": 17.0,
-    "attackSpeed": 1.2,
-    "enchantability": 22,
+    "toolType": "Hoe",
+    "harvestLevel": 5,
+    "efficiency": 12.0,
+    "attackSpeed": 2.0,
+    "enchantability": 25,
     "damageVsEntity": 7.0,
-    "usageCount": 3000,
+    "usageCount": 2500,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:Manganese"
+        "value": "CUSTOM:Bismuth"
       }
     ],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": true
+    "damageOnCrafting": false
   }
 }

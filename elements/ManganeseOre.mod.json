@@ -133,6 +133,24 @@
       },
       {
         "value": "mutated_desert"
+      },
+      {
+        "value": "mutated_desert"
+      },
+      {
+        "value": "badlands"
+      },
+      {
+        "value": "badlands_plateau"
+      },
+      {
+        "value": "mutated_mesa"
+      },
+      {
+        "value": "mutated_mesa_clear_rock"
+      },
+      {
+        "value": "mutated_mesa_rock"
       }
     ],
     "blocksToReplace": [
