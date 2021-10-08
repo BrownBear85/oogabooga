@@ -1,0 +1,30 @@
+{
+  "group": "filler",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "filler:manganese"
+    },
+    "1": {
+      "item": "filler:manganese"
+    },
+    "2": {
+      "item": "filler:manganese"
+    },
+    "4": {
+      "item": "filler:obsidian_rod"
+    },
+    "7": {
+      "item": "filler:obsidian_rod"
+    }
+  },
+  "result": {
+    "item": "filler:manganese_pick",
+    "count": 1
+  }
+}

@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "empty_disc",
     "customModelName": "Normal",
-    "name": "Empty Disk",
+    "name": "Empty Disc",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:CreativeTab"

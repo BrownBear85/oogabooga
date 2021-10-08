@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "filler:blocks/spectrolite_block",
+    "up": "filler:blocks/spectrolite_block",
+    "north": "filler:blocks/spectrolite_block",
+    "east": "filler:blocks/spectrolite_block",
+    "south": "filler:blocks/spectrolite_block",
+    "west": "filler:blocks/spectrolite_block",
+    "particle": "filler:blocks/spectrolite_block"
+  }
+}

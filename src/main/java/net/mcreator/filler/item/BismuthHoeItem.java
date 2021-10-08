@@ -52,7 +52,7 @@ public class BismuthHoeItem extends FillerModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(BismuthItem.block));
 			}
-		}, 0, -2f, new Item.Properties().group(CreativeTabItemGroup.tab)) {
+		}, 0, -1f, new Item.Properties().group(CreativeTabItemGroup.tab)) {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);

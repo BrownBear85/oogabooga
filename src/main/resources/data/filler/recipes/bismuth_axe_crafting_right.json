@@ -1,0 +1,30 @@
+{
+  "group": "filler",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "filler:bismuth"
+    },
+    "1": {
+      "item": "filler:bismuth"
+    },
+    "2": {
+      "item": "filler:diamond_rod"
+    },
+    "3": {
+      "item": "filler:bismuth"
+    },
+    "4": {
+      "item": "filler:diamond_rod"
+    }
+  },
+  "result": {
+    "item": "filler:bismuth_axe",
+    "count": 1
+  }
+}

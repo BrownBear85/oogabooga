@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "filler:blocks/bismuth_block",
+    "up": "filler:blocks/bismuth_block",
+    "north": "filler:blocks/bismuth_block",
+    "east": "filler:blocks/bismuth_block",
+    "south": "filler:blocks/bismuth_block",
+    "west": "filler:blocks/bismuth_block",
+    "particle": "filler:blocks/bismuth_block"
+  }
+}

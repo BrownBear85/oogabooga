@@ -1,0 +1,42 @@
+{
+  "group": "filler",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "filler:spectrolite"
+    },
+    "1": {
+      "item": "filler:spectrolite"
+    },
+    "2": {
+      "item": "filler:spectrolite"
+    },
+    "3": {
+      "item": "filler:spectrolite"
+    },
+    "4": {
+      "item": "filler:spectrolite"
+    },
+    "5": {
+      "item": "filler:spectrolite"
+    },
+    "6": {
+      "item": "filler:spectrolite"
+    },
+    "7": {
+      "item": "filler:spectrolite"
+    },
+    "8": {
+      "item": "filler:spectrolite"
+    }
+  },
+  "result": {
+    "item": "filler:spectrolite_block",
+    "count": 1
+  }
+}
