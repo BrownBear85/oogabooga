@@ -6,9 +6,11 @@
     "texture": "bismuth_sword",
     "customModelName": "Normal",
     "name": "Bismuth Sword",
-    "specialInfo": [],
+    "specialInfo": [
+      "§7§oDreams come true..."
+    ],
     "creativeTab": {
-      "value": "CUSTOM:CreativeTab"
+      "value": "CUSTOM:CreativeTabTools"
     },
     "toolType": "Sword",
     "harvestLevel": 5,

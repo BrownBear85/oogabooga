@@ -13,7 +13,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.client.util.ITooltipFlag;
 
-import net.mcreator.filler.itemgroup.CreativeTabItemGroup;
+import net.mcreator.filler.itemgroup.CreativeTabToolsItemGroup;
 import net.mcreator.filler.FillerModElements;
 
 import java.util.List;
@@ -23,7 +23,7 @@ public class SpectrolitePickItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:spectrolite_pick")
 	public static final Item block = null;
 	public SpectrolitePickItem(FillerModElements instance) {
-		super(instance, 11);
+		super(instance, 23);
 	}
 
 	@Override
@@ -52,11 +52,11 @@ public class SpectrolitePickItem extends FillerModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(SpectroliteItem.block));
 			}
-		}, 1, -2.77f, new Item.Properties().group(CreativeTabItemGroup.tab)) {
+		}, 1, -2.77f, new Item.Properties().group(CreativeTabToolsItemGroup.tab)) {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("Still feels a bit cold..."));
+				list.add(new StringTextComponent("\u00A77\u00A7oStill feels a bit cold..."));
 			}
 		}.setRegistryName("spectrolite_pick"));
 	}

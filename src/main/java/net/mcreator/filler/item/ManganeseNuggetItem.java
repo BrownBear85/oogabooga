@@ -16,7 +16,7 @@ public class ManganeseNuggetItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:manganese_nugget")
 	public static final Item block = null;
 	public ManganeseNuggetItem(FillerModElements instance) {
-		super(instance, 38);
+		super(instance, 6);
 	}
 
 	@Override

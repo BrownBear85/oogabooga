@@ -13,7 +13,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.client.util.ITooltipFlag;
 
-import net.mcreator.filler.itemgroup.CreativeTabItemGroup;
+import net.mcreator.filler.itemgroup.CreativeTabToolsItemGroup;
 import net.mcreator.filler.FillerModElements;
 
 import java.util.List;
@@ -23,7 +23,7 @@ public class BismuthShovelItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:bismuth_shovel")
 	public static final Item block = null;
 	public BismuthShovelItem(FillerModElements instance) {
-		super(instance, 48);
+		super(instance, 20);
 	}
 
 	@Override
@@ -52,11 +52,11 @@ public class BismuthShovelItem extends FillerModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(BismuthItem.block));
 			}
-		}, 1, -2.8f, new Item.Properties().group(CreativeTabItemGroup.tab)) {
+		}, 1, -2.8f, new Item.Properties().group(CreativeTabToolsItemGroup.tab)) {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("Dreams come true..."));
+				list.add(new StringTextComponent("\u00A77\u00A7oDreams come true..."));
 			}
 		}.setRegistryName("bismuth_shovel"));
 	}

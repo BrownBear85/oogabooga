@@ -7,17 +7,17 @@
     "customModelName": "Normal",
     "name": "Bismuth Axe",
     "specialInfo": [
-      "Dreams come true..."
+      "§7§oDreams come true..."
     ],
     "creativeTab": {
-      "value": "CUSTOM:CreativeTab"
+      "value": "CUSTOM:CreativeTabTools"
     },
     "toolType": "Axe",
     "harvestLevel": 5,
     "efficiency": 12.0,
     "attackSpeed": 1.0,
     "enchantability": 25,
-    "damageVsEntity": 12.0,
+    "damageVsEntity": 14.0,
     "usageCount": 2500,
     "blocksAffected": [],
     "hasGlow": false,

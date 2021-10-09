@@ -1,0 +1,30 @@
+{
+  "group": "filler",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "filler:spectrolite"
+    },
+    "1": {
+      "item": "filler:spectrolite"
+    },
+    "2": {
+      "item": "filler:spectrolite"
+    },
+    "3": {
+      "item": "filler:blazing_rod"
+    },
+    "5": {
+      "item": "filler:blazing_rod"
+    }
+  },
+  "result": {
+    "item": "filler:spectrolite_axe",
+    "count": 1
+  }
+}

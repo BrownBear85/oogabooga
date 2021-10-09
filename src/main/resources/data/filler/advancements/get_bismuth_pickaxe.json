@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "filler:bismuth_pick"
+    },
+    "title": {
+      "translate": "advancements.get_bismuth_pickaxe.title"
+    },
+    "description": {
+      "translate": "advancements.get_bismuth_pickaxe.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_bismuth_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "filler:bismuth_pick",
+            "count": {
+              "min": 1,
+              "max": 1000
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "filler:get_diamond_rod"
+}

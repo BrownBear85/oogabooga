@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "filler:spectrolite"
+    },
+    "title": {
+      "translate": "advancements.get_spectrolite.title"
+    },
+    "description": {
+      "translate": "advancements.get_spectrolite.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_spectrolite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "filler:spectrolite",
+            "count": {
+              "min": 1,
+              "max": 1000
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "filler:get_bismuth_pickaxe"
+}

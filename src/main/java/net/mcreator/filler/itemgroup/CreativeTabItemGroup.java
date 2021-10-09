@@ -7,13 +7,13 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.mcreator.filler.item.BismuthItem;
+import net.mcreator.filler.item.DiamondRodItem;
 import net.mcreator.filler.FillerModElements;
 
 @FillerModElements.ModElement.Tag
 public class CreativeTabItemGroup extends FillerModElements.ModElement {
 	public CreativeTabItemGroup(FillerModElements instance) {
-		super(instance, 18);
+		super(instance, 66);
 	}
 
 	@Override
@@ -22,7 +22,7 @@ public class CreativeTabItemGroup extends FillerModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(BismuthItem.block);
+				return new ItemStack(DiamondRodItem.block);
 			}
 
 			@OnlyIn(Dist.CLIENT)

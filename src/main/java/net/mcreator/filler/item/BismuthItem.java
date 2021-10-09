@@ -16,7 +16,7 @@ public class BismuthItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:bismuth")
 	public static final Item block = null;
 	public BismuthItem(FillerModElements instance) {
-		super(instance, 15);
+		super(instance, 1);
 	}
 
 	@Override

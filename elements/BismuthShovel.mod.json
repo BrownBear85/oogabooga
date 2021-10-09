@@ -7,10 +7,10 @@
     "customModelName": "Normal",
     "name": "Bismuth Shovel",
     "specialInfo": [
-      "Dreams come true..."
+      "§7§oDreams come true..."
     ],
     "creativeTab": {
-      "value": "CUSTOM:CreativeTab"
+      "value": "CUSTOM:CreativeTabTools"
     },
     "toolType": "Spade",
     "harvestLevel": 5,

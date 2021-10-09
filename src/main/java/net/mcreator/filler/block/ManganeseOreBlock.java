@@ -34,7 +34,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.filler.itemgroup.CreativeTabItemGroup;
+import net.mcreator.filler.itemgroup.CreativeTabBlocksItemGroup;
 import net.mcreator.filler.FillerModElements;
 
 import java.util.Random;
@@ -46,7 +46,7 @@ public class ManganeseOreBlock extends FillerModElements.ModElement {
 	@ObjectHolder("filler:manganese_ore")
 	public static final Block block = null;
 	public ManganeseOreBlock(FillerModElements instance) {
-		super(instance, 45);
+		super(instance, 30);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -54,8 +54,8 @@ public class ManganeseOreBlock extends FillerModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(CreativeTabItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(
+				() -> new BlockItem(block, new Item.Properties().group(CreativeTabBlocksItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {

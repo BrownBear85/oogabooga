@@ -5,10 +5,10 @@
     "renderType": 0,
     "texture": "manganese_pic",
     "customModelName": "Normal",
-    "name": "Manganese Pick",
+    "name": "Manganese Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:CreativeTab"
+      "value": "CUSTOM:CreativeTabTools"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 7,

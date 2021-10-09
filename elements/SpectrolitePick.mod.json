@@ -5,12 +5,12 @@
     "renderType": 0,
     "texture": "spectrolite_pickaxe",
     "customModelName": "Normal",
-    "name": "Spectrolite Pick",
+    "name": "Spectrolite Pickaxe",
     "specialInfo": [
-      "Still feels a bit cold..."
+      "§7§oStill feels a bit cold..."
     ],
     "creativeTab": {
-      "value": "CUSTOM:CreativeTab"
+      "value": "CUSTOM:CreativeTabTools"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 6,

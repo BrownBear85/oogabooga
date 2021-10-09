@@ -12,6 +12,9 @@
       "value": "CUSTOM:shiver"
     },
     "specialInfo": [],
-    "hasGlow": false
+    "hasGlow": false,
+    "onItemInInventoryTick": {
+      "name": "MusicDiscAdvancement"
+    }
   }
 }

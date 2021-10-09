@@ -16,7 +16,7 @@ public class ObsidianRodItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:obsidian_rod")
 	public static final Item block = null;
 	public ObsidianRodItem(FillerModElements instance) {
-		super(instance, 41);
+		super(instance, 16);
 	}
 
 	@Override

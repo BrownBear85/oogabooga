@@ -53,7 +53,7 @@ import net.minecraft.block.HorizontalBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.filler.itemgroup.CreativeTabItemGroup;
+import net.mcreator.filler.itemgroup.CreativeTabBlocksItemGroup;
 import net.mcreator.filler.gui.RodMachineGUIGui;
 import net.mcreator.filler.FillerModElements;
 
@@ -72,15 +72,15 @@ public class RodMachineBlock extends FillerModElements.ModElement {
 	@ObjectHolder("filler:rod_machine")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public RodMachineBlock(FillerModElements instance) {
-		super(instance, 28);
+		super(instance, 31);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(CreativeTabItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(
+				() -> new BlockItem(block, new Item.Properties().group(CreativeTabBlocksItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	private static class TileEntityRegisterHandler {
 		@SubscribeEvent

@@ -9,7 +9,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
-import net.mcreator.filler.itemgroup.CreativeTabItemGroup;
+import net.mcreator.filler.itemgroup.CreativeTabToolsItemGroup;
 import net.mcreator.filler.FillerModElements;
 
 @FillerModElements.ModElement.Tag
@@ -17,7 +17,7 @@ public class ManganesePickItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:manganese_pick")
 	public static final Item block = null;
 	public ManganesePickItem(FillerModElements instance) {
-		super(instance, 43);
+		super(instance, 27);
 	}
 
 	@Override
@@ -46,7 +46,7 @@ public class ManganesePickItem extends FillerModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(ManganeseItem.block));
 			}
-		}, 1, -2.8f, new Item.Properties().group(CreativeTabItemGroup.tab)) {
+		}, 1, -2.8f, new Item.Properties().group(CreativeTabToolsItemGroup.tab)) {
 		}.setRegistryName("manganese_pick"));
 	}
 }

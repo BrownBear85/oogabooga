@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "filler:blazing_rod"
+    },
+    "title": {
+      "translate": "advancements.get_blazing_rod.title"
+    },
+    "description": {
+      "translate": "advancements.get_blazing_rod.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_blazing_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "filler:blazing_rod",
+            "count": {
+              "min": 1,
+              "max": 1000
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "filler:get_spectrolite"
+}

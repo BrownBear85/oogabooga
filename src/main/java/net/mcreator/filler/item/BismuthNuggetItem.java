@@ -16,7 +16,7 @@ public class BismuthNuggetItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:bismuth_nugget")
 	public static final Item block = null;
 	public BismuthNuggetItem(FillerModElements instance) {
-		super(instance, 21);
+		super(instance, 2);
 	}
 
 	@Override

@@ -16,7 +16,7 @@ public class SpectroliteNuggetItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:spectrolite_nugget")
 	public static final Item block = null;
 	public SpectroliteNuggetItem(FillerModElements instance) {
-		super(instance, 19);
+		super(instance, 4);
 	}
 
 	@Override

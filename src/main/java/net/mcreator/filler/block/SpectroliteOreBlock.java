@@ -34,7 +34,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.filler.itemgroup.CreativeTabItemGroup;
+import net.mcreator.filler.itemgroup.CreativeTabBlocksItemGroup;
 import net.mcreator.filler.item.SpectroliteItem;
 import net.mcreator.filler.FillerModElements;
 
@@ -47,7 +47,7 @@ public class SpectroliteOreBlock extends FillerModElements.ModElement {
 	@ObjectHolder("filler:spectrolite_ore")
 	public static final Block block = null;
 	public SpectroliteOreBlock(FillerModElements instance) {
-		super(instance, 20);
+		super(instance, 29);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -55,8 +55,8 @@ public class SpectroliteOreBlock extends FillerModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(CreativeTabItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(
+				() -> new BlockItem(block, new Item.Properties().group(CreativeTabBlocksItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {

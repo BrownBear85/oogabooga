@@ -1,0 +1,33 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "spectrolite_hoe",
+    "customModelName": "Normal",
+    "name": "Spectrolite Hoe",
+    "specialInfo": [
+      "§7§oStill feels a bit cold..."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:CreativeTabTools"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 6,
+    "efficiency": 15.0,
+    "attackSpeed": 3.0,
+    "enchantability": 22,
+    "damageVsEntity": 8.0,
+    "usageCount": 2750,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Spectrolite"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

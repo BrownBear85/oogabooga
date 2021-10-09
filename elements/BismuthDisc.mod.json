@@ -12,6 +12,9 @@
       "value": "CUSTOM:freedomdive"
     },
     "specialInfo": [],
-    "hasGlow": false
+    "hasGlow": false,
+    "onItemInInventoryTick": {
+      "name": "MusicDiscAdvancement"
+    }
   }
 }
