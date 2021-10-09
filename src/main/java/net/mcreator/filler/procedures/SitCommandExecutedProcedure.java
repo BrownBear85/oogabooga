@@ -51,10 +51,7 @@ public class SitCommandExecutedProcedure {
 		IWorld world = (IWorld) dependencies.get("world");
 		if (world instanceof ServerWorld) {
 			Entity entityToSpawn = new LauncherEntity.CustomEntity(LauncherEntity.entity, (World) world);
-			entityToSpawn.setLocationAndAngles(x, y, z, (float) (entity.rotationYaw), (float) 0);
-			entityToSpawn.setRenderYawOffset((float) (entity.rotationYaw));
-			entityToSpawn.setRotationYawHead((float) (entity.rotationYaw));
-			entityToSpawn.setMotion(0, 0, 0);
+			entityToSpawn.setLocationAndAngles(x, y, z, world.getRandom().nextFloat() * 360F, 0);
 			if (entityToSpawn instanceof MobEntity)
 				((MobEntity) entityToSpawn).onInitialSpawn((ServerWorld) world, world.getDifficultyForLocation(entityToSpawn.getPosition()),
 						SpawnReason.MOB_SUMMONED, (ILivingEntityData) null, (CompoundNBT) null);

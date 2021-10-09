@@ -875,6 +875,32 @@
           }
         ]
       }
+    },
+    {
+      "name": "SitKey",
+      "type": "keybind",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sit_key"
+    },
+    {
+      "name": "SitKeyOnKeyPressed",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sit_key_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -918,6 +944,7 @@
       "item.filler.manganese_disc.desc": "Viscerality - Bliss",
       "item.filler.spectrolite": "Spectrolite",
       "entity.filler.launcher": "Sittable",
+      "key.filler.sit_key": "Sit Down",
       "advancements.get_blazing_rod.descr": "Fabricate a blazing tool rod with a blazing crystal",
       "advancements.get_rod_machine.title": "Mechanical",
       "item.filler.manganese_disc": "Manganese Disc",
