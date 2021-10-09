@@ -807,6 +807,74 @@
       "ids": {},
       "registry_name": "get_spectrolite_pickaxe",
       "path": "~/Advancements"
+    },
+    {
+      "name": "Launcher",
+      "type": "livingentity",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "launcher"
+    },
+    {
+      "name": "SitCommandExecuted",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sit_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sit",
+      "type": "command",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sit"
+    },
+    {
+      "name": "LauncherOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "launcher_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -842,16 +910,18 @@
       "advancements.get_blazing_rod.title": "Won\u0027t you burn your hand?",
       "item.filler.spectrolite_disc.desc": "False Noise - Shiver",
       "block.filler.manganese_ore": "Manganese Ore",
-      "item.filler.spectrolite_hoe": "Spectrolite Hoe",
-      "item.filler.spectrolite_sword": "Spectrolite Sword",
       "block.filler.spectrolite_ore": "Spectrolite Ore",
+      "item.filler.spectrolite_sword": "Spectrolite Sword",
+      "item.filler.spectrolite_hoe": "Spectrolite Hoe",
       "block.filler.rod_machine": "Tool Rod Factory",
       "item.filler.bismuth_sword": "Bismuth Sword",
-      "item.filler.spectrolite": "Spectrolite",
       "item.filler.manganese_disc.desc": "Viscerality - Bliss",
+      "item.filler.spectrolite": "Spectrolite",
+      "entity.filler.launcher": "Sittable",
       "advancements.get_blazing_rod.descr": "Fabricate a blazing tool rod with a blazing crystal",
       "advancements.get_rod_machine.title": "Mechanical",
       "item.filler.manganese_disc": "Manganese Disc",
+      "item.filler.launcher_spawn_egg": "Sittable Spawn Egg",
       "advancements.get_diamond_rod.title": "Shiny, but Durable",
       "item.filler.bismuth_hoe": "Bismuth Hoe",
       "itemGroup.tabcreative_tab_blocks": "Mineralis Blocks",
