@@ -49,21 +49,23 @@ public class SitCommandExecutedProcedure {
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-		if (world instanceof ServerWorld) {
-			Entity entityToSpawn = new LauncherEntity.CustomEntity(LauncherEntity.entity, (World) world);
-			entityToSpawn.setLocationAndAngles(x, y, z, world.getRandom().nextFloat() * 360F, 0);
-			if (entityToSpawn instanceof MobEntity)
-				((MobEntity) entityToSpawn).onInitialSpawn((ServerWorld) world, world.getDifficultyForLocation(entityToSpawn.getPosition()),
-						SpawnReason.MOB_SUMMONED, (ILivingEntityData) null, (CompoundNBT) null);
-			world.addEntity(entityToSpawn);
+		if ((!(entity.isPassenger()))) {
+			if (world instanceof ServerWorld) {
+				Entity entityToSpawn = new LauncherEntity.CustomEntity(LauncherEntity.entity, (World) world);
+				entityToSpawn.setLocationAndAngles(x, y, z, world.getRandom().nextFloat() * 360F, 0);
+				if (entityToSpawn instanceof MobEntity)
+					((MobEntity) entityToSpawn).onInitialSpawn((ServerWorld) world, world.getDifficultyForLocation(entityToSpawn.getPosition()),
+							SpawnReason.MOB_SUMMONED, (ILivingEntityData) null, (CompoundNBT) null);
+				world.addEntity(entityToSpawn);
+			}
+			entity.startRiding(((Entity) world
+					.getEntitiesWithinAABB(LauncherEntity.CustomEntity.class,
+							new AxisAlignedBB(x - (1 / 2d), y - (1 / 2d), z - (1 / 2d), x + (1 / 2d), y + (1 / 2d), z + (1 / 2d)), null)
+					.stream().sorted(new Object() {
+						Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+							return Comparator.comparing((Function<Entity, Double>) (_entcnd -> _entcnd.getDistanceSq(_x, _y, _z)));
+						}
+					}.compareDistOf(x, y, z)).findFirst().orElse(null)));
 		}
-		entity.startRiding(((Entity) world
-				.getEntitiesWithinAABB(LauncherEntity.CustomEntity.class,
-						new AxisAlignedBB(x - (1 / 2d), y - (1 / 2d), z - (1 / 2d), x + (1 / 2d), y + (1 / 2d), z + (1 / 2d)), null)
-				.stream().sorted(new Object() {
-					Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
-						return Comparator.comparing((Function<Entity, Double>) (_entcnd -> _entcnd.getDistanceSq(_x, _y, _z)));
-					}
-				}.compareDistOf(x, y, z)).findFirst().orElse(null)));
 	}
 }
