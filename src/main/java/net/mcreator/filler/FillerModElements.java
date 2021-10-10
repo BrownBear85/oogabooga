@@ -49,6 +49,7 @@ public class FillerModElements {
 		sounds.put(new ResourceLocation("filler", "bliss"), new net.minecraft.util.SoundEvent(new ResourceLocation("filler", "bliss")));
 		sounds.put(new ResourceLocation("filler", "shiver"), new net.minecraft.util.SoundEvent(new ResourceLocation("filler", "shiver")));
 		sounds.put(new ResourceLocation("filler", "freedomdive"), new net.minecraft.util.SoundEvent(new ResourceLocation("filler", "freedomdive")));
+		sounds.put(new ResourceLocation("filler", "homedepot"), new net.minecraft.util.SoundEvent(new ResourceLocation("filler", "homedepot")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("filler").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

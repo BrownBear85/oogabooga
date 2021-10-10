@@ -9,12 +9,9 @@
       "value": "CUSTOM:CreativeTab"
     },
     "music": {
-      "value": "CUSTOM:manganesedisksound"
+      "value": "CUSTOM:bliss"
     },
     "specialInfo": [],
-    "hasGlow": false,
-    "onItemInInventoryTick": {
-      "name": "MusicDiscAdvancement"
-    }
+    "hasGlow": false
   }
 }

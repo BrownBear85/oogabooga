@@ -16,7 +16,7 @@ public class AmazoniteDiscItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:amazonite_disc")
 	public static final Item block = null;
 	public AmazoniteDiscItem(FillerModElements instance) {
-		super(instance, 104);
+		super(instance, 19);
 	}
 
 	@Override

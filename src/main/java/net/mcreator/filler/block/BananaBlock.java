@@ -4,16 +4,13 @@ package net.mcreator.filler.block;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.world.IBlockReader;
-import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
-import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -27,7 +24,7 @@ public class BananaBlock extends FillerModElements.ModElement {
 	@ObjectHolder("filler:banana")
 	public static final Block block = null;
 	public BananaBlock(FillerModElements instance) {
-		super(instance, 33);
+		super(instance, 95);
 	}
 
 	@Override
@@ -45,11 +42,6 @@ public class BananaBlock extends FillerModElements.ModElement {
 		@Override
 		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
 			return 15;
-		}
-
-		@Override
-		public ItemStack getPickBlock(BlockState state, RayTraceResult target, IBlockReader world, BlockPos pos, PlayerEntity player) {
-			return new ItemStack(Blocks.AIR);
 		}
 
 		@Override

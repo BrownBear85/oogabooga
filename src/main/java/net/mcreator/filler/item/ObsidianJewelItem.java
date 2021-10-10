@@ -16,7 +16,7 @@ public class ObsidianJewelItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:obsidian_jewel")
 	public static final Item block = null;
 	public ObsidianJewelItem(FillerModElements instance) {
-		super(instance, 12);
+		super(instance, 11);
 	}
 
 	@Override

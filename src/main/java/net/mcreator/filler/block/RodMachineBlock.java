@@ -72,7 +72,7 @@ public class RodMachineBlock extends FillerModElements.ModElement {
 	@ObjectHolder("filler:rod_machine")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public RodMachineBlock(FillerModElements instance) {
-		super(instance, 34);
+		super(instance, 21);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 

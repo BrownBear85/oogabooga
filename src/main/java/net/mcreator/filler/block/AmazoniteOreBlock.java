@@ -35,7 +35,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.filler.itemgroup.CreativeTabItemGroup;
+import net.mcreator.filler.itemgroup.CreativeTabBlocksItemGroup;
 import net.mcreator.filler.item.AmazoniteItem;
 import net.mcreator.filler.FillerModElements;
 
@@ -48,7 +48,7 @@ public class AmazoniteOreBlock extends FillerModElements.ModElement {
 	@ObjectHolder("filler:amazonite_ore")
 	public static final Block block = null;
 	public AmazoniteOreBlock(FillerModElements instance) {
-		super(instance, 105);
+		super(instance, 25);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -56,8 +56,8 @@ public class AmazoniteOreBlock extends FillerModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(CreativeTabItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(
+				() -> new BlockItem(block, new Item.Properties().group(CreativeTabBlocksItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {

@@ -63,7 +63,7 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": "Blocks.AIR"
+      "value": ""
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",

@@ -38,5 +38,15 @@
         "stream": true
       }
     ]
+  },
+  "homedepot": {
+    "category": "music",
+    "subtitle": "subtitles.homedepot",
+    "sounds": [
+      {
+        "name": "filler:homedepot",
+        "stream": true
+      }
+    ]
   }
 }

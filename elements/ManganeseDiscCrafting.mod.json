@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ManganeseDisc"
+      "value": "Blocks.SAPLING#4"
     },
     "name": "manganese_disc_crafting",
     "namespace": "mod"

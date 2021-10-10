@@ -2,7 +2,7 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "amazonite_ore",
+    "texture": "amazonite_block",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -32,10 +32,10 @@
         "subtract": false
       }
     ],
-    "name": "Amazonite Ore",
+    "name": "Amazonite Block",
     "specialInfo": [],
-    "hardness": 125.0,
-    "resistance": 1400.0,
+    "hardness": 150.0,
+    "resistance": 1500.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -43,7 +43,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:Amazonite"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -52,7 +52,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "ROCK"
+      "value": "IRON"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -77,7 +77,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "GLASS"
     },
     "breakSound": {
       "value": ""
@@ -96,7 +96,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 6,
+    "breakHarvestLevel": 7,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -121,39 +121,15 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Surface"
-    ],
-    "restrictionBiomes": [
-      {
-        "value": "bamboo_jungle"
-      },
-      {
-        "value": "bamboo_jungle_hills"
-      },
-      {
-        "value": "jungle"
-      },
-      {
-        "value": "jungle_edge"
-      },
-      {
-        "value": "jungle_hills"
-      },
-      {
-        "value": "mutated_jungle"
-      },
-      {
-        "value": "mutated_jungle_edge"
-      }
-    ],
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 4,
-    "frequencyOnChunk": 4,
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64
   }
