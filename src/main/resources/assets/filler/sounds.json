@@ -1,28 +1,41 @@
 {
-  "freedomdive": {
-    "category": "neutral",
+  "merpmerp": {
+    "category": "music",
+    "subtitle": "subtitles.merpmerp",
     "sounds": [
       {
-        "name": "filler:freedom-dive",
-        "stream": false
+        "name": "filler:merp_merp_1",
+        "stream": true
+      }
+    ]
+  },
+  "bliss": {
+    "category": "music",
+    "subtitle": "subtitles.bliss",
+    "sounds": [
+      {
+        "name": "filler:bliss",
+        "stream": true
       }
     ]
   },
   "shiver": {
-    "category": "neutral",
+    "category": "music",
+    "subtitle": "subtitles.shiver",
     "sounds": [
       {
         "name": "filler:shiver_1",
-        "stream": false
+        "stream": true
       }
     ]
   },
-  "manganesedisksound": {
-    "category": "neutral",
+  "freedomdive": {
+    "category": "music",
+    "subtitle": "subtitles.freedomdive",
     "sounds": [
       {
-        "name": "filler:bliss",
-        "stream": false
+        "name": "filler:freedom-dive",
+        "stream": true
       }
     ]
   }

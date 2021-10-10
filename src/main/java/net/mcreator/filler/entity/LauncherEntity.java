@@ -47,7 +47,7 @@ import java.util.HashMap;
 public class LauncherEntity extends FillerModElements.ModElement {
 	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire()
-			.size(0.1f, 0.1f)).build("launcher").setRegistryName("launcher");
+			.size(0.6f, 0.6f)).build("launcher").setRegistryName("launcher");
 	public LauncherEntity(FillerModElements instance) {
 		super(instance, 17);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new LauncherRenderer.ModelRegisterHandler());
@@ -143,7 +143,7 @@ public class LauncherEntity extends FillerModElements.ModElement {
 
 		@Override
 		public double getMountedYOffset() {
-			return super.getMountedYOffset() + -0.3;
+			return super.getMountedYOffset() + -0.8;
 		}
 
 		@Override

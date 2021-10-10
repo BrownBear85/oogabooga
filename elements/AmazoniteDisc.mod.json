@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "amazonite_disc",
+    "name": "Amazonite Disc",
+    "description": "Schitiffles - Merp Merp",
+    "creativeTab": {
+      "value": "CUSTOM:CreativeTab"
+    },
+    "music": {
+      "value": "CUSTOM:merpmerp"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

@@ -7,10 +7,10 @@
     "mobModelName": "Modellauncher",
     "mobModelTexture": "transparent.png",
     "mobModelGlowTexture": "",
-    "modelWidth": 0.1,
-    "modelHeight": 0.1,
+    "modelWidth": 0.6,
+    "modelHeight": 0.6,
     "modelShadowSize": 0.0,
-    "mountedYOffset": -0.3,
+    "mountedYOffset": -0.8,
     "hasSpawnEgg": false,
     "spawnEggBaseColor": {
       "value": -1,

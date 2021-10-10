@@ -45,10 +45,10 @@ public class FillerModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public FillerModElements() {
-		sounds.put(new ResourceLocation("filler", "freedomdive"), new net.minecraft.util.SoundEvent(new ResourceLocation("filler", "freedomdive")));
+		sounds.put(new ResourceLocation("filler", "merpmerp"), new net.minecraft.util.SoundEvent(new ResourceLocation("filler", "merpmerp")));
+		sounds.put(new ResourceLocation("filler", "bliss"), new net.minecraft.util.SoundEvent(new ResourceLocation("filler", "bliss")));
 		sounds.put(new ResourceLocation("filler", "shiver"), new net.minecraft.util.SoundEvent(new ResourceLocation("filler", "shiver")));
-		sounds.put(new ResourceLocation("filler", "manganesedisksound"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("filler", "manganesedisksound")));
+		sounds.put(new ResourceLocation("filler", "freedomdive"), new net.minecraft.util.SoundEvent(new ResourceLocation("filler", "freedomdive")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("filler").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "spectrolite_nugget",
     "customModelName": "Normal",
-    "name": "Spectrolite Nugget",
+    "name": "Spectrolite Shard",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:CreativeTab"

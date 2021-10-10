@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.DIAMOND"
+        "value": ""
       },
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": "CUSTOM:AmazoniteNugget"
       },
       {
-        "value": "Items.DIAMOND"
+        "value": ""
       },
       {
-        "value": "Blocks.CRYING_OBSIDIAN"
+        "value": "CUSTOM:AmazoniteNugget"
       },
       {
-        "value": "CUSTOM:SpectroliteNugget"
+        "value": "CUSTOM:EmptyDisk"
       },
       {
-        "value": "Blocks.CRYING_OBSIDIAN"
+        "value": "CUSTOM:AmazoniteNugget"
       },
       {
-        "value": "Items.DIAMOND"
+        "value": ""
       },
       {
-        "value": "Blocks.OBSIDIAN"
+        "value": "CUSTOM:AmazoniteNugget"
       },
       {
-        "value": "Items.DIAMOND"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:ObsidianJewel"
+      "value": "CUSTOM:AmazoniteDisc"
     },
-    "name": "obsidian_jewel_crafting",
+    "name": "amazonite_disc_crafting",
     "namespace": "mod"
   }
 }

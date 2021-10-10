@@ -187,7 +187,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "rod_machine_gui",
-      "path": "~/Blocks"
+      "path": "~/Other"
     },
     {
       "name": "RodMachine",
@@ -1050,53 +1050,169 @@
       "ids": {},
       "registry_name": "manganese_hoe_crafting_right",
       "path": "~/Recipes"
+    },
+    {
+      "name": "GetManganese",
+      "type": "achievement",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "get_manganese",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "GetObsidianRod",
+      "type": "achievement",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "get_obsidian_rod",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "GetManganesePickaxe",
+      "type": "achievement",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "get_manganese_pickaxe",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Mineralis",
+      "type": "achievement",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mineralis",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Amazonite",
+      "type": "item",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amazonite",
+      "path": "~/Items"
+    },
+    {
+      "name": "AmazoniteNugget",
+      "type": "item",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amazonite_nugget",
+      "path": "~/Items"
+    },
+    {
+      "name": "AmazoniteDisc",
+      "type": "musicdisc",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amazonite_disc",
+      "path": "~/Items"
+    },
+    {
+      "name": "AmazoniteOre",
+      "type": "block",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amazonite_ore",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AmazoniteNuggetCrafting",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amazonite_nugget_crafting",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AmazoniteDiscCrafting",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amazonite_disc_crafting",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
   "sound_elements": [
     {
-      "name": "freedomdive",
+      "name": "merpmerp",
       "files": [
-        "freedom-dive"
+        "merp_merp_1"
       ],
-      "category": "neutral",
-      "subtitle": ""
+      "category": "music",
+      "subtitle": "Schtiffles - Merp Merp"
+    },
+    {
+      "name": "bliss",
+      "files": [
+        "bliss"
+      ],
+      "category": "music",
+      "subtitle": "Viscerality - Bliss"
     },
     {
       "name": "shiver",
       "files": [
         "shiver_1"
       ],
-      "category": "neutral",
-      "subtitle": ""
+      "category": "music",
+      "subtitle": "False Noise - Shiver"
     },
     {
-      "name": "manganesedisksound",
+      "name": "freedomdive",
       "files": [
-        "bliss"
+        "freedom-dive"
       ],
-      "category": "neutral",
-      "subtitle": ""
+      "category": "music",
+      "subtitle": "Xi - Freedom Dive"
     }
   ],
   "language_map": {
     "en_us": {
       "item.filler.blazing_crystal": "Blazing Crystal",
       "advancements.get_blazing_rod.title": "Won\u0027t you burn your hand?",
+      "item.filler.amazonite_disc": "Amazonite Disc",
       "item.filler.spectrolite_disc.desc": "False Noise - Shiver",
+      "item.filler.amazonite_disc.desc": "Schitiffles - Merp Merp",
       "block.filler.manganese_ore": "Manganese Ore",
+      "subtitles.merpmerp": "Schtiffles - Merp Merp",
       "item.filler.spectrolite_hoe": "Spectrolite Hoe",
       "item.filler.spectrolite_sword": "Spectrolite Sword",
       "block.filler.spectrolite_ore": "Spectrolite Ore",
+      "block.filler.amazonite_ore": "Amazonite Ore",
       "block.filler.rod_machine": "Tool Rod Factory",
       "item.filler.bismuth_sword": "Bismuth Sword",
       "key.filler.sit_key": "Sit Down",
       "entity.filler.launcher": "Sittable",
       "item.filler.spectrolite": "Spectrolite",
       "item.filler.manganese_disc.desc": "Viscerality - Bliss",
+      "advancements.get_obsidian_rod.title": "Will this ever break?",
       "advancements.get_blazing_rod.descr": "Fabricate a blazing tool rod with a blazing crystal",
+      "advancements.get_obsidian_rod.descr": "Fabricate a tool rod with an obsidian crystal",
+      "item.filler.amazonite": "Amazonite",
       "advancements.get_rod_machine.title": "Mechanical",
       "item.filler.manganese_disc": "Manganese Disc",
+      "advancements.get_manganese_pickaxe.title": "Tool of darkness",
       "item.filler.manganese_shovel": "Manganese Shovel",
       "item.filler.launcher_spawn_egg": "Sittable Spawn Egg",
       "block.filler.manganese_block": "Manganese Block",
@@ -1106,8 +1222,10 @@
       "item.filler.bismuth": "Bismuth",
       "item.filler.iron_rod": "Iron Rod",
       "advancements.get_bismuth_pickaxe.descr": "Use your bismuth to craft a pickaxe",
+      "advancements.get_manganese.descr": "Find manganese in a desert or mesa",
       "block.filler.bismuth_ore": "Bismuth Ore",
       "advancements.get_bismuth_pickaxe.title": "Wow, that\u0027s fast!",
+      "advancements.mineralis.descr": "This mod is about finding materials in stages",
       "item.filler.bismuth_disc": "Bismuth Disc",
       "advancements.get_spectrolite.title": "Hidden in the snow",
       "subtitles.manganesedisksound": "",
@@ -1116,27 +1234,31 @@
       "block.filler.spectrolite_block": "Spectrolite Block",
       "advancements.get_bismuth.descr": "Find bismuth in a vein of coal",
       "advancements.get_spectrolite_pickaxe.title": "Ice pick",
+      "advancements.mineralis.title": "Mineralis",
       "item.filler.spectrolite_disc": "Spectrolite Disc",
+      "subtitles.bliss": "Viscerality - Bliss",
       "item.filler.manganese_axe": "Manganese Axe",
-      "advancements.get_bismuth.title": "Welcome to Mineralis!",
+      "advancements.get_bismuth.title": "Rainbow Ore",
       "advancements.get_disc.descr": "Craft a Mineralis music disc",
       "item.filler.bismuth_shovel": "Bismuth Shovel",
-      "block.filler.banana": "Banana",
+      "block.filler.banana": "Banana Dance",
       "advancements.get_spectrolite.descr": "Find spectrolite in a snowy biome",
       "item.filler.empty_disk": "Empty Disc",
-      "subtitles.shiver": "",
+      "subtitles.shiver": "False Noise - Shiver",
       "item.filler.spectrolite_axe": "Spectrolite Axe",
       "item.filler.spectrolite_shovel": "Spectrolite Shovel",
       "item.filler.manganese_hoe": "Manganese Hoe",
       "item.filler.obsidian_rod": "Obsidian Tool Rod",
       "advancements.get_disc.title": "Getting Musical",
+      "item.filler.amazonite_nugget": "Amazonite Shard",
       "item.filler.manganese_nugget": "Manganese Nugget",
       "item.filler.bismuth_axe": "Bismuth Axe",
       "advancements.get_diamond_rod.descr": "Fabricate a diamond rod with your new factory",
       "item.filler.bismuth_nugget": "Bismuth Nugget",
       "item.filler.manganese_pick": "Manganese Pickaxe",
-      "item.filler.bismuth_disc.desc": "xi - Freedom Dive",
-      "subtitles.freedomdive": "",
+      "item.filler.bismuth_disc.desc": "Xi - Freedom Dive",
+      "subtitles.freedomdive": "Xi - Freedom Dive",
+      "advancements.get_manganese_pickaxe.descr": "Craft a manganese pickaxe",
       "item.filler.diamond_rod": "Diamond Tool Rod",
       "itemGroup.tabcreative_tab": "Mineralis Items",
       "advancements.get_rod_machine.descr": "Craft and place a tool rod factory",
@@ -1144,9 +1266,10 @@
       "item.filler.manganese_sword": "Manganese Sword",
       "itemGroup.tabcreative_tab_tools": "Mineralis Tools",
       "block.filler.bismuth_block": "Bismuth Block",
+      "advancements.get_manganese.title": "Under the sand",
       "item.filler.blazing_rod": "Blazing Tool Rod",
       "item.filler.spectrolite_pick": "Spectrolite Pickaxe",
-      "item.filler.spectrolite_nugget": "Spectrolite Nugget",
+      "item.filler.spectrolite_nugget": "Spectrolite Shard",
       "item.filler.obsidian_jewel": "Obsidian Jewel"
     }
   },

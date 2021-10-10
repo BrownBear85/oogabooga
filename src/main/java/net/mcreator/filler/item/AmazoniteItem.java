@@ -3,26 +3,20 @@ package net.mcreator.filler.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
-import net.minecraft.world.World;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
-import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.filler.itemgroup.CreativeTabItemGroup;
 import net.mcreator.filler.FillerModElements;
 
-import java.util.List;
-
 @FillerModElements.ModElement.Tag
-public class EmptyDiskItem extends FillerModElements.ModElement {
-	@ObjectHolder("filler:empty_disk")
+public class AmazoniteItem extends FillerModElements.ModElement {
+	@ObjectHolder("filler:amazonite")
 	public static final Item block = null;
-	public EmptyDiskItem(FillerModElements instance) {
-		super(instance, 10);
+	public AmazoniteItem(FillerModElements instance) {
+		super(instance, 102);
 	}
 
 	@Override
@@ -31,8 +25,8 @@ public class EmptyDiskItem extends FillerModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(CreativeTabItemGroup.tab).maxStackSize(1).rarity(Rarity.COMMON));
-			setRegistryName("empty_disk");
+			super(new Item.Properties().group(CreativeTabItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
+			setRegistryName("amazonite");
 		}
 
 		@Override
@@ -48,12 +42,6 @@ public class EmptyDiskItem extends FillerModElements.ModElement {
 		@Override
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
-		}
-
-		@Override
-		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
-			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("\u00A77\u00A7oCan you even put it in a jukebox?"));
 		}
 	}
 }

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "filler:blocks/amazonite_ore",
+    "up": "filler:blocks/amazonite_ore",
+    "north": "filler:blocks/amazonite_ore",
+    "east": "filler:blocks/amazonite_ore",
+    "south": "filler:blocks/amazonite_ore",
+    "west": "filler:blocks/amazonite_ore",
+    "particle": "filler:blocks/amazonite_ore"
+  }
+}

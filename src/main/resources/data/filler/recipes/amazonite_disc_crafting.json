@@ -1,0 +1,30 @@
+{
+  "group": "filler",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "filler:amazonite_nugget"
+    },
+    "3": {
+      "item": "filler:amazonite_nugget"
+    },
+    "4": {
+      "item": "filler:empty_disk"
+    },
+    "5": {
+      "item": "filler:amazonite_nugget"
+    },
+    "7": {
+      "item": "filler:amazonite_nugget"
+    }
+  },
+  "result": {
+    "item": "filler:amazonite_disc",
+    "count": 1
+  }
+}

@@ -1,13 +1,13 @@
 {
   "display": {
     "icon": {
-      "item": "filler:bismuth"
+      "item": "filler:obsidian_rod"
     },
     "title": {
-      "translate": "advancements.get_bismuth.title"
+      "translate": "advancements.get_obsidian_rod.title"
     },
     "description": {
-      "translate": "advancements.get_bismuth.descr"
+      "translate": "advancements.get_obsidian_rod.descr"
     },
     "frame": "task",
     "show_toast": true,
@@ -15,12 +15,12 @@
     "hidden": false
   },
   "criteria": {
-    "get_bismuth": {
+    "get_obsidian_rod": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "filler:bismuth",
+            "item": "filler:obsidian_rod",
             "count": {
               "min": 1,
               "max": 1000
@@ -33,5 +33,5 @@
   "rewards": {
     "experience": 0
   },
-  "parent": "filler:mineralis"
+  "parent": "filler:get_spectrolite_pickaxe"
 }

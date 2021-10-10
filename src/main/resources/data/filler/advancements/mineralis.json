@@ -1,26 +1,27 @@
 {
   "display": {
+    "background": "minecraft:textures/block/stone.png",
     "icon": {
-      "item": "filler:bismuth"
+      "item": "filler:rod_machine"
     },
     "title": {
-      "translate": "advancements.get_bismuth.title"
+      "translate": "advancements.mineralis.title"
     },
     "description": {
-      "translate": "advancements.get_bismuth.descr"
+      "translate": "advancements.mineralis.descr"
     },
     "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
+    "show_toast": false,
+    "announce_to_chat": false,
     "hidden": false
   },
   "criteria": {
-    "get_bismuth": {
+    "mineralis": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "filler:bismuth",
+            "item": "minecraft:netherite_pickaxe",
             "count": {
               "min": 1,
               "max": 1000
@@ -31,7 +32,6 @@
     }
   },
   "rewards": {
-    "experience": 0
-  },
-  "parent": "filler:mineralis"
+    "experience": 1
+  }
 }
