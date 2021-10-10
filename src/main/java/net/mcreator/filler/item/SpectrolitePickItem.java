@@ -46,13 +46,13 @@ public class SpectrolitePickItem extends FillerModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 2;
+				return 22;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(SpectroliteItem.block));
 			}
-		}, 1, -2.77f, new Item.Properties().group(CreativeTabToolsItemGroup.tab)) {
+		}, 1, -2.8f, new Item.Properties().group(CreativeTabToolsItemGroup.tab)) {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);

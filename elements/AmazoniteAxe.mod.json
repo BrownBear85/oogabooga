@@ -3,31 +3,31 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "manganese_shovel",
+    "texture": "amazonite_axe",
     "customModelName": "Normal",
-    "name": "Manganese Shovel",
+    "name": "Amazonite Axe",
     "specialInfo": [
-      "§7§oIt's like a void"
+      "§7§oThe head shimmers..."
     ],
     "creativeTab": {
       "value": "CUSTOM:CreativeTabTools"
     },
-    "toolType": "Spade",
+    "toolType": "Axe",
     "harvestLevel": 7,
-    "efficiency": 17.0,
-    "attackSpeed": 1.2,
-    "enchantability": 30,
-    "damageVsEntity": 7.0,
-    "usageCount": 3200,
+    "efficiency": 19.0,
+    "attackSpeed": 1.0,
+    "enchantability": 26,
+    "damageVsEntity": 17.0,
+    "usageCount": 3100,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:Manganese"
+        "value": "CUSTOM:Amazonite"
       }
     ],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": true
+    "damageOnCrafting": false
   }
 }

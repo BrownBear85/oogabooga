@@ -33,7 +33,9 @@
       }
     ],
     "name": "Banana Dance",
-    "specialInfo": [],
+    "specialInfo": [
+      "§7§oBANANA DANCE"
+    ],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,

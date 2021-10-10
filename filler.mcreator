@@ -1189,6 +1189,56 @@
           }
         ]
       }
+    },
+    {
+      "name": "AmazoniteSword",
+      "type": "tool",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amazonite_sword",
+      "path": "~/Tools"
+    },
+    {
+      "name": "AmazonitePickaxe",
+      "type": "tool",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amazonite_pickaxe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "AmazoniteAxe",
+      "type": "tool",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amazonite_axe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "AmazoniteShovel",
+      "type": "tool",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amazonite_shovel",
+      "path": "~/Tools"
+    },
+    {
+      "name": "AmazoniteHoe",
+      "type": "tool",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amazonite_hoe",
+      "path": "~/Tools"
     }
   ],
   "variable_elements": [],
@@ -1198,23 +1248,15 @@
       "files": [
         "merp_merp_1"
       ],
-      "category": "music",
+      "category": "record",
       "subtitle": "Schtiffles - Merp Merp"
-    },
-    {
-      "name": "bliss",
-      "files": [
-        "bliss"
-      ],
-      "category": "music",
-      "subtitle": "Viscerality - Bliss"
     },
     {
       "name": "shiver",
       "files": [
         "shiver_1"
       ],
-      "category": "music",
+      "category": "record",
       "subtitle": "False Noise - Shiver"
     },
     {
@@ -1222,15 +1264,23 @@
       "files": [
         "freedom-dive"
       ],
-      "category": "music",
+      "category": "record",
       "subtitle": "Xi - Freedom Dive"
+    },
+    {
+      "name": "bliss",
+      "files": [
+        "bliss"
+      ],
+      "category": "record",
+      "subtitle": "Viscerality - Bliss"
     },
     {
       "name": "homedepot",
       "files": [
         "homedepot"
       ],
-      "category": "music",
+      "category": "record",
       "subtitle": "HOME DEPOT"
     }
   ],
@@ -1242,11 +1292,12 @@
       "item.filler.spectrolite_disc.desc": "False Noise - Shiver",
       "item.filler.amazonite_disc.desc": "Schitiffles - Merp Merp",
       "block.filler.manganese_ore": "Manganese Ore",
+      "item.filler.amazonite_pickaxe": "Amazonite Pickaxe",
       "subtitles.merpmerp": "Schtiffles - Merp Merp",
-      "block.filler.amazonite_ore": "Amazonite Ore",
-      "block.filler.spectrolite_ore": "Spectrolite Ore",
-      "item.filler.spectrolite_sword": "Spectrolite Sword",
       "item.filler.spectrolite_hoe": "Spectrolite Hoe",
+      "item.filler.spectrolite_sword": "Spectrolite Sword",
+      "block.filler.spectrolite_ore": "Spectrolite Ore",
+      "block.filler.amazonite_ore": "Amazonite Ore",
       "block.filler.rod_machine": "Tool Rod Factory",
       "item.filler.bismuth_sword": "Bismuth Sword",
       "key.filler.sit_key": "Sit Down",
@@ -1269,6 +1320,7 @@
       "itemGroup.tabcreative_tab_blocks": "Mineralis Blocks",
       "item.filler.bismuth": "Bismuth",
       "item.filler.iron_rod": "Iron Rod",
+      "item.filler.amazonite_hoe": "Amazonite Hoe",
       "advancements.get_bismuth_pickaxe.descr": "Use your bismuth to craft a pickaxe",
       "advancements.get_manganese.descr": "Find manganese in a desert or mesa",
       "block.filler.bismuth_ore": "Bismuth Ore",
@@ -1280,6 +1332,7 @@
       "subtitles.manganesedisksound": "",
       "item.filler.bismuth_pick": "Bismuth Pickaxe",
       "item.filler.manganese": "Manganese",
+      "item.filler.amazonite_axe": "Amazonite Axe",
       "block.filler.spectrolite_block": "Spectrolite Block",
       "advancements.get_bismuth.descr": "Find bismuth in a vein of coal",
       "advancements.get_spectrolite_pickaxe.title": "Ice pick",
@@ -1313,9 +1366,11 @@
       "advancements.get_rod_machine.descr": "Craft and place a tool rod factory",
       "advancements.get_spectrolite_pickaxe.descr": "Craft a pickaxe made from spectrolite",
       "item.filler.manganese_sword": "Manganese Sword",
+      "item.filler.amazonite_sword": "Amazonite Sword",
       "itemGroup.tabcreative_tab_tools": "Mineralis Tools",
       "block.filler.bismuth_block": "Bismuth Block",
       "advancements.get_manganese.title": "Under the sand",
+      "item.filler.amazonite_shovel": "Amazonite Shovel",
       "item.filler.blazing_rod": "Blazing Tool Rod",
       "item.filler.spectrolite_pick": "Spectrolite Pickaxe",
       "item.filler.spectrolite_nugget": "Spectrolite Shard",

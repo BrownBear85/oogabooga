@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Manganese Sword",
     "specialInfo": [
-      "§7§oStill feels a bit cold..."
+      "§7§oIt's like a void"
     ],
     "creativeTab": {
       "value": "CUSTOM:CreativeTabTools"
@@ -23,7 +23,7 @@
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:Spectrolite"
+        "value": "CUSTOM:Manganese"
       }
     ],
     "immuneToFire": false,

@@ -33,7 +33,9 @@
       }
     ],
     "name": "Spectrolite Ore",
-    "specialInfo": [],
+    "specialInfo": [
+      "It can give you frostbite"
+    ],
     "hardness": 75.0,
     "resistance": 1200.0,
     "hasGravity": false,

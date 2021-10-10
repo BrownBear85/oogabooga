@@ -33,7 +33,9 @@
       }
     ],
     "name": "Bismuth Ore",
-    "specialInfo": [],
+    "specialInfo": [
+      "§7§oIt's polychormatic"
+    ],
     "hardness": 50.0,
     "resistance": 1000.0,
     "hasGravity": false,

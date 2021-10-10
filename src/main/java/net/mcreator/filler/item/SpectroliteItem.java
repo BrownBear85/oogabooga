@@ -57,7 +57,7 @@ public class SpectroliteItem extends FillerModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("?\u00A77\u00A7oIt's so cold it slows you"));
+			list.add(new StringTextComponent("\u00A77\u00A7oIt's so cold it slows you"));
 		}
 
 		@Override

@@ -33,7 +33,9 @@
       }
     ],
     "name": "Tool Rod Factory",
-    "specialInfo": [],
+    "specialInfo": [
+      "§7§oIt whirs and hums"
+    ],
     "hardness": 10.0,
     "resistance": 40.0,
     "hasGravity": false,

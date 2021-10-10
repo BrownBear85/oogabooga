@@ -33,7 +33,9 @@
       }
     ],
     "name": "Manganese Ore",
-    "specialInfo": [],
+    "specialInfo": [
+      "§7§oDark shapes protrude from the stone"
+    ],
     "hardness": 100.0,
     "resistance": 1200.0,
     "hasGravity": false,
@@ -159,7 +161,7 @@
       }
     ],
     "frequencyPerChunks": 4,
-    "frequencyOnChunk": 3,
+    "frequencyOnChunk": 4,
     "minGenerateHeight": 32,
     "maxGenerateHeight": 64
   }

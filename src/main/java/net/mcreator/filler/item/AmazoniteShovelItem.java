@@ -7,10 +7,10 @@ import net.minecraft.world.World;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.ShovelItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
-import net.minecraft.item.AxeItem;
 import net.minecraft.client.util.ITooltipFlag;
 
 import net.mcreator.filler.itemgroup.CreativeTabToolsItemGroup;
@@ -19,26 +19,26 @@ import net.mcreator.filler.FillerModElements;
 import java.util.List;
 
 @FillerModElements.ModElement.Tag
-public class ManganeseAxeItem extends FillerModElements.ModElement {
-	@ObjectHolder("filler:manganese_axe")
+public class AmazoniteShovelItem extends FillerModElements.ModElement {
+	@ObjectHolder("filler:amazonite_shovel")
 	public static final Item block = null;
-	public ManganeseAxeItem(FillerModElements instance) {
-		super(instance, 42);
+	public AmazoniteShovelItem(FillerModElements instance) {
+		super(instance, 113);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new AxeItem(new IItemTier() {
+		elements.items.add(() -> new ShovelItem(new IItemTier() {
 			public int getMaxUses() {
-				return 3200;
+				return 3100;
 			}
 
 			public float getEfficiency() {
-				return 17f;
+				return 19f;
 			}
 
 			public float getAttackDamage() {
-				return 13f;
+				return 6f;
 			}
 
 			public int getHarvestLevel() {
@@ -46,18 +46,18 @@ public class ManganeseAxeItem extends FillerModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 30;
+				return 26;
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(ManganeseItem.block));
+				return Ingredient.fromStacks(new ItemStack(AmazoniteItem.block));
 			}
 		}, 1, -2.8f, new Item.Properties().group(CreativeTabToolsItemGroup.tab)) {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("\u00A77\u00A7oIt's like a void"));
+				list.add(new StringTextComponent("\u00A77\u00A7oThe head shimmers..."));
 			}
-		}.setRegistryName("manganese_axe"));
+		}.setRegistryName("amazonite_shovel"));
 	}
 }

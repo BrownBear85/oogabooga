@@ -50,13 +50,13 @@ public class ManganeseSwordItem extends FillerModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(SpectroliteItem.block));
+				return Ingredient.fromStacks(new ItemStack(ManganeseItem.block));
 			}
 		}, 3, -2.4f, new Item.Properties().group(CreativeTabToolsItemGroup.tab)) {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("\u00A77\u00A7oStill feels a bit cold..."));
+				list.add(new StringTextComponent("\u00A77\u00A7oIt's like a void"));
 			}
 		}.setRegistryName("manganese_sword"));
 	}

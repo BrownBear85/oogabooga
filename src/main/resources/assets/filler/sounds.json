@@ -1,6 +1,6 @@
 {
   "merpmerp": {
-    "category": "music",
+    "category": "record",
     "subtitle": "subtitles.merpmerp",
     "sounds": [
       {
@@ -9,18 +9,8 @@
       }
     ]
   },
-  "bliss": {
-    "category": "music",
-    "subtitle": "subtitles.bliss",
-    "sounds": [
-      {
-        "name": "filler:bliss",
-        "stream": true
-      }
-    ]
-  },
   "shiver": {
-    "category": "music",
+    "category": "record",
     "subtitle": "subtitles.shiver",
     "sounds": [
       {
@@ -30,7 +20,7 @@
     ]
   },
   "freedomdive": {
-    "category": "music",
+    "category": "record",
     "subtitle": "subtitles.freedomdive",
     "sounds": [
       {
@@ -39,8 +29,18 @@
       }
     ]
   },
+  "bliss": {
+    "category": "record",
+    "subtitle": "subtitles.bliss",
+    "sounds": [
+      {
+        "name": "filler:bliss",
+        "stream": true
+      }
+    ]
+  },
   "homedepot": {
-    "category": "music",
+    "category": "record",
     "subtitle": "subtitles.homedepot",
     "sounds": [
       {
