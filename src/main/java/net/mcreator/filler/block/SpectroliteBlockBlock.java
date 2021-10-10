@@ -26,7 +26,7 @@ public class SpectroliteBlockBlock extends FillerModElements.ModElement {
 	@ObjectHolder("filler:spectrolite_block")
 	public static final Block block = null;
 	public SpectroliteBlockBlock(FillerModElements instance) {
-		super(instance, 33);
+		super(instance, 39);
 	}
 
 	@Override
@@ -37,8 +37,8 @@ public class SpectroliteBlockBlock extends FillerModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.GLASS).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(6)
-					.harvestTool(ToolType.PICKAXE).setRequiresTool());
+			super(Block.Properties.create(Material.IRON).sound(SoundType.GLASS).hardnessAndResistance(100f, 1200f).setLightLevel(s -> 0)
+					.harvestLevel(6).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("spectrolite_block");
 		}
 

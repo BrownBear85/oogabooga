@@ -31,7 +31,7 @@ public class SitKeyKeyBinding extends FillerModElements.ModElement {
 	@OnlyIn(Dist.CLIENT)
 	private KeyBinding keys;
 	public SitKeyKeyBinding(FillerModElements instance) {
-		super(instance, 82);
+		super(instance, 88);
 		elements.addNetworkMessage(KeyBindingPressedMessage.class, KeyBindingPressedMessage::buffer, KeyBindingPressedMessage::new,
 				KeyBindingPressedMessage::handler);
 	}

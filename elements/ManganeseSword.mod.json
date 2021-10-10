@@ -1,0 +1,33 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "manganese_sword",
+    "customModelName": "Normal",
+    "name": "Manganese Sword",
+    "specialInfo": [
+      "§7§oStill feels a bit cold..."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:CreativeTabTools"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 7,
+    "efficiency": 17.0,
+    "attackSpeed": 1.6,
+    "enchantability": 30,
+    "damageVsEntity": 12.0,
+    "usageCount": 3200,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Spectrolite"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -23,7 +23,7 @@ public class SpectroliteDiscItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:spectrolite_disc")
 	public static final Item block = null;
 	public SpectroliteDiscItem(FillerModElements instance) {
-		super(instance, 9);
+		super(instance, 6);
 	}
 
 	@Override

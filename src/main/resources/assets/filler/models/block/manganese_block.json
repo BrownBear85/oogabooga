@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "filler:blocks/manganese_block",
+    "up": "filler:blocks/manganese_block",
+    "north": "filler:blocks/manganese_block",
+    "east": "filler:blocks/manganese_block",
+    "south": "filler:blocks/manganese_block",
+    "west": "filler:blocks/manganese_block",
+    "particle": "filler:blocks/manganese_block"
+  }
+}

@@ -26,7 +26,7 @@ public class BismuthBlockBlock extends FillerModElements.ModElement {
 	@ObjectHolder("filler:bismuth_block")
 	public static final Block block = null;
 	public BismuthBlockBlock(FillerModElements instance) {
-		super(instance, 32);
+		super(instance, 38);
 	}
 
 	@Override
@@ -37,8 +37,8 @@ public class BismuthBlockBlock extends FillerModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(5)
-					.harvestTool(ToolType.PICKAXE).setRequiresTool());
+			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(75f, 1000f).setLightLevel(s -> 0)
+					.harvestLevel(5).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("bismuth_block");
 		}
 

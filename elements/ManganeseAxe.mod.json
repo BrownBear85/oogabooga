@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "manganese_axe",
+    "customModelName": "Normal",
+    "name": "Manganese Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:CreativeTabTools"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 7,
+    "efficiency": 17.0,
+    "attackSpeed": 1.2,
+    "enchantability": 30,
+    "damageVsEntity": 15.0,
+    "usageCount": 3200,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Manganese"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": true
+  }
+}

@@ -23,7 +23,7 @@ public class BismuthPickItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:bismuth_pick")
 	public static final Item block = null;
 	public BismuthPickItem(FillerModElements instance) {
-		super(instance, 18);
+		super(instance, 19);
 	}
 
 	@Override

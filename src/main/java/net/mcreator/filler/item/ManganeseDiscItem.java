@@ -23,7 +23,7 @@ public class ManganeseDiscItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:manganese_disc")
 	public static final Item block = null;
 	public ManganeseDiscItem(FillerModElements instance) {
-		super(instance, 10);
+		super(instance, 9);
 	}
 
 	@Override

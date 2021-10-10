@@ -23,7 +23,7 @@ public class BismuthDiscItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:bismuth_disc")
 	public static final Item block = null;
 	public BismuthDiscItem(FillerModElements instance) {
-		super(instance, 8);
+		super(instance, 3);
 	}
 
 	@Override

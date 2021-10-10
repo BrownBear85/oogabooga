@@ -17,14 +17,14 @@ public class ManganesePickItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:manganese_pick")
 	public static final Item block = null;
 	public ManganesePickItem(FillerModElements instance) {
-		super(instance, 27);
+		super(instance, 29);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new PickaxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 3000;
+				return 3200;
 			}
 
 			public float getEfficiency() {
@@ -40,7 +40,7 @@ public class ManganesePickItem extends FillerModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 22;
+				return 30;
 			}
 
 			public Ingredient getRepairMaterial() {

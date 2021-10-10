@@ -34,8 +34,8 @@
     ],
     "name": "Bismuth Block",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 75.0,
+    "resistance": 1000.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {

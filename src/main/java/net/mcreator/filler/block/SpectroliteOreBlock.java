@@ -47,7 +47,7 @@ public class SpectroliteOreBlock extends FillerModElements.ModElement {
 	@ObjectHolder("filler:spectrolite_ore")
 	public static final Block block = null;
 	public SpectroliteOreBlock(FillerModElements instance) {
-		super(instance, 29);
+		super(instance, 36);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

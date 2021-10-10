@@ -23,7 +23,7 @@ public class SpectroliteHoeItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:spectrolite_hoe")
 	public static final Item block = null;
 	public SpectroliteHoeItem(FillerModElements instance) {
-		super(instance, 26);
+		super(instance, 27);
 	}
 
 	@Override
@@ -52,7 +52,7 @@ public class SpectroliteHoeItem extends FillerModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(SpectroliteItem.block));
 			}
-		}, 0, -1f, new Item.Properties().group(CreativeTabToolsItemGroup.tab)) {
+		}, 0, -1.8f, new Item.Properties().group(CreativeTabToolsItemGroup.tab)) {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);

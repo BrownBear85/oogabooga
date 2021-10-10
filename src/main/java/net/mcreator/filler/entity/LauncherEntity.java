@@ -49,7 +49,7 @@ public class LauncherEntity extends FillerModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire()
 			.size(0.1f, 0.1f)).build("launcher").setRegistryName("launcher");
 	public LauncherEntity(FillerModElements instance) {
-		super(instance, 79);
+		super(instance, 17);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new LauncherRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

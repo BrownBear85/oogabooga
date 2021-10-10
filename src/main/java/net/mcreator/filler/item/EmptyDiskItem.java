@@ -22,7 +22,7 @@ public class EmptyDiskItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:empty_disk")
 	public static final Item block = null;
 	public EmptyDiskItem(FillerModElements instance) {
-		super(instance, 7);
+		super(instance, 10);
 	}
 
 	@Override

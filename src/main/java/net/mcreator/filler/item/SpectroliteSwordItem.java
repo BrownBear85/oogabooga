@@ -23,7 +23,7 @@ public class SpectroliteSwordItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:spectrolite_sword")
 	public static final Item block = null;
 	public SpectroliteSwordItem(FillerModElements instance) {
-		super(instance, 22);
+		super(instance, 23);
 	}
 
 	@Override
@@ -34,7 +34,7 @@ public class SpectroliteSwordItem extends FillerModElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 12f;
+				return 15f;
 			}
 
 			public float getAttackDamage() {

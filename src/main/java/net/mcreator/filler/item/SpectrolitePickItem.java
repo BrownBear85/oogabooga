@@ -23,7 +23,7 @@ public class SpectrolitePickItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:spectrolite_pick")
 	public static final Item block = null;
 	public SpectrolitePickItem(FillerModElements instance) {
-		super(instance, 23);
+		super(instance, 24);
 	}
 
 	@Override

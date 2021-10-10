@@ -48,7 +48,7 @@ public class BismuthOreBlock extends FillerModElements.ModElement {
 	@ObjectHolder("filler:bismuth_ore")
 	public static final Block block = null;
 	public BismuthOreBlock(FillerModElements instance) {
-		super(instance, 28);
+		super(instance, 35);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -61,7 +61,7 @@ public class BismuthOreBlock extends FillerModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(50f, 1200f).setLightLevel(s -> 0)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(50f, 1000f).setLightLevel(s -> 0)
 					.harvestLevel(4).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("bismuth_ore");
 		}
@@ -113,8 +113,8 @@ public class BismuthOreBlock extends FillerModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 4)).range(64)
-					.square().func_242731_b(5);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 5)).range(128)
+					.square().func_242731_b(10);
 			event.getRegistry().register(feature.setRegistryName("bismuth_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("filler:bismuth_ore"), configuredFeature);
 		}

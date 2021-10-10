@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Manganese"
+      },
+      {
+        "value": "CUSTOM:Manganese"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ObsidianRod"
+      },
+      {
+        "value": "CUSTOM:Manganese"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ObsidianRod"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ManganeseAxe"
+    },
+    "name": "manganese_axe_crafting_right",
+    "namespace": "mod"
+  }
+}

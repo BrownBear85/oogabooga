@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Manganese"
+      },
+      {
+        "value": "CUSTOM:Manganese"
+      },
+      {
+        "value": "CUSTOM:Manganese"
+      },
+      {
+        "value": "CUSTOM:Manganese"
+      },
+      {
+        "value": "CUSTOM:Manganese"
+      },
+      {
+        "value": "CUSTOM:Manganese"
+      },
+      {
+        "value": "CUSTOM:Manganese"
+      },
+      {
+        "value": "CUSTOM:Manganese"
+      },
+      {
+        "value": "CUSTOM:Manganese"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ManganeseBlock"
+    },
+    "name": "manganese_block_crafting",
+    "namespace": "mod"
+  }
+}
