@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "filler:block/armor_machine"
+    },
+    "facing=east": {
+      "model": "filler:block/armor_machine",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "filler:block/armor_machine",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "filler:block/armor_machine",
+      "y": 270
+    }
+  }
+}

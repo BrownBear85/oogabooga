@@ -33,5 +33,5 @@
   "rewards": {
     "experience": 0
   },
-  "parent": "filler:get_spectrolite_pickaxe"
+  "parent": "filler:get_spectrolite"
 }

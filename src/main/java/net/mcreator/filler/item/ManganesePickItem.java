@@ -17,7 +17,7 @@ public class ManganesePickItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:manganese_pick")
 	public static final Item block = null;
 	public ManganesePickItem(FillerModElements instance) {
-		super(instance, 41);
+		super(instance, 44);
 	}
 
 	@Override

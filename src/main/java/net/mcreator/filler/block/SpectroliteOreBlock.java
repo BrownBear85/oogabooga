@@ -52,7 +52,7 @@ public class SpectroliteOreBlock extends FillerModElements.ModElement {
 	@ObjectHolder("filler:spectrolite_ore")
 	public static final Block block = null;
 	public SpectroliteOreBlock(FillerModElements instance) {
-		super(instance, 23);
+		super(instance, 27);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -123,7 +123,7 @@ public class SpectroliteOreBlock extends FillerModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 4)).range(64)
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 2)).range(64)
 					.square().func_242731_b(4);
 			event.getRegistry().register(feature.setRegistryName("spectrolite_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("filler:spectrolite_ore"), configuredFeature);

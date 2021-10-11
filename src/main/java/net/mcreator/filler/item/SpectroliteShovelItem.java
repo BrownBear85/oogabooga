@@ -23,7 +23,7 @@ public class SpectroliteShovelItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:spectrolite_shovel")
 	public static final Item block = null;
 	public SpectroliteShovelItem(FillerModElements instance) {
-		super(instance, 38);
+		super(instance, 41);
 	}
 
 	@Override

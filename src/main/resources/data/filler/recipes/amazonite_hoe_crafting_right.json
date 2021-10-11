@@ -1,0 +1,27 @@
+{
+  "group": "filler",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "2 ",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "filler:amazonite"
+    },
+    "1": {
+      "item": "filler:amazonite"
+    },
+    "2": {
+      "item": "filler:obsidian_rod"
+    },
+    "4": {
+      "item": "filler:obsidian_rod"
+    }
+  },
+  "result": {
+    "item": "filler:amazonite_hoe",
+    "count": 1
+  }
+}

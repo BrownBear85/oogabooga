@@ -22,7 +22,7 @@ public class AmazoniteItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:amazonite")
 	public static final Item block = null;
 	public AmazoniteItem(FillerModElements instance) {
-		super(instance, 17);
+		super(instance, 10);
 	}
 
 	@Override

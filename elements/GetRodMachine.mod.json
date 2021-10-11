@@ -18,7 +18,7 @@
     "rewardXP": 0,
     "achievementType": "task",
     "parent": {
-      "value": "CUSTOM:GetBismuth"
+      "value": "CUSTOM:Mineralis"
     },
     "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"block_placed\" x=\"38\" y=\"84\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:RodMachine</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
   }

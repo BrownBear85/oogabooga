@@ -23,7 +23,7 @@ public class AmazonitePickaxeItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:amazonite_pickaxe")
 	public static final Item block = null;
 	public AmazonitePickaxeItem(FillerModElements instance) {
-		super(instance, 111);
+		super(instance, 49);
 	}
 
 	@Override

@@ -23,7 +23,7 @@ public class AmazoniteHoeItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:amazonite_hoe")
 	public static final Item block = null;
 	public AmazoniteHoeItem(FillerModElements instance) {
-		super(instance, 114);
+		super(instance, 52);
 	}
 
 	@Override

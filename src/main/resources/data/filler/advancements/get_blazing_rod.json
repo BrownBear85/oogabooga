@@ -33,5 +33,5 @@
   "rewards": {
     "experience": 0
   },
-  "parent": "filler:get_spectrolite"
+  "parent": "filler:get_bismuth_pickaxe"
 }

@@ -39,12 +39,12 @@
       }
     ]
   },
-  "homedepot": {
+  "ludicrousspeed": {
     "category": "record",
-    "subtitle": "subtitles.homedepot",
+    "subtitle": "subtitles.ludicrousspeed",
     "sounds": [
       {
-        "name": "filler:homedepot",
+        "name": "filler:ludicrousspeed",
         "stream": true
       }
     ]

@@ -5,7 +5,7 @@
     "achievementName": "Mineralis",
     "achievementDescription": "This mod is about finding materials in stages",
     "achievementIcon": {
-      "value": "CUSTOM:RodMachine"
+      "value": "CUSTOM:BismuthOre"
     },
     "background": "Default",
     "disableDisplay": false,

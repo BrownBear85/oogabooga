@@ -27,5 +27,5 @@
   "rewards": {
     "experience": 0
   },
-  "parent": "filler:get_bismuth"
+  "parent": "filler:mineralis"
 }

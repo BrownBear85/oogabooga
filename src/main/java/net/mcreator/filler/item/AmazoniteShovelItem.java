@@ -23,7 +23,7 @@ public class AmazoniteShovelItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:amazonite_shovel")
 	public static final Item block = null;
 	public AmazoniteShovelItem(FillerModElements instance) {
-		super(instance, 113);
+		super(instance, 51);
 	}
 
 	@Override

@@ -51,7 +51,7 @@ public class ManganeseOreBlock extends FillerModElements.ModElement {
 	@ObjectHolder("filler:manganese_ore")
 	public static final Block block = null;
 	public ManganeseOreBlock(FillerModElements instance) {
-		super(instance, 24);
+		super(instance, 29);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

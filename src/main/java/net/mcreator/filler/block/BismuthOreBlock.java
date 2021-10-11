@@ -53,7 +53,7 @@ public class BismuthOreBlock extends FillerModElements.ModElement {
 	@ObjectHolder("filler:bismuth_ore")
 	public static final Block block = null;
 	public BismuthOreBlock(FillerModElements instance) {
-		super(instance, 22);
+		super(instance, 25);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

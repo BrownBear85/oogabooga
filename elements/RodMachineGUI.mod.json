@@ -95,6 +95,16 @@
           "x": 184,
           "y": 82
         }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rod.png",
+          "use1Xscale": false,
+          "name": "rod.png",
+          "x": 142,
+          "y": 63
+        }
       }
     ],
     "gridSettings": {

@@ -22,7 +22,7 @@ public class BlazingCrystalItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:blazing_crystal")
 	public static final Item block = null;
 	public BlazingCrystalItem(FillerModElements instance) {
-		super(instance, 10);
+		super(instance, 14);
 	}
 
 	@Override

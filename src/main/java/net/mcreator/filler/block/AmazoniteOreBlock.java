@@ -53,7 +53,7 @@ public class AmazoniteOreBlock extends FillerModElements.ModElement {
 	@ObjectHolder("filler:amazonite_ore")
 	public static final Block block = null;
 	public AmazoniteOreBlock(FillerModElements instance) {
-		super(instance, 25);
+		super(instance, 31);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

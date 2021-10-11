@@ -149,7 +149,7 @@ public class RodButtonClickedProcedure {
 				}
 			}
 			if (world instanceof ServerWorld) {
-				((ServerWorld) world).spawnParticle(ParticleTypes.SMOKE, x, (y + 0.6), z, (int) 10, 1, 1, 1, 0);
+				((ServerWorld) world).spawnParticle(ParticleTypes.SMOKE, x, (y + 0.6), z, (int) 25, 1, 1, 1, 0);
 			}
 		} else if (((((new Object() {
 			public ItemStack getItemStack(BlockPos pos, int sltid) {
@@ -236,7 +236,7 @@ public class RodButtonClickedProcedure {
 				}
 			}
 			if (world instanceof ServerWorld) {
-				((ServerWorld) world).spawnParticle(ParticleTypes.SMOKE, x, (y + 0.6), z, (int) 10, 1, 1, 1, 0);
+				((ServerWorld) world).spawnParticle(ParticleTypes.SMOKE, x, (y + 0.6), z, (int) 25, 1, 1, 1, 0);
 			}
 		} else if (((((new Object() {
 			public ItemStack getItemStack(BlockPos pos, int sltid) {
@@ -323,7 +323,7 @@ public class RodButtonClickedProcedure {
 				}
 			}
 			if (world instanceof ServerWorld) {
-				((ServerWorld) world).spawnParticle(ParticleTypes.SMOKE, x, (y + 0.6), z, (int) 10, 1, 1, 1, 0);
+				((ServerWorld) world).spawnParticle(ParticleTypes.SMOKE, x, (y + 0.6), z, (int) 25, 1, 1, 1, 0);
 			}
 		}
 	}
