@@ -53,7 +53,7 @@ public class SpectroliteNuggetItem extends FillerModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("?\u00A77\u00A7oIt's cooled down a bit"));
+			list.add(new StringTextComponent("\u00A77\u00A7oIt's cooled down a bit"));
 		}
 	}
 }
