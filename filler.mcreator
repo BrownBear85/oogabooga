@@ -34,7 +34,7 @@
     {
       "name": "SpectroliteItemInInventoryTick",
       "type": "procedure",
-      "sortid": 55,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -132,7 +132,7 @@
     {
       "name": "BismuthNuggetCrafting",
       "type": "recipe",
-      "sortid": 56,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -142,7 +142,7 @@
     {
       "name": "SpectroliteNuggetCrafting",
       "type": "recipe",
-      "sortid": 57,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -172,7 +172,7 @@
     {
       "name": "IronRodCrafting",
       "type": "recipe",
-      "sortid": 58,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -182,7 +182,7 @@
     {
       "name": "RodMachineGUI",
       "type": "gui",
-      "sortid": 59,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -202,7 +202,7 @@
     {
       "name": "RodButtonClicked",
       "type": "procedure",
-      "sortid": 60,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -236,7 +236,7 @@
     {
       "name": "BismuthPickaxeCrafting",
       "type": "recipe",
-      "sortid": 61,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -246,7 +246,7 @@
     {
       "name": "RodMachineRecipe",
       "type": "recipe",
-      "sortid": 62,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -266,7 +266,7 @@
     {
       "name": "BlazingCrystalFuel",
       "type": "fuel",
-      "sortid": 63,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -286,7 +286,7 @@
     {
       "name": "SpectrolitePickaxeCrafting",
       "type": "recipe",
-      "sortid": 64,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -296,7 +296,7 @@
     {
       "name": "BlazingCrystalRecipe",
       "type": "recipe",
-      "sortid": 65,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -326,7 +326,7 @@
     {
       "name": "ManganeseNuggetCrafting",
       "type": "recipe",
-      "sortid": 66,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -356,7 +356,7 @@
     {
       "name": "ObsidianJewelCrafting",
       "type": "recipe",
-      "sortid": 67,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -446,7 +446,7 @@
     {
       "name": "BismuthBlockCrafting",
       "type": "recipe",
-      "sortid": 68,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -456,7 +456,7 @@
     {
       "name": "SpectroliteBlockCrafting",
       "type": "recipe",
-      "sortid": 69,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -466,7 +466,7 @@
     {
       "name": "BismuthSwordCrafting",
       "type": "recipe",
-      "sortid": 70,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -476,7 +476,7 @@
     {
       "name": "BismuthAxeCrafting",
       "type": "recipe",
-      "sortid": 71,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -486,7 +486,7 @@
     {
       "name": "BismuthAxeCraftingRight",
       "type": "recipe",
-      "sortid": 72,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -496,7 +496,7 @@
     {
       "name": "BismuthShovelCrafting",
       "type": "recipe",
-      "sortid": 73,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -506,7 +506,7 @@
     {
       "name": "BismuthHoeCrafting",
       "type": "recipe",
-      "sortid": 74,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -516,7 +516,7 @@
     {
       "name": "BismuthHoeCraftingRight",
       "type": "recipe",
-      "sortid": 75,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -526,7 +526,7 @@
     {
       "name": "BismuthDiscCrafting",
       "type": "recipe",
-      "sortid": 76,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -536,7 +536,7 @@
     {
       "name": "EmptyDiscCrafting",
       "type": "recipe",
-      "sortid": 77,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -546,7 +546,7 @@
     {
       "name": "SpectroliteDiscCrafting",
       "type": "recipe",
-      "sortid": 78,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -556,7 +556,7 @@
     {
       "name": "ManganeseDiscCrafting",
       "type": "recipe",
-      "sortid": 79,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -566,7 +566,7 @@
     {
       "name": "ManganesePickaxeCrafting",
       "type": "recipe",
-      "sortid": 80,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -616,7 +616,7 @@
     {
       "name": "SpectroliteSwordCrafting",
       "type": "recipe",
-      "sortid": 81,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -626,7 +626,7 @@
     {
       "name": "SpectroliteAxeCrafting",
       "type": "recipe",
-      "sortid": 82,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -636,7 +636,7 @@
     {
       "name": "SpectroliteAxeCraftingRight",
       "type": "recipe",
-      "sortid": 83,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -646,7 +646,7 @@
     {
       "name": "SpectroliteShovelCrafting",
       "type": "recipe",
-      "sortid": 84,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -656,7 +656,7 @@
     {
       "name": "SpectroliteHoeCrafting",
       "type": "recipe",
-      "sortid": 85,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -666,7 +666,7 @@
     {
       "name": "SpectroliteHoeCraftingRight",
       "type": "recipe",
-      "sortid": 86,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -676,7 +676,7 @@
     {
       "name": "CreativeTab",
       "type": "tab",
-      "sortid": 87,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -686,7 +686,7 @@
     {
       "name": "CreativeTabBlocks",
       "type": "tab",
-      "sortid": 88,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -696,7 +696,7 @@
     {
       "name": "CreativeTabTools",
       "type": "tab",
-      "sortid": 89,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -706,7 +706,7 @@
     {
       "name": "GetBismuth",
       "type": "achievement",
-      "sortid": 90,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -716,7 +716,7 @@
     {
       "name": "GetDiamondRod",
       "type": "achievement",
-      "sortid": 91,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -726,7 +726,7 @@
     {
       "name": "GetRodMachine",
       "type": "achievement",
-      "sortid": 92,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -736,7 +736,7 @@
     {
       "name": "GetBismuthPickaxe",
       "type": "achievement",
-      "sortid": 93,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -746,7 +746,7 @@
     {
       "name": "GetDisc",
       "type": "achievement",
-      "sortid": 94,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -756,7 +756,7 @@
     {
       "name": "MusicDiscAdvancement",
       "type": "procedure",
-      "sortid": 95,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -774,7 +774,7 @@
     {
       "name": "GetSpectrolite",
       "type": "achievement",
-      "sortid": 96,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -784,7 +784,7 @@
     {
       "name": "GetBlazingRod",
       "type": "achievement",
-      "sortid": 97,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -794,7 +794,7 @@
     {
       "name": "GetSpectrolitePickaxe",
       "type": "achievement",
-      "sortid": 98,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -814,7 +814,7 @@
     {
       "name": "SitCommandExecuted",
       "type": "procedure",
-      "sortid": 99,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -848,7 +848,7 @@
     {
       "name": "Sit",
       "type": "command",
-      "sortid": 100,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -858,7 +858,7 @@
     {
       "name": "LauncherOnEntityTickUpdate",
       "type": "procedure",
-      "sortid": 101,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -876,7 +876,7 @@
     {
       "name": "SitKey",
       "type": "keybind",
-      "sortid": 102,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -886,7 +886,7 @@
     {
       "name": "SitKeyOnKeyPressed",
       "type": "procedure",
-      "sortid": 103,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -904,7 +904,7 @@
     {
       "name": "LauncherTag",
       "type": "tag",
-      "sortid": 104,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -914,7 +914,7 @@
     {
       "name": "Banana",
       "type": "block",
-      "sortid": 105,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -974,7 +974,7 @@
     {
       "name": "ManganeseBlockCrafting",
       "type": "recipe",
-      "sortid": 106,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -984,7 +984,7 @@
     {
       "name": "ManganeseSwordCrafting",
       "type": "recipe",
-      "sortid": 107,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -994,7 +994,7 @@
     {
       "name": "ManganeseAxeCrafting",
       "type": "recipe",
-      "sortid": 108,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1004,7 +1004,7 @@
     {
       "name": "ManganeseAxeCraftingRight",
       "type": "recipe",
-      "sortid": 109,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1014,7 +1014,7 @@
     {
       "name": "ManganeseShovelCrafting",
       "type": "recipe",
-      "sortid": 110,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1024,7 +1024,7 @@
     {
       "name": "ManganeseHoeCrafting",
       "type": "recipe",
-      "sortid": 111,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1034,7 +1034,7 @@
     {
       "name": "ManganeseHoeCraftingRight",
       "type": "recipe",
-      "sortid": 112,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1044,7 +1044,7 @@
     {
       "name": "GetManganese",
       "type": "achievement",
-      "sortid": 113,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1054,7 +1054,7 @@
     {
       "name": "GetObsidianRod",
       "type": "achievement",
-      "sortid": 114,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1064,7 +1064,7 @@
     {
       "name": "GetManganesePickaxe",
       "type": "achievement",
-      "sortid": 115,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1074,7 +1074,7 @@
     {
       "name": "Mineralis",
       "type": "achievement",
-      "sortid": 116,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1124,7 +1124,7 @@
     {
       "name": "AmazoniteNuggetCrafting",
       "type": "recipe",
-      "sortid": 117,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1134,7 +1134,7 @@
     {
       "name": "AmazoniteDiscCrafting",
       "type": "recipe",
-      "sortid": 118,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1160,35 +1160,6 @@
       "ids": {},
       "registry_name": "amazonite_block",
       "path": "~/Blocks"
-    },
-    {
-      "name": "BismuthBlockRedstoneOn",
-      "type": "procedure",
-      "sortid": 119,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bismuth_block_redstone_on",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
     },
     {
       "name": "AmazoniteSword",
@@ -1463,6 +1434,136 @@
       "ids": {},
       "registry_name": "obsidian_core",
       "path": "~/Items"
+    },
+    {
+      "name": "Explode",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "explode",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "cmdparams",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BismuthBlockRedstoneOn",
+      "type": "procedure",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bismuth_block_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ExplodeCommand",
+      "type": "command",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "explode_command",
+      "path": "~/Other"
+    },
+    {
+      "name": "BismuthArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bismuth_armor_armor_helmet_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BismuthArmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bismuth_armor_armor_body_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BismuthArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bismuth_armor_armor_leggings_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BismuthArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bismuth_armor_armor_boots_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BismuthArmor",
+      "type": "armor",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bismuth_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Tools"
     }
   ],
   "variable_elements": [],
@@ -1519,6 +1620,7 @@
       "item.filler.spectrolite_hoe": "Spectrolite Hoe",
       "block.filler.amazonite_ore": "Amazonite Ore",
       "advancements.get_amazonite.title": "Hidden in the amazon",
+      "item.filler.bismuth_armor_helmet": "Bismuth Helmet",
       "entity.filler.launcher": "Sittable",
       "item.filler.manganese_disc.desc": "Viscerality - Bliss",
       "advancements.get_blazing_rod.descr": "Fabricate a blazing tool rod with a blazing crystal",
@@ -1545,13 +1647,15 @@
       "advancements.get_disc.descr": "Craft a Mineralis music disc",
       "block.filler.banana": "Banana Dance",
       "item.filler.bismuth_shovel": "Bismuth Shovel",
+      "item.filler.bismuth_armor_leggings": "Bismuth Leggings",
       "item.filler.empty_disk": "Empty Disc",
       "subtitles.shiver": "False Noise - Shiver",
       "advancements.get_amazonite_pickaxe.title": "Destroying the amazon",
       "item.filler.manganese_hoe": "Manganese Hoe",
+      "item.filler.bismuth_armor_chestplate": "Bismuth Chestplate",
       "item.filler.amazonite_nugget": "Amazonite Shard",
-      "item.filler.manganese_nugget": "Manganese Nugget",
       "item.filler.bismuth_axe": "Bismuth Axe",
+      "item.filler.manganese_nugget": "Manganese Nugget",
       "item.filler.manganese_pick": "Manganese Pickaxe",
       "item.filler.bismuth_disc.desc": "Xi - Freedom Dive",
       "item.filler.diamond_rod": "Diamond Tool Rod",
@@ -1605,6 +1709,7 @@
       "item.filler.obsidian_rod": "Obsidian Tool Rod",
       "advancements.get_diamond_rod.descr": "Fabricate a diamond rod with your new factory",
       "item.filler.bismuth_nugget": "Bismuth Nugget",
+      "item.filler.bismuth_armor_boots": "Bismuth Boots",
       "subtitles.freedomdive": "Xi - Freedom Dive",
       "advancements.get_manganese_pickaxe.descr": "Craft a manganese pickaxe",
       "item.filler.manganese_sword": "Manganese Sword",

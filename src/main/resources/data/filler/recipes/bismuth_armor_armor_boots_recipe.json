@@ -1,0 +1,29 @@
+{
+  "group": "filler",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "filler:bismuth"
+    },
+    "1": {
+      "item": "filler:diamond_core"
+    },
+    "2": {
+      "item": "filler:bismuth"
+    },
+    "3": {
+      "item": "filler:bismuth"
+    },
+    "5": {
+      "item": "filler:bismuth"
+    }
+  },
+  "result": {
+    "item": "filler:bismuth_armor_boots",
+    "count": 1
+  }
+}
