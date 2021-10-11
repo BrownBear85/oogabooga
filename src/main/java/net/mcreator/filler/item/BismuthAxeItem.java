@@ -23,7 +23,7 @@ public class BismuthAxeItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:bismuth_axe")
 	public static final Item block = null;
 	public BismuthAxeItem(FillerModElements instance) {
-		super(instance, 35);
+		super(instance, 37);
 	}
 
 	@Override

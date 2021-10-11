@@ -13,7 +13,7 @@ import net.mcreator.filler.FillerModElements;
 @FillerModElements.ModElement.Tag
 public class CreativeTabBlocksItemGroup extends FillerModElements.ModElement {
 	public CreativeTabBlocksItemGroup(FillerModElements instance) {
-		super(instance, 86);
+		super(instance, 88);
 	}
 
 	@Override

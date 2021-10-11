@@ -23,7 +23,7 @@ public class BismuthShovelItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:bismuth_shovel")
 	public static final Item block = null;
 	public BismuthShovelItem(FillerModElements instance) {
-		super(instance, 36);
+		super(instance, 38);
 	}
 
 	@Override

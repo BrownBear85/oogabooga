@@ -23,7 +23,7 @@ public class ManganeseHoeItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:manganese_hoe")
 	public static final Item block = null;
 	public ManganeseHoeItem(FillerModElements instance) {
-		super(instance, 47);
+		super(instance, 49);
 	}
 
 	@Override

@@ -1,14 +1,30 @@
 package net.mcreator.filler.procedures;
 
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.TickEvent;
+import net.minecraftforge.common.MinecraftForge;
+
+import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
-import net.minecraft.world.Explosion;
+import net.minecraft.util.math.vector.Vector3d;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.AxisAlignedBB;
+import net.minecraft.nbt.CompoundNBT;
+import net.minecraft.entity.item.TNTEntity;
+import net.minecraft.entity.effect.LightningBoltEntity;
+import net.minecraft.entity.SpawnReason;
+import net.minecraft.entity.MobEntity;
+import net.minecraft.entity.ILivingEntityData;
+import net.minecraft.entity.EntityType;
+import net.minecraft.entity.Entity;
 import net.minecraft.block.Blocks;
 
 import net.mcreator.filler.FillerMod;
 
+import java.util.function.Function;
 import java.util.Map;
+import java.util.Comparator;
 
 public class BismuthBlockRedstoneOnProcedure {
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -36,9 +52,57 @@ public class BismuthBlockRedstoneOnProcedure {
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-		world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
-		if (world instanceof World && !((World) world).isRemote) {
-			((World) world).createExplosion(null, (int) x, (int) y, (int) z, (float) 100, Explosion.Mode.BREAK);
-		}
+		new Object() {
+			private int ticks = 0;
+			private float waitTicks;
+			private IWorld world;
+			public void start(IWorld world, int waitTicks) {
+				this.waitTicks = waitTicks;
+				MinecraftForge.EVENT_BUS.register(this);
+				this.world = world;
+			}
+
+			@SubscribeEvent
+			public void tick(TickEvent.ServerTickEvent event) {
+				if (event.phase == TickEvent.Phase.END) {
+					this.ticks += 1;
+					if (this.ticks >= this.waitTicks)
+						run();
+				}
+			}
+
+			private void run() {
+				if (world instanceof ServerWorld) {
+					LightningBoltEntity _ent = EntityType.LIGHTNING_BOLT.create((World) world);
+					_ent.moveForced(Vector3d.copyCenteredHorizontally(new BlockPos((int) x, (int) y, (int) z)));
+					_ent.setEffectOnly(false);
+					((World) world).addEntity(_ent);
+				}
+				world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
+				for (int index0 = 0; index0 < (int) (100); index0++) {
+					if (world instanceof ServerWorld) {
+						Entity entityToSpawn = new TNTEntity(EntityType.TNT, (World) world);
+						entityToSpawn.setLocationAndAngles(x, y, z, (float) 0, (float) 0);
+						entityToSpawn.setRenderYawOffset((float) 0);
+						entityToSpawn.setRotationYawHead((float) 0);
+						entityToSpawn.setMotion(Math.random(), Math.random(), Math.random());
+						if (entityToSpawn instanceof MobEntity)
+							((MobEntity) entityToSpawn).onInitialSpawn((ServerWorld) world,
+									world.getDifficultyForLocation(entityToSpawn.getPosition()), SpawnReason.MOB_SUMMONED, (ILivingEntityData) null,
+									(CompoundNBT) null);
+						world.addEntity(entityToSpawn);
+					}
+					((Entity) world
+							.getEntitiesWithinAABB(TNTEntity.class,
+									new AxisAlignedBB(x - (1 / 2d), y - (1 / 2d), z - (1 / 2d), x + (1 / 2d), y + (1 / 2d), z + (1 / 2d)), null)
+							.stream().sorted(new Object() {
+								Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
+									return Comparator.comparing((Function<Entity, Double>) (_entcnd -> _entcnd.getDistanceSq(_x, _y, _z)));
+								}
+							}.compareDistOf(x, y, z)).findFirst().orElse(null)).getPersistentData().putDouble("Fuse", 60);
+				}
+				MinecraftForge.EVENT_BUS.unregister(this);
+			}
+		}.start(world, (int) 20);
 	}
 }

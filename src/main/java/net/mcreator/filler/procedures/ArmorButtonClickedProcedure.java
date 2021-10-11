@@ -19,12 +19,12 @@ import net.minecraft.inventory.container.Container;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.filler.item.ObsidianRodItem;
 import net.mcreator.filler.item.ObsidianJewelItem;
+import net.mcreator.filler.item.ObsidianCoreItem;
 import net.mcreator.filler.item.IronCoreItem;
 import net.mcreator.filler.item.DiamondCoreItem;
-import net.mcreator.filler.item.BlazingRodItem;
 import net.mcreator.filler.item.BlazingCrystalItem;
+import net.mcreator.filler.item.BlazingCoreItem;
 import net.mcreator.filler.FillerMod;
 
 import java.util.function.Supplier;
@@ -215,7 +215,7 @@ public class ArmorButtonClickedProcedure {
 				TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (_ent != null) {
 					final int _sltid = (int) (2);
-					final ItemStack _setstack = new ItemStack(BlazingRodItem.block);
+					final ItemStack _setstack = new ItemStack(BlazingCoreItem.block);
 					_setstack.setCount((int) 1);
 					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable) {
@@ -302,7 +302,7 @@ public class ArmorButtonClickedProcedure {
 				TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (_ent != null) {
 					final int _sltid = (int) (2);
-					final ItemStack _setstack = new ItemStack(ObsidianRodItem.block);
+					final ItemStack _setstack = new ItemStack(ObsidianCoreItem.block);
 					_setstack.setCount((int) 1);
 					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable) {

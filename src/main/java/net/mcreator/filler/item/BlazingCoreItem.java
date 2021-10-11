@@ -18,11 +18,11 @@ import net.mcreator.filler.FillerModElements;
 import java.util.List;
 
 @FillerModElements.ModElement.Tag
-public class DiamondRodItem extends FillerModElements.ModElement {
-	@ObjectHolder("filler:diamond_rod")
+public class BlazingCoreItem extends FillerModElements.ModElement {
+	@ObjectHolder("filler:blazing_core")
 	public static final Item block = null;
-	public DiamondRodItem(FillerModElements instance) {
-		super(instance, 18);
+	public BlazingCoreItem(FillerModElements instance) {
+		super(instance, 21);
 	}
 
 	@Override
@@ -32,7 +32,7 @@ public class DiamondRodItem extends FillerModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(CreativeTabItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("diamond_rod");
+			setRegistryName("blazing_core");
 		}
 
 		@Override
@@ -53,7 +53,7 @@ public class DiamondRodItem extends FillerModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("\u00A77\u00A7oIt's beautiful and strong"));
+			list.add(new StringTextComponent("\u00A77\u00A7oYou might get a bit warm..."));
 		}
 	}
 }
