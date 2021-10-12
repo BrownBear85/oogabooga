@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "filler:bismuth_armor_chestplate"
+    },
+    "title": {
+      "translate": "advancements.get_bismuth_armor.title"
+    },
+    "description": {
+      "translate": "advancements.get_bismuth_armor.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_bismuth_armor": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "filler:get_diamond_core"
+}

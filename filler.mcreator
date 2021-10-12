@@ -1564,6 +1564,34 @@
         "ec": true
       },
       "path": "~/Tools"
+    },
+    {
+      "name": "GetBismuthArmor",
+      "type": "achievement",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "get_bismuth_armor",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "BismuthArmorAdvancement",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bismuth_armor_advancement",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [],
@@ -1624,8 +1652,8 @@
       "entity.filler.launcher": "Sittable",
       "item.filler.manganese_disc.desc": "Viscerality - Bliss",
       "advancements.get_blazing_rod.descr": "Fabricate a blazing tool rod with a blazing crystal",
-      "item.filler.amazonite": "Amazonite",
       "advancements.get_obsidian_rod.descr": "Fabricate a tool rod with an obsidian crystal",
+      "item.filler.amazonite": "Amazonite",
       "advancements.get_diamond_core.title": "Protective",
       "item.filler.manganese_shovel": "Manganese Shovel",
       "advancements.get_diamond_rod.title": "Shiny, but Durable",
@@ -1644,10 +1672,11 @@
       "subtitles.bliss": "Viscerality - Bliss",
       "item.filler.obsidian_core": "Obsidian Core",
       "item.filler.manganese_axe": "Manganese Axe",
+      "advancements.get_bismuth_armor.title": "Alienware",
       "advancements.get_disc.descr": "Craft a Mineralis music disc",
-      "block.filler.banana": "Banana Dance",
-      "item.filler.bismuth_shovel": "Bismuth Shovel",
       "item.filler.bismuth_armor_leggings": "Bismuth Leggings",
+      "item.filler.bismuth_shovel": "Bismuth Shovel",
+      "block.filler.banana": "Banana Dance",
       "item.filler.empty_disk": "Empty Disc",
       "subtitles.shiver": "False Noise - Shiver",
       "advancements.get_amazonite_pickaxe.title": "Destroying the amazon",
@@ -1697,6 +1726,7 @@
       "item.filler.bismuth_pick": "Bismuth Pickaxe",
       "item.filler.manganese": "Manganese",
       "item.filler.amazonite_axe": "Amazonite Axe",
+      "advancements.get_bismuth_armor.descr": "Wear a full set of bismuth armor",
       "advancements.mineralis.title": "Mineralis",
       "advancements.get_bismuth.title": "Rainbow Ore",
       "subtitles.ludicrousspeed": "F-777 - Ludicrous Speed",
