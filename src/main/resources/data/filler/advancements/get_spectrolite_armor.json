@@ -1,13 +1,13 @@
 {
   "display": {
     "icon": {
-      "item": "filler:bismuth_armor_chestplate"
+      "item": "filler:spectrolite_armor_chestplate"
     },
     "title": {
-      "translate": "advancements.get_bismuth_armor.title"
+      "translate": "advancements.get_spectrolite_armor.title"
     },
     "description": {
-      "translate": "advancements.get_bismuth_armor.descr"
+      "translate": "advancements.get_spectrolite_armor.descr"
     },
     "frame": "challenge",
     "show_toast": true,
@@ -15,12 +15,12 @@
     "hidden": false
   },
   "criteria": {
-    "get_bismuth_armor": {
+    "get_spectrolite_armor": {
       "trigger": "minecraft:impossible"
     }
   },
   "rewards": {
     "experience": 200
   },
-  "parent": "filler:get_diamond_core"
+  "parent": "filler:get_blazing_core"
 }

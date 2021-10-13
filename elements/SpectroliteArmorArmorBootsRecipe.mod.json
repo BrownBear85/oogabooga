@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Spectrolite"
+      },
+      {
+        "value": "CUSTOM:BlazingCore"
+      },
+      {
+        "value": "CUSTOM:Spectrolite"
+      },
+      {
+        "value": "CUSTOM:Spectrolite"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Spectrolite"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SpectroliteArmor.boots"
+    },
+    "name": "spectrolite_armor_armor_boots_recipe",
+    "namespace": "mod"
+  }
+}

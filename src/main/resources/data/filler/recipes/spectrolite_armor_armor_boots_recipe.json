@@ -1,0 +1,29 @@
+{
+  "group": "filler",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "filler:spectrolite"
+    },
+    "1": {
+      "item": "filler:blazing_core"
+    },
+    "2": {
+      "item": "filler:spectrolite"
+    },
+    "3": {
+      "item": "filler:spectrolite"
+    },
+    "5": {
+      "item": "filler:spectrolite"
+    }
+  },
+  "result": {
+    "item": "filler:spectrolite_armor_boots",
+    "count": 1
+  }
+}

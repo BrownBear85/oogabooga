@@ -25,17 +25,17 @@ import net.mcreator.filler.FillerModElements;
 import java.util.List;
 
 @FillerModElements.ModElement.Tag
-public class BismuthArmorItem extends FillerModElements.ModElement {
-	@ObjectHolder("filler:bismuth_armor_helmet")
+public class SpectroliteArmorItem extends FillerModElements.ModElement {
+	@ObjectHolder("filler:spectrolite_armor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("filler:bismuth_armor_chestplate")
+	@ObjectHolder("filler:spectrolite_armor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("filler:bismuth_armor_leggings")
+	@ObjectHolder("filler:spectrolite_armor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("filler:bismuth_armor_boots")
+	@ObjectHolder("filler:spectrolite_armor_boots")
 	public static final Item boots = null;
-	public BismuthArmorItem(FillerModElements instance) {
-		super(instance, 142);
+	public SpectroliteArmorItem(FillerModElements instance) {
+		super(instance, 150);
 	}
 
 	@Override
@@ -43,92 +43,92 @@ public class BismuthArmorItem extends FillerModElements.ModElement {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			@Override
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 15;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 20;
 			}
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{3, 6, 8, 4}[slot.getIndex()];
+				return new int[]{4, 7, 9, 5}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantability() {
-				return 25;
+				return 22;
 			}
 
 			@Override
 			public net.minecraft.util.SoundEvent getSoundEvent() {
-				return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.armor.equip_gold"));
+				return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.armor.equip_iron"));
 			}
 
 			@Override
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(BismuthItem.block));
+				return Ingredient.fromStacks(new ItemStack(SpectroliteItem.block));
 			}
 
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public String getName() {
-				return "bismuth_armor";
+				return "spectrolite_armor";
 			}
 
 			@Override
 			public float getToughness() {
-				return 4f;
+				return 5f;
 			}
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0f;
+				return 0.1f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(CreativeTabToolsItemGroup.tab)) {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("\u00A77\u00A7oDreams come true..."));
+				list.add(new StringTextComponent("\u00A77\u00A7oStill feels a bit cold..."));
 			}
 
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "filler:textures/models/armor/bismuth_armor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "filler:textures/models/armor/spectrolite_armor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("bismuth_armor_helmet"));
+		}.setRegistryName("spectrolite_armor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(CreativeTabToolsItemGroup.tab)) {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("\u00A77\u00A7oDreams come true..."));
+				list.add(new StringTextComponent("\u00A77\u00A7oStill feels a bit cold..."));
 			}
 
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "filler:textures/models/armor/bismuth_armor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "filler:textures/models/armor/spectrolite_armor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("bismuth_armor_chestplate"));
+		}.setRegistryName("spectrolite_armor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(CreativeTabToolsItemGroup.tab)) {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("\u00A77\u00A7oDreams come true..."));
+				list.add(new StringTextComponent("\u00A77\u00A7oStill feels a bit cold..."));
 			}
 
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "filler:textures/models/armor/bismuth_armor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "filler:textures/models/armor/spectrolite_armor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("bismuth_armor_leggings"));
+		}.setRegistryName("spectrolite_armor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(CreativeTabToolsItemGroup.tab)) {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("\u00A77\u00A7oDreams come true..."));
+				list.add(new StringTextComponent("\u00A77\u00A7oStill feels a bit cold..."));
 			}
 
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "filler:textures/models/armor/bismuth_armor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "filler:textures/models/armor/spectrolite_armor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("bismuth_armor_boots"));
+		}.setRegistryName("spectrolite_armor_boots"));
 	}
 }
