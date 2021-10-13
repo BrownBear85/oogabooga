@@ -11,44 +11,44 @@ import net.minecraft.entity.Entity;
 import net.minecraft.advancements.AdvancementProgress;
 import net.minecraft.advancements.Advancement;
 
-import net.mcreator.filler.item.BismuthArmorItem;
+import net.mcreator.filler.item.ManganeseArmorItem;
 import net.mcreator.filler.FillerMod;
 
 import java.util.Map;
 import java.util.Iterator;
 
-public class BismuthArmorAdvancementProcedure {
+public class ManganeseArmorAdvancementProcedure {
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				FillerMod.LOGGER.warn("Failed to load dependency entity for procedure BismuthArmorAdvancement!");
+				FillerMod.LOGGER.warn("Failed to load dependency entity for procedure ManganeseArmorAdvancement!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if ((!(((entity instanceof ServerPlayerEntity) && (entity.world instanceof ServerWorld))
 				? ((ServerPlayerEntity) entity).getAdvancements()
 						.getProgress(((MinecraftServer) ((ServerPlayerEntity) entity).server).getAdvancementManager()
-								.getAdvancement(new ResourceLocation("filler:get_bismuth_armor")))
+								.getAdvancement(new ResourceLocation("filler:get_manganese_armor")))
 						.isDone()
 				: false))) {
 			if (((((entity instanceof LivingEntity)
 					? ((LivingEntity) entity).getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 0))
-					: ItemStack.EMPTY).getItem() == BismuthArmorItem.boots)
+					: ItemStack.EMPTY).getItem() == ManganeseArmorItem.boots)
 					&& ((((entity instanceof LivingEntity)
 							? ((LivingEntity) entity)
 									.getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 1))
-							: ItemStack.EMPTY).getItem() == BismuthArmorItem.legs)
+							: ItemStack.EMPTY).getItem() == ManganeseArmorItem.legs)
 							&& ((((entity instanceof LivingEntity)
 									? ((LivingEntity) entity)
 											.getItemStackFromSlot(EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 2))
-									: ItemStack.EMPTY).getItem() == BismuthArmorItem.body)
+									: ItemStack.EMPTY).getItem() == ManganeseArmorItem.body)
 									&& (((entity instanceof LivingEntity)
 											? ((LivingEntity) entity).getItemStackFromSlot(
 													EquipmentSlotType.fromSlotTypeAndIndex(EquipmentSlotType.Group.ARMOR, (int) 3))
-											: ItemStack.EMPTY).getItem() == BismuthArmorItem.helmet))))) {
+											: ItemStack.EMPTY).getItem() == ManganeseArmorItem.helmet))))) {
 				if (entity instanceof ServerPlayerEntity) {
 					Advancement _adv = ((MinecraftServer) ((ServerPlayerEntity) entity).server).getAdvancementManager()
-							.getAdvancement(new ResourceLocation("filler:get_bismuth_armor"));
+							.getAdvancement(new ResourceLocation("filler:get_manganese_armor"));
 					AdvancementProgress _ap = ((ServerPlayerEntity) entity).getAdvancements().getProgress(_adv);
 					if (!_ap.isDone()) {
 						Iterator _iterator = _ap.getRemaningCriteria().iterator();

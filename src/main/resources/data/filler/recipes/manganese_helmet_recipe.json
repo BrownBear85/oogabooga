@@ -1,0 +1,32 @@
+{
+  "group": "filler",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "filler:manganese"
+    },
+    "1": {
+      "item": "filler:manganese"
+    },
+    "2": {
+      "item": "filler:manganese"
+    },
+    "3": {
+      "item": "filler:manganese"
+    },
+    "4": {
+      "item": "filler:obsidian_core"
+    },
+    "5": {
+      "item": "filler:manganese"
+    }
+  },
+  "result": {
+    "item": "filler:manganese_armor_helmet",
+    "count": 1
+  }
+}

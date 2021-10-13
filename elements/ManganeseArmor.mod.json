@@ -3,35 +3,35 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "bismuth_helmet",
+    "textureHelmet": "manganese_helmet",
     "enableBody": true,
-    "textureBody": "bismuth_chestplate",
+    "textureBody": "manganese_chestplate",
     "enableLeggings": true,
-    "textureLeggings": "bismuth_leggings",
+    "textureLeggings": "manganese_leggings",
     "enableBoots": true,
-    "textureBoots": "bismuth_boots",
+    "textureBoots": "manganese_boots",
     "onHelmetTick": {
-      "name": "BismuthArmorAdvancement"
+      "name": "ManganeseArmorAdvancement"
     },
     "creativeTab": {
       "value": "CUSTOM:CreativeTabTools"
     },
-    "armorTextureFile": "bismuth_armor_",
-    "helmetName": "Bismuth Helmet",
-    "bodyName": "Bismuth Chestplate",
-    "leggingsName": "Bismuth Leggings",
-    "bootsName": "Bismuth Boots",
+    "armorTextureFile": "manganese_armor_",
+    "helmetName": "Manganese Helmet",
+    "bodyName": "Manganese Body",
+    "leggingsName": "Manganese Leggings",
+    "bootsName": "Manganese Boots",
     "helmetSpecialInfo": [
-      "§7§oDreams come true..."
+      "§7§oIt's like a void"
     ],
     "bodySpecialInfo": [
-      "§7§oDreams come true..."
+      "§7§oIt's like a void"
     ],
     "leggingsSpecialInfo": [
-      "§7§oDreams come true..."
+      "§7§oIt's like a void"
     ],
     "bootsSpecialInfo": [
-      "§7§oDreams come true..."
+      "§7§oIt's like a void"
     ],
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
@@ -53,21 +53,17 @@
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
-    "maxDamage": 15,
-    "damageValueHelmet": 4,
-    "damageValueBody": 8,
-    "damageValueLeggings": 6,
-    "damageValueBoots": 3,
-    "enchantability": 25,
-    "toughness": 4.0,
-    "knockbackResistance": 0.0,
+    "maxDamage": 28,
+    "damageValueHelmet": 6,
+    "damageValueBody": 9,
+    "damageValueLeggings": 7,
+    "damageValueBoots": 5,
+    "enchantability": 30,
+    "toughness": 4.5,
+    "knockbackResistance": 0.3,
     "equipSound": {
-      "value": "item.armor.equip_gold"
+      "value": "item.armor.equip_generic"
     },
-    "repairItems": [
-      {
-        "value": "CUSTOM:Bismuth"
-      }
-    ]
+    "repairItems": []
   }
 }

@@ -1,0 +1,29 @@
+{
+  "group": "filler",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "filler:manganese"
+    },
+    "1": {
+      "item": "filler:obsidian_core"
+    },
+    "2": {
+      "item": "filler:manganese"
+    },
+    "3": {
+      "item": "filler:manganese"
+    },
+    "5": {
+      "item": "filler:manganese"
+    }
+  },
+  "result": {
+    "item": "filler:manganese_armor_boots",
+    "count": 1
+  }
+}

@@ -1694,7 +1694,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "rgb_red"
+      "registry_name": "rgb_red",
+      "path": "~/Other"
     },
     {
       "name": "RGBOrange",
@@ -1703,7 +1704,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "rgb_orange"
+      "registry_name": "rgb_orange",
+      "path": "~/Other"
     },
     {
       "name": "RGBYellow",
@@ -1712,7 +1714,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "rgb_yellow"
+      "registry_name": "rgb_yellow",
+      "path": "~/Other"
     },
     {
       "name": "RGBGreen",
@@ -1721,7 +1724,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "rgb_green"
+      "registry_name": "rgb_green",
+      "path": "~/Other"
     },
     {
       "name": "RGBBlue",
@@ -1730,7 +1734,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "rgb_blue"
+      "registry_name": "rgb_blue",
+      "path": "~/Other"
     },
     {
       "name": "RGBPurple",
@@ -1739,7 +1744,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "rgb_purple"
+      "registry_name": "rgb_purple",
+      "path": "~/Other"
     },
     {
       "name": "RGBDimension",
@@ -1751,7 +1757,102 @@
       "registry_name": "rgb_dimension",
       "metadata": {
         "ep": true
-      }
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "ManganeseArmor",
+      "type": "armor",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "manganese_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "ManganeseHelmetRecipe",
+      "type": "recipe",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "manganese_helmet_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ManganeseChestplateRecipe",
+      "type": "recipe",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "manganese_chestplate_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ManganeseLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "manganese_leggings_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ManganeseBootsRecipe",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "manganese_boots_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "GetObsidianCore",
+      "type": "achievement",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "get_obsidian_core",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "GetManganeseArmor",
+      "type": "achievement",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "get_manganese_armor",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "ManganeseArmorAdvancement",
+      "type": "procedure",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "manganese_armor_advancement",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [],
@@ -1808,7 +1909,7 @@
       "item.filler.spectrolite_sword": "Spectrolite Sword",
       "item.filler.spectrolite_hoe": "Spectrolite Hoe",
       "block.filler.amazonite_ore": "Amazonite Ore",
-      "advancements.get_blazing_core.descr": "Fabricate a blazing armor core in your armor core factory",
+      "advancements.get_blazing_core.descr": "Fabricate an armor core using a blazing crystal",
       "advancements.get_amazonite.title": "Hidden in the amazon",
       "item.filler.bismuth_armor_helmet": "Bismuth Helmet",
       "entity.filler.launcher": "Sittable",
@@ -1850,6 +1951,7 @@
       "item.filler.amazonite_nugget": "Amazonite Shard",
       "item.filler.bismuth_axe": "Bismuth Axe",
       "item.filler.manganese_nugget": "Manganese Nugget",
+      "item.filler.manganese_armor_leggings": "Manganese Leggings",
       "item.filler.manganese_pick": "Manganese Pickaxe",
       "item.filler.bismuth_disc.desc": "Xi - Freedom Dive",
       "advancements.get_spectrolite_armor.title": "Spectre",
@@ -1863,12 +1965,15 @@
       "block.filler.bismuth_block": "Bismuth Block",
       "biome.filler.rgb_blue": "RGB Blue",
       "item.filler.spectrolite_nugget": "Spectrolite Shard",
+      "item.filler.manganese_armor_chestplate": "Manganese Body",
       "item.filler.iron_core": "Iron Armor Core",
       "advancements.get_blazing_rod.title": "Won\u0027t you burn your hand?",
       "item.filler.spectrolite_disc.desc": "False Noise - Shiver",
       "block.filler.manganese_ore": "Manganese Ore",
       "item.filler.amazonite_pickaxe": "Amazonite Pickaxe",
       "block.filler.spectrolite_ore": "Spectrolite Ore",
+      "item.filler.manganese_armor_helmet": "Manganese Helmet",
+      "item.filler.manganese_armor_boots": "Manganese Boots",
       "advancements.get_spectrolite_armor.descr": "Wear a full set of spectrolite armor",
       "block.filler.rod_machine": "Tool Rod Factory",
       "advancements.get_blazing_core.title": "This will keep you warm",
@@ -1889,9 +1994,11 @@
       "advancements.get_amazonite.descr": "Find amazonite in the jungle",
       "biome.filler.rgb_yellow": "RGB Yellow",
       "itemGroup.tabcreative_tab_blocks": "Mineralis Blocks",
+      "advancements.get_obsidian_core.title": "Bulletproof",
       "item.filler.iron_rod": "Iron Rod",
       "block.filler.armor_machine": "Armor Core Factory",
       "advancements.get_manganese.descr": "Find manganese in a desert or mesa",
+      "advancements.get_manganese_armor.descr": "Wear a full set of manganese armor",
       "advancements.mineralis.descr": "This mod is about finding materials in stages",
       "item.filler.spectrolite_armor_leggings": "Spectrolite Leggings",
       "advancements.get_spectrolite.title": "Hidden in the snow",
@@ -1916,9 +2023,11 @@
       "item.filler.bismuth_armor_boots": "Bismuth Boots",
       "subtitles.freedomdive": "Xi - Freedom Dive",
       "advancements.get_manganese_pickaxe.descr": "Craft a manganese pickaxe",
+      "advancements.get_obsidian_core.descr": "Fabricate an obsidian core using an obsidian jewel",
       "item.filler.manganese_sword": "Manganese Sword",
       "advancements.get_manganese.title": "Under the sand",
       "item.filler.amazonite_shovel": "Amazonite Shovel",
+      "advancements.get_manganese_armor.title": "Become a shadow",
       "item.filler.blazing_rod": "Blazing Tool Rod",
       "item.filler.spectrolite_pick": "Spectrolite Pickaxe",
       "item.filler.obsidian_jewel": "Obsidian Jewel",

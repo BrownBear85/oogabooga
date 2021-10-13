@@ -10,6 +10,9 @@
     "textureLeggings": "spectrolite_leggings",
     "enableBoots": true,
     "textureBoots": "spectrolite_boots",
+    "onHelmetTick": {
+      "name": "SpectroliteArmorAdvancement"
+    },
     "creativeTab": {
       "value": "CUSTOM:CreativeTabTools"
     },

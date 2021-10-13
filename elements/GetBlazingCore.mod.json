@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "This will keep you warm",
-    "achievementDescription": "Fabricate a blazing armor core in your armor core factory",
+    "achievementDescription": "Fabricate an armor core using a blazing crystal",
     "achievementIcon": {
       "value": "CUSTOM:BlazingCore"
     },
