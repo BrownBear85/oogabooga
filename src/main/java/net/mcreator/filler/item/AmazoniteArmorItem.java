@@ -20,7 +20,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.util.ITooltipFlag;
 
-import net.mcreator.filler.procedures.ManganeseArmorAdvancementProcedure;
+import net.mcreator.filler.procedures.AmazoniteArmorAdvancementProcedure;
 import net.mcreator.filler.itemgroup.CreativeTabToolsItemGroup;
 import net.mcreator.filler.FillerModElements;
 
@@ -29,17 +29,17 @@ import java.util.List;
 import java.util.HashMap;
 
 @FillerModElements.ModElement.Tag
-public class ManganeseArmorItem extends FillerModElements.ModElement {
-	@ObjectHolder("filler:manganese_armor_helmet")
+public class AmazoniteArmorItem extends FillerModElements.ModElement {
+	@ObjectHolder("filler:amazonite_armor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("filler:manganese_armor_chestplate")
+	@ObjectHolder("filler:amazonite_armor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("filler:manganese_armor_leggings")
+	@ObjectHolder("filler:amazonite_armor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("filler:manganese_armor_boots")
+	@ObjectHolder("filler:amazonite_armor_boots")
 	public static final Item boots = null;
-	public ManganeseArmorItem(FillerModElements instance) {
-		super(instance, 164);
+	public AmazoniteArmorItem(FillerModElements instance) {
+		super(instance, 172);
 	}
 
 	@Override
@@ -47,55 +47,55 @@ public class ManganeseArmorItem extends FillerModElements.ModElement {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			@Override
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 28;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 30;
 			}
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{5, 7, 9, 6}[slot.getIndex()];
+				return new int[]{5, 8, 10, 6}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantability() {
-				return 30;
+				return 26;
 			}
 
 			@Override
 			public net.minecraft.util.SoundEvent getSoundEvent() {
-				return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.armor.equip_generic"));
+				return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.glass.hit"));
 			}
 
 			@Override
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(ManganeseItem.block));
+				return Ingredient.fromStacks(new ItemStack(AmazoniteItem.block));
 			}
 
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public String getName() {
-				return "manganese_armor";
+				return "amazonite_armor";
 			}
 
 			@Override
 			public float getToughness() {
-				return 4.5f;
+				return 5f;
 			}
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0.3f;
+				return 0f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(CreativeTabToolsItemGroup.tab)) {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("\u00A77\u00A7oIt's like a void"));
+				list.add(new StringTextComponent("\u00A77\u00A7oFrom the jungle!"));
 			}
 
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "filler:textures/models/armor/manganese_armor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "filler:textures/models/armor/amazonite_armor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 
 			@Override
@@ -107,45 +107,45 @@ public class ManganeseArmorItem extends FillerModElements.ModElement {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
-					ManganeseArmorAdvancementProcedure.executeProcedure($_dependencies);
+					AmazoniteArmorAdvancementProcedure.executeProcedure($_dependencies);
 				}
 			}
-		}.setRegistryName("manganese_armor_helmet"));
+		}.setRegistryName("amazonite_armor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(CreativeTabToolsItemGroup.tab)) {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("\u00A77\u00A7oIt's like a void"));
+				list.add(new StringTextComponent("\u00A77\u00A7oFrom the jungle!"));
 			}
 
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "filler:textures/models/armor/manganese_armor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "filler:textures/models/armor/amazonite_armor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("manganese_armor_chestplate"));
+		}.setRegistryName("amazonite_armor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(CreativeTabToolsItemGroup.tab)) {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("\u00A77\u00A7oIt's like a void"));
+				list.add(new StringTextComponent("\u00A77\u00A7oFrom the jungle!"));
 			}
 
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "filler:textures/models/armor/manganese_armor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "filler:textures/models/armor/amazonite_armor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("manganese_armor_leggings"));
+		}.setRegistryName("amazonite_armor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(CreativeTabToolsItemGroup.tab)) {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("\u00A77\u00A7oIt's like a void"));
+				list.add(new StringTextComponent("\u00A77\u00A7oFrom the jungle!"));
 			}
 
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "filler:textures/models/armor/manganese_armor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "filler:textures/models/armor/amazonite_armor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("manganese_armor_boots"));
+		}.setRegistryName("amazonite_armor_boots"));
 	}
 }

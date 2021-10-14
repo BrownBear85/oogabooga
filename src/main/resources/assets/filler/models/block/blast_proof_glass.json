@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "filler:blocks/blastproof_glass",
+    "up": "filler:blocks/blastproof_glass",
+    "north": "filler:blocks/blastproof_glass",
+    "east": "filler:blocks/blastproof_glass",
+    "south": "filler:blocks/blastproof_glass",
+    "west": "filler:blocks/blastproof_glass",
+    "particle": "filler:blocks/blastproof_glass"
+  }
+}

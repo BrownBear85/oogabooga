@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Amazonite"
+      },
+      {
+        "value": "CUSTOM:ObsidianCore"
+      },
+      {
+        "value": "CUSTOM:Amazonite"
+      },
+      {
+        "value": "CUSTOM:Amazonite"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Amazonite"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AmazoniteArmor.boots"
+    },
+    "name": "amazonite_boots_recipe",
+    "namespace": "mod"
+  }
+}

@@ -2,7 +2,7 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "maganese_ore",
+    "texture": "nuke",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -11,7 +11,7 @@
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
@@ -32,29 +32,29 @@
         "subtract": false
       }
     ],
-    "name": "Manganese Ore",
+    "name": "Nuke",
     "specialInfo": [
-      "§7§oDark shapes protrude from the stone"
+      "§7§oYou can't pick it back up..."
     ],
     "hardness": 100.0,
-    "resistance": 1200.0,
-    "hasGravity": false,
+    "resistance": 0.0,
+    "hasGravity": true,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:CreativeTabBlocks"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
-    "canRedstoneConnect": false,
+    "canRedstoneConnect": true,
     "lightOpacity": 15,
     "material": {
-      "value": "ROCK"
+      "value": "ANVIL"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -75,11 +75,11 @@
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "NORMAL",
+    "reactionToPushing": "IGNORE",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "METAL"
     },
     "breakSound": {
       "value": ""
@@ -123,47 +123,19 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Surface",
-      "CUSTOM:RGBDimension"
-    ],
-    "restrictionBiomes": [
-      {
-        "value": "desert"
-      },
-      {
-        "value": "desert_hills"
-      },
-      {
-        "value": "mutated_desert"
-      },
-      {
-        "value": "mutated_desert"
-      },
-      {
-        "value": "badlands"
-      },
-      {
-        "value": "badlands_plateau"
-      },
-      {
-        "value": "mutated_mesa"
-      },
-      {
-        "value": "mutated_mesa_clear_rock"
-      },
-      {
-        "value": "mutated_mesa_rock"
-      }
-    ],
+    "onDestroyedByExplosion": {
+      "name": "NukeActivated"
+    },
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 4,
-    "frequencyOnChunk": 4,
-    "minGenerateHeight": 32,
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
     "maxGenerateHeight": 64
   }
 }

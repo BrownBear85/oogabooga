@@ -3,35 +3,35 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "manganese_helmet",
+    "textureHelmet": "amazonite_helmet",
     "enableBody": true,
-    "textureBody": "manganese_chestplate",
+    "textureBody": "amazonite_chestplate",
     "enableLeggings": true,
-    "textureLeggings": "manganese_leggings",
+    "textureLeggings": "amazonite_leggings",
     "enableBoots": true,
-    "textureBoots": "manganese_boots",
+    "textureBoots": "amazonite_boots",
     "onHelmetTick": {
-      "name": "ManganeseArmorAdvancement"
+      "name": "AmazoniteArmorAdvancement"
     },
     "creativeTab": {
       "value": "CUSTOM:CreativeTabTools"
     },
-    "armorTextureFile": "manganese_armor_",
-    "helmetName": "Manganese Helmet",
-    "bodyName": "Manganese Body",
-    "leggingsName": "Manganese Leggings",
-    "bootsName": "Manganese Boots",
+    "armorTextureFile": "amazonite_armor_",
+    "helmetName": "Amazonite Helmet",
+    "bodyName": "Amazonite Chestplate",
+    "leggingsName": "Amazonite Leggings",
+    "bootsName": "Amazonite Boots",
     "helmetSpecialInfo": [
-      "§7§oIt's like a void"
+      "§7§oFrom the jungle!"
     ],
     "bodySpecialInfo": [
-      "§7§oIt's like a void"
+      "§7§oFrom the jungle!"
     ],
     "leggingsSpecialInfo": [
-      "§7§oIt's like a void"
+      "§7§oFrom the jungle!"
     ],
     "bootsSpecialInfo": [
-      "§7§oIt's like a void"
+      "§7§oFrom the jungle!"
     ],
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
@@ -53,20 +53,20 @@
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
-    "maxDamage": 28,
+    "maxDamage": 30,
     "damageValueHelmet": 6,
-    "damageValueBody": 9,
-    "damageValueLeggings": 7,
+    "damageValueBody": 10,
+    "damageValueLeggings": 8,
     "damageValueBoots": 5,
-    "enchantability": 30,
-    "toughness": 4.5,
-    "knockbackResistance": 0.3,
+    "enchantability": 26,
+    "toughness": 5.0,
+    "knockbackResistance": 0.0,
     "equipSound": {
-      "value": "item.armor.equip_generic"
+      "value": "block.glass.hit"
     },
     "repairItems": [
       {
-        "value": "CUSTOM:Manganese"
+        "value": "CUSTOM:Amazonite"
       }
     ]
   }

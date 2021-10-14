@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "filler:amazonite_armor_chestplate"
+    },
+    "title": {
+      "translate": "advancements.get_amazonite_armor.title"
+    },
+    "description": {
+      "translate": "advancements.get_amazonite_armor.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_amazonite_armor": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 200
+  },
+  "parent": "filler:get_obsidian_core"
+}

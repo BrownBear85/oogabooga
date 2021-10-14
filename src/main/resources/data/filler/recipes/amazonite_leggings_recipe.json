@@ -1,0 +1,39 @@
+{
+  "group": "filler",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "filler:amazonite"
+    },
+    "1": {
+      "item": "filler:amazonite"
+    },
+    "2": {
+      "item": "filler:amazonite"
+    },
+    "3": {
+      "item": "filler:amazonite"
+    },
+    "4": {
+      "item": "filler:obsidian_core"
+    },
+    "5": {
+      "item": "filler:amazonite"
+    },
+    "6": {
+      "item": "filler:amazonite"
+    },
+    "8": {
+      "item": "filler:amazonite"
+    }
+  },
+  "result": {
+    "item": "filler:amazonite_armor_leggings",
+    "count": 1
+  }
+}
