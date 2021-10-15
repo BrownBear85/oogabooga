@@ -1863,54 +1863,6 @@
         ]
       },
       "path": "~/Procedures"
-    },
-    {
-      "name": "NukeActivated",
-      "type": "procedure",
-      "sortid": 179,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "nuke_activated",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Nuke",
-      "type": "block",
-      "sortid": 179,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "nuke",
-      "path": "~/Blocks"
-    },
-    {
-      "name": "BlastProofGlass",
-      "type": "block",
-      "sortid": 180,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "blast_proof_glass"
     }
   ],
   "variable_elements": [],
@@ -1968,8 +1920,8 @@
       "item.filler.spectrolite_hoe": "Spectrolite Hoe",
       "block.filler.amazonite_ore": "Amazonite Ore",
       "advancements.get_blazing_core.descr": "Fabricate an armor core using a blazing crystal",
-      "advancements.get_amazonite.title": "Hidden in the amazon",
       "item.filler.bismuth_armor_helmet": "Bismuth Helmet",
+      "advancements.get_amazonite.title": "Hidden in the amazon",
       "entity.filler.launcher": "Sittable",
       "item.filler.manganese_disc.desc": "Viscerality - Bliss",
       "item.filler.spectrolite_armor_helmet": "Spectrolite Helmet",
@@ -2009,7 +1961,6 @@
       "advancements.get_amazonite_pickaxe.title": "Destroying the amazon",
       "item.filler.manganese_hoe": "Manganese Hoe",
       "item.filler.bismuth_armor_chestplate": "Bismuth Chestplate",
-      "block.filler.nuke": "Nuke",
       "item.filler.amazonite_nugget": "Amazonite Shard",
       "item.filler.bismuth_axe": "Bismuth Axe",
       "item.filler.manganese_nugget": "Manganese Nugget",
@@ -2058,7 +2009,6 @@
       "advancements.get_amazonite.descr": "Find amazonite in the jungle",
       "biome.filler.rgb_yellow": "RGB Yellow",
       "itemGroup.tabcreative_tab_blocks": "Mineralis Blocks",
-      "block.filler.blast_proof_glass": "Blast-Proof Glass",
       "advancements.get_obsidian_core.title": "Bulletproof",
       "item.filler.iron_rod": "Iron Rod",
       "block.filler.armor_machine": "Armor Core Factory",
