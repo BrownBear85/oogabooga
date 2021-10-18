@@ -23,7 +23,7 @@ public class AmazoniteSwordItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:amazonite_sword")
 	public static final Item block = null;
 	public AmazoniteSwordItem(FillerModElements instance) {
-		super(instance, 50);
+		super(instance, 60);
 	}
 
 	@Override

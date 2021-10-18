@@ -51,7 +51,7 @@ public class ManganeseOreBlock extends FillerModElements.ModElement {
 	@ObjectHolder("filler:manganese_ore")
 	public static final Block block = null;
 	public ManganeseOreBlock(FillerModElements instance) {
-		super(instance, 31);
+		super(instance, 37);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -117,7 +117,7 @@ public class ManganeseOreBlock extends FillerModElements.ModElement {
 					boolean dimensionCriteria = false;
 					if (dimensionType == World.OVERWORLD)
 						dimensionCriteria = true;
-					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("filler:rgb_dimension")))
+					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("filler:deleted_mod_element")))
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;

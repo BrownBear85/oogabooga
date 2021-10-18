@@ -48,5 +48,15 @@
         "stream": true
       }
     ]
+  },
+  "fire": {
+    "category": "record",
+    "subtitle": "subtitles.fire",
+    "sounds": [
+      {
+        "name": "filler:fire",
+        "stream": true
+      }
+    ]
   }
 }

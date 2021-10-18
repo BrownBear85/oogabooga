@@ -1,0 +1,42 @@
+{
+  "group": "filler",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "filler:neptunite"
+    },
+    "1": {
+      "item": "filler:neptunite"
+    },
+    "2": {
+      "item": "filler:neptunite"
+    },
+    "3": {
+      "item": "filler:neptunite"
+    },
+    "4": {
+      "item": "filler:neptunite"
+    },
+    "5": {
+      "item": "filler:neptunite"
+    },
+    "6": {
+      "item": "filler:neptunite"
+    },
+    "7": {
+      "item": "filler:neptunite"
+    },
+    "8": {
+      "item": "filler:neptunite"
+    }
+  },
+  "result": {
+    "item": "filler:neptunite_block",
+    "count": 1
+  }
+}

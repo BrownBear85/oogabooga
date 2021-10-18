@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Biotite"
+      },
+      {
+        "value": "CUSTOM:Biotite"
+      },
+      {
+        "value": "CUSTOM:Biotite"
+      },
+      {
+        "value": "CUSTOM:Biotite"
+      },
+      {
+        "value": "CUSTOM:Biotite"
+      },
+      {
+        "value": "CUSTOM:Biotite"
+      },
+      {
+        "value": "CUSTOM:Biotite"
+      },
+      {
+        "value": "CUSTOM:Biotite"
+      },
+      {
+        "value": "CUSTOM:Biotite"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BiotiteBlock"
+    },
+    "name": "biotite_block_crafting",
+    "namespace": "mod"
+  }
+}

@@ -23,7 +23,7 @@ public class ManganeseAxeItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:manganese_axe")
 	public static final Item block = null;
 	public ManganeseAxeItem(FillerModElements instance) {
-		super(instance, 47);
+		super(instance, 57);
 	}
 
 	@Override

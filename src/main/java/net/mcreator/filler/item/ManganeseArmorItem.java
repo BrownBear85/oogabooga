@@ -39,7 +39,7 @@ public class ManganeseArmorItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:manganese_armor_boots")
 	public static final Item boots = null;
 	public ManganeseArmorItem(FillerModElements instance) {
-		super(instance, 164);
+		super(instance, 67);
 	}
 
 	@Override

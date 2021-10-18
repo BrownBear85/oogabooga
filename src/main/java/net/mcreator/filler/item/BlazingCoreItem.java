@@ -22,7 +22,7 @@ public class BlazingCoreItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:blazing_core")
 	public static final Item block = null;
 	public BlazingCoreItem(FillerModElements instance) {
-		super(instance, 21);
+		super(instance, 27);
 	}
 
 	@Override

@@ -22,7 +22,7 @@ public class DiamondRodItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:diamond_rod")
 	public static final Item block = null;
 	public DiamondRodItem(FillerModElements instance) {
-		super(instance, 18);
+		super(instance, 24);
 	}
 
 	@Override

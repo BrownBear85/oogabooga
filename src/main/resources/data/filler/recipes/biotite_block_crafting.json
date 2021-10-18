@@ -1,0 +1,42 @@
+{
+  "group": "filler",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "filler:biotite"
+    },
+    "1": {
+      "item": "filler:biotite"
+    },
+    "2": {
+      "item": "filler:biotite"
+    },
+    "3": {
+      "item": "filler:biotite"
+    },
+    "4": {
+      "item": "filler:biotite"
+    },
+    "5": {
+      "item": "filler:biotite"
+    },
+    "6": {
+      "item": "filler:biotite"
+    },
+    "7": {
+      "item": "filler:biotite"
+    },
+    "8": {
+      "item": "filler:biotite"
+    }
+  },
+  "result": {
+    "item": "filler:biotite_block",
+    "count": 1
+  }
+}

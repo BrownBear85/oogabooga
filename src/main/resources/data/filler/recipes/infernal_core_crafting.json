@@ -1,0 +1,42 @@
+{
+  "group": "filler",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "1": {
+      "item": "minecraft:gilded_blackstone"
+    },
+    "2": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "3": {
+      "item": "minecraft:gilded_blackstone"
+    },
+    "4": {
+      "item": "filler:nether_star_nugget"
+    },
+    "5": {
+      "item": "minecraft:gilded_blackstone"
+    },
+    "6": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "7": {
+      "item": "minecraft:gilded_blackstone"
+    },
+    "8": {
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "result": {
+    "item": "filler:infernal_core",
+    "count": 1
+  }
+}

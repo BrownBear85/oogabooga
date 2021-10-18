@@ -53,7 +53,7 @@ public class BismuthOreBlock extends FillerModElements.ModElement {
 	@ObjectHolder("filler:bismuth_ore")
 	public static final Block block = null;
 	public BismuthOreBlock(FillerModElements instance) {
-		super(instance, 27);
+		super(instance, 33);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -120,7 +120,7 @@ public class BismuthOreBlock extends FillerModElements.ModElement {
 					boolean dimensionCriteria = false;
 					if (dimensionType == World.OVERWORLD)
 						dimensionCriteria = true;
-					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("filler:rgb_dimension")))
+					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("filler:deleted_mod_element")))
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;

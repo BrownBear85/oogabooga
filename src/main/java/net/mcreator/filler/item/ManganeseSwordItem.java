@@ -23,7 +23,7 @@ public class ManganeseSwordItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:manganese_sword")
 	public static final Item block = null;
 	public ManganeseSwordItem(FillerModElements instance) {
-		super(instance, 45);
+		super(instance, 55);
 	}
 
 	@Override

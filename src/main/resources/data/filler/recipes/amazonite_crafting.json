@@ -1,0 +1,42 @@
+{
+  "group": "filler",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "filler:amazonite_nugget"
+    },
+    "1": {
+      "item": "filler:amazonite_nugget"
+    },
+    "2": {
+      "item": "filler:amazonite_nugget"
+    },
+    "3": {
+      "item": "filler:amazonite_nugget"
+    },
+    "4": {
+      "item": "filler:amazonite_nugget"
+    },
+    "5": {
+      "item": "filler:amazonite_nugget"
+    },
+    "6": {
+      "item": "filler:amazonite_nugget"
+    },
+    "7": {
+      "item": "filler:amazonite_nugget"
+    },
+    "8": {
+      "item": "filler:amazonite_nugget"
+    }
+  },
+  "result": {
+    "item": "filler:amazonite",
+    "count": 1
+  }
+}

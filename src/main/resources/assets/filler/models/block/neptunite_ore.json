@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "filler:blocks/neptunite_ore",
+    "up": "filler:blocks/neptunite_ore",
+    "north": "filler:blocks/neptunite_ore",
+    "east": "filler:blocks/neptunite_ore",
+    "south": "filler:blocks/neptunite_ore",
+    "west": "filler:blocks/neptunite_ore",
+    "particle": "filler:blocks/neptunite_ore"
+  }
+}

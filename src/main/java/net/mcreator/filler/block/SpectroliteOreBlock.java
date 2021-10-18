@@ -52,7 +52,7 @@ public class SpectroliteOreBlock extends FillerModElements.ModElement {
 	@ObjectHolder("filler:spectrolite_ore")
 	public static final Block block = null;
 	public SpectroliteOreBlock(FillerModElements instance) {
-		super(instance, 29);
+		super(instance, 35);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -118,7 +118,7 @@ public class SpectroliteOreBlock extends FillerModElements.ModElement {
 					boolean dimensionCriteria = false;
 					if (dimensionType == World.OVERWORLD)
 						dimensionCriteria = true;
-					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("filler:rgb_dimension")))
+					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("filler:deleted_mod_element")))
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;

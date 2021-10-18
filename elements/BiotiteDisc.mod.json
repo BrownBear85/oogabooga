@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "biotite_disc",
+    "name": "Biotite Disc",
+    "description": "TheFatRat - Fire",
+    "creativeTab": {
+      "value": "CUSTOM:CreativeTab"
+    },
+    "music": {
+      "value": "CUSTOM:fire"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

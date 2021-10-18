@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "neptunite_disc",
+    "name": "Neptunite Disc",
+    "description": "F-777 - Ludicrous Speed",
+    "creativeTab": {
+      "value": "CUSTOM:CreativeTab"
+    },
+    "music": {
+      "value": "CUSTOM:ludicrousspeed"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

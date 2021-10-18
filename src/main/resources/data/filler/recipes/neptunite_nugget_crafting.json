@@ -1,0 +1,16 @@
+{
+  "group": "filler",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "filler:neptunite"
+    }
+  },
+  "result": {
+    "item": "filler:neptunite_nugget",
+    "count": 9
+  }
+}

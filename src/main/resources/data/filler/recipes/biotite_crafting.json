@@ -1,0 +1,42 @@
+{
+  "group": "filler",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "filler:biotite_nugget"
+    },
+    "1": {
+      "item": "filler:biotite_nugget"
+    },
+    "2": {
+      "item": "filler:biotite_nugget"
+    },
+    "3": {
+      "item": "filler:biotite_nugget"
+    },
+    "4": {
+      "item": "filler:biotite_nugget"
+    },
+    "5": {
+      "item": "filler:biotite_nugget"
+    },
+    "6": {
+      "item": "filler:biotite_nugget"
+    },
+    "7": {
+      "item": "filler:biotite_nugget"
+    },
+    "8": {
+      "item": "filler:biotite_nugget"
+    }
+  },
+  "result": {
+    "item": "filler:biotite",
+    "count": 1
+  }
+}

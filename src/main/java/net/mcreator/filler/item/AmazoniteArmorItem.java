@@ -39,7 +39,7 @@ public class AmazoniteArmorItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:amazonite_armor_boots")
 	public static final Item boots = null;
 	public AmazoniteArmorItem(FillerModElements instance) {
-		super(instance, 172);
+		super(instance, 68);
 	}
 
 	@Override

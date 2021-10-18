@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "filler:blocks/biotite_block",
+    "up": "filler:blocks/biotite_block",
+    "north": "filler:blocks/biotite_block",
+    "east": "filler:blocks/biotite_block",
+    "south": "filler:blocks/biotite_block",
+    "west": "filler:blocks/biotite_block",
+    "particle": "filler:blocks/biotite_block"
+  }
+}

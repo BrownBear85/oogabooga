@@ -23,7 +23,7 @@ public class SpectroliteHoeItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:spectrolite_hoe")
 	public static final Item block = null;
 	public SpectroliteHoeItem(FillerModElements instance) {
-		super(instance, 44);
+		super(instance, 54);
 	}
 
 	@Override

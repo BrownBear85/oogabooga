@@ -22,7 +22,7 @@ public class IronCoreItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:iron_core")
 	public static final Item block = null;
 	public IronCoreItem(FillerModElements instance) {
-		super(instance, 17);
+		super(instance, 23);
 	}
 
 	@Override
