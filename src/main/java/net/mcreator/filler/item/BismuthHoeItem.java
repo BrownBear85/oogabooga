@@ -23,7 +23,7 @@ public class BismuthHoeItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:bismuth_hoe")
 	public static final Item block = null;
 	public BismuthHoeItem(FillerModElements instance) {
-		super(instance, 49);
+		super(instance, 52);
 	}
 
 	@Override

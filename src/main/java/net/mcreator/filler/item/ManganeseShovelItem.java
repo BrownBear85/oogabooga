@@ -23,7 +23,7 @@ public class ManganeseShovelItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:manganese_shovel")
 	public static final Item block = null;
 	public ManganeseShovelItem(FillerModElements instance) {
-		super(instance, 58);
+		super(instance, 61);
 	}
 
 	@Override

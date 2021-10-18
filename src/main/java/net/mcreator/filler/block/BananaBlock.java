@@ -29,7 +29,7 @@ public class BananaBlock extends FillerModElements.ModElement {
 	@ObjectHolder("filler:banana")
 	public static final Block block = null;
 	public BananaBlock(FillerModElements instance) {
-		super(instance, 120);
+		super(instance, 123);
 	}
 
 	@Override

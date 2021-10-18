@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "infernal_rod",
+    "texture": "netherite_rod",
     "customModelName": "Normal",
-    "name": "Infernal Tool Rod",
+    "name": "Netherite Tool Rod",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:CreativeTab"
@@ -24,7 +24,9 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [],
+    "specialInfo": [
+      "§7§oIt's beautiful and strong"
+    ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,

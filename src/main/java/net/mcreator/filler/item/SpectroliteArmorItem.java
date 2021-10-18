@@ -39,7 +39,7 @@ public class SpectroliteArmorItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:spectrolite_armor_boots")
 	public static final Item boots = null;
 	public SpectroliteArmorItem(FillerModElements instance) {
-		super(instance, 66);
+		super(instance, 69);
 	}
 
 	@Override

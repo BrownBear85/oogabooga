@@ -18,7 +18,7 @@ public class NetherStarNuggetItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:nether_star_nugget")
 	public static final Item block = null;
 	public NetherStarNuggetItem(FillerModElements instance) {
-		super(instance, 30);
+		super(instance, 22);
 	}
 
 	@Override

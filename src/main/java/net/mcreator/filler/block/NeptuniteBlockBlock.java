@@ -25,7 +25,7 @@ public class NeptuniteBlockBlock extends FillerModElements.ModElement {
 	@ObjectHolder("filler:neptunite_block")
 	public static final Block block = null;
 	public NeptuniteBlockBlock(FillerModElements instance) {
-		super(instance, 44);
+		super(instance, 47);
 	}
 
 	@Override

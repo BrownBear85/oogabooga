@@ -22,7 +22,7 @@ public class BlazingRodItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:blazing_rod")
 	public static final Item block = null;
 	public BlazingRodItem(FillerModElements instance) {
-		super(instance, 26);
+		super(instance, 28);
 	}
 
 	@Override

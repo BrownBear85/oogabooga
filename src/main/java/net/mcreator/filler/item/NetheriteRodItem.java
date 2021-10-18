@@ -3,20 +3,26 @@ package net.mcreator.filler.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
+import net.minecraft.world.World;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.filler.itemgroup.CreativeTabItemGroup;
 import net.mcreator.filler.FillerModElements;
 
+import java.util.List;
+
 @FillerModElements.ModElement.Tag
-public class InfernalCoreItem extends FillerModElements.ModElement {
-	@ObjectHolder("filler:infernal_core")
+public class NetheriteRodItem extends FillerModElements.ModElement {
+	@ObjectHolder("filler:netherite_rod")
 	public static final Item block = null;
-	public InfernalCoreItem(FillerModElements instance) {
-		super(instance, 23);
+	public NetheriteRodItem(FillerModElements instance) {
+		super(instance, 32);
 	}
 
 	@Override
@@ -26,7 +32,7 @@ public class InfernalCoreItem extends FillerModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(CreativeTabItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("infernal_core");
+			setRegistryName("netherite_rod");
 		}
 
 		@Override
@@ -42,6 +48,12 @@ public class InfernalCoreItem extends FillerModElements.ModElement {
 		@Override
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
+		}
+
+		@Override
+		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
+			super.addInformation(itemstack, world, list, flag);
+			list.add(new StringTextComponent("\u00A77\u00A7oIt's beautiful and strong"));
 		}
 	}
 }

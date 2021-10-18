@@ -75,7 +75,7 @@ public class ArmorMachineBlock extends FillerModElements.ModElement {
 	@ObjectHolder("filler:armor_machine")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public ArmorMachineBlock(FillerModElements instance) {
-		super(instance, 32);
+		super(instance, 35);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 

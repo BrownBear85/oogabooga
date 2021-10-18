@@ -23,7 +23,7 @@ public class SpectroliteAxeItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:spectrolite_axe")
 	public static final Item block = null;
 	public SpectroliteAxeItem(FillerModElements instance) {
-		super(instance, 52);
+		super(instance, 55);
 	}
 
 	@Override

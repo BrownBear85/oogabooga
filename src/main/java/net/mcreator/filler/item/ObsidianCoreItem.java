@@ -22,7 +22,7 @@ public class ObsidianCoreItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:obsidian_core")
 	public static final Item block = null;
 	public ObsidianCoreItem(FillerModElements instance) {
-		super(instance, 29);
+		super(instance, 31);
 	}
 
 	@Override

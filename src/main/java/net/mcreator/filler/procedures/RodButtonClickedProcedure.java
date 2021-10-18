@@ -21,6 +21,7 @@ import net.minecraft.entity.Entity;
 
 import net.mcreator.filler.item.ObsidianRodItem;
 import net.mcreator.filler.item.ObsidianJewelItem;
+import net.mcreator.filler.item.NetheriteRodItem;
 import net.mcreator.filler.item.IronRodItem;
 import net.mcreator.filler.item.InfernalRodItem;
 import net.mcreator.filler.item.InfernalCoreItem;
@@ -392,6 +393,93 @@ public class RodButtonClickedProcedure {
 				if (_ent != null) {
 					final int _sltid = (int) (2);
 					final ItemStack _setstack = new ItemStack(InfernalRodItem.block);
+					_setstack.setCount((int) 1);
+					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+						if (capability instanceof IItemHandlerModifiable) {
+							((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
+						}
+					});
+				}
+			}
+			if ((world.isRemote())) {
+				if (world instanceof World && !world.isRemote()) {
+					((World) world).playSound(null, new BlockPos((int) x, (int) y, (int) z),
+							(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.anvil.use")),
+							SoundCategory.BLOCKS, (float) 1, (float) 1);
+				} else {
+					((World) world).playSound(x, y, z,
+							(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.anvil.use")),
+							SoundCategory.BLOCKS, (float) 1, (float) 1, false);
+				}
+			}
+			if (world instanceof ServerWorld) {
+				((ServerWorld) world).spawnParticle(ParticleTypes.SMOKE, x, (y + 0.6), z, (int) 25, 1, 1, 1, 0);
+			}
+		} else if (((((new Object() {
+			public ItemStack getItemStack(BlockPos pos, int sltid) {
+				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+				TileEntity _ent = world.getTileEntity(pos);
+				if (_ent != null) {
+					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+						_retval.set(capability.getStackInSlot(sltid).copy());
+					});
+				}
+				return _retval.get();
+			}
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == DiamondRodItem.block) && ((new Object() {
+			public ItemStack getItemStack(BlockPos pos, int sltid) {
+				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+				TileEntity _ent = world.getTileEntity(pos);
+				if (_ent != null) {
+					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+						_retval.set(capability.getStackInSlot(sltid).copy());
+					});
+				}
+				return _retval.get();
+			}
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == Items.NETHERITE_SCRAP)) && ((new Object() {
+			public int getAmount(IWorld world, BlockPos pos, int sltid) {
+				AtomicInteger _retval = new AtomicInteger(0);
+				TileEntity _ent = world.getTileEntity(pos);
+				if (_ent != null) {
+					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+						_retval.set(capability.getStackInSlot(sltid).getCount());
+					});
+				}
+				return _retval.get();
+			}
+		}.getAmount(world, new BlockPos((int) x, (int) y, (int) z), (int) (2))) == 0))) {
+			{
+				Entity _ent = entity;
+				if (_ent instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) _ent).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (0))).decrStackSize((int) (1));
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+			}
+			{
+				Entity _ent = entity;
+				if (_ent instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) _ent).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							((Slot) ((Map) invobj).get((int) (1))).decrStackSize((int) (1));
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+			}
+			{
+				TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+				if (_ent != null) {
+					final int _sltid = (int) (2);
+					final ItemStack _setstack = new ItemStack(NetheriteRodItem.block);
 					_setstack.setCount((int) 1);
 					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable) {

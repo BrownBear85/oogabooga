@@ -23,7 +23,7 @@ public class AmazoniteAxeItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:amazonite_axe")
 	public static final Item block = null;
 	public AmazoniteAxeItem(FillerModElements instance) {
-		super(instance, 62);
+		super(instance, 65);
 	}
 
 	@Override

@@ -23,7 +23,7 @@ public class SpectroliteSwordItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:spectrolite_sword")
 	public static final Item block = null;
 	public SpectroliteSwordItem(FillerModElements instance) {
-		super(instance, 50);
+		super(instance, 53);
 	}
 
 	@Override
