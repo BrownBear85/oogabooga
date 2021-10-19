@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 4.0,
+    "cookingTime": 100,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:BismuthOre"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:Bismuth"
+    },
+    "name": "bismuth_ore_blasting",
+    "namespace": "mod"
+  }
+}

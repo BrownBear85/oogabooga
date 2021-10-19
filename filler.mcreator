@@ -2120,6 +2120,246 @@
       "ids": {},
       "registry_name": "netherite_rod",
       "path": "~/Items"
+    },
+    {
+      "name": "BiotiteSword",
+      "type": "tool",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biotite_sword",
+      "path": "~/Tools"
+    },
+    {
+      "name": "BiotitePickaxe",
+      "type": "tool",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biotite_pickaxe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "BiotiteAxe",
+      "type": "tool",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biotite_axe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "BiotiteShovel",
+      "type": "tool",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biotite_shovel",
+      "path": "~/Tools"
+    },
+    {
+      "name": "BiotiteHoe",
+      "type": "tool",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biotite_hoe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "BiotiteSwordCrafting",
+      "type": "recipe",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biotite_sword_crafting",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BiotitePickaxeCrafting",
+      "type": "recipe",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biotite_pickaxe_crafting",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BiotiteAxeCrafting",
+      "type": "recipe",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biotite_axe_crafting",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BiotiteAxeCraftingRight",
+      "type": "recipe",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biotite_axe_crafting_right",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BiotiteShovelCrafting",
+      "type": "recipe",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biotite_shovel_crafting",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BiotiteHoeCrafting",
+      "type": "recipe",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biotite_hoe_crafting",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BiotiteHoeCraftingRight",
+      "type": "recipe",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biotite_hoe_crafting_right",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BismuthOreSmelting",
+      "type": "recipe",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bismuth_ore_smelting",
+      "path": "~/Recipes/Smelting"
+    },
+    {
+      "name": "SpectroliteOreSmelting",
+      "type": "recipe",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spectrolite_ore_smelting",
+      "path": "~/Recipes/Smelting"
+    },
+    {
+      "name": "ManganeseOreSmelting",
+      "type": "recipe",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "manganese_ore_smelting",
+      "path": "~/Recipes/Smelting"
+    },
+    {
+      "name": "AmazoniteOreSmelting",
+      "type": "recipe",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amazonite_ore_smelting",
+      "path": "~/Recipes/Smelting"
+    },
+    {
+      "name": "BiotiteOreSmelting",
+      "type": "recipe",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biotite_ore_smelting",
+      "path": "~/Recipes/Smelting"
+    },
+    {
+      "name": "NeptuniteOreSmelting",
+      "type": "recipe",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "neptunite_ore_smelting",
+      "path": "~/Recipes/Smelting"
+    },
+    {
+      "name": "BismuthOreBlasting",
+      "type": "recipe",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bismuth_ore_blasting",
+      "path": "~/Recipes/Smelting"
+    },
+    {
+      "name": "SpectroliteOreBlasting",
+      "type": "recipe",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spectrolite_ore_blasting",
+      "path": "~/Recipes/Smelting"
+    },
+    {
+      "name": "ManganeseOreBlasting",
+      "type": "recipe",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "manganese_ore_blasting",
+      "path": "~/Recipes/Smelting"
+    },
+    {
+      "name": "AmazoniteOreBlasting",
+      "type": "recipe",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amazonite_ore_blasting",
+      "path": "~/Recipes/Smelting"
+    },
+    {
+      "name": "BiotiteOreBlasting",
+      "type": "recipe",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "biotite_ore_blasting",
+      "path": "~/Recipes/Smelting"
+    },
+    {
+      "name": "NeptuniteOreBlasting",
+      "type": "recipe",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "neptunite_ore_blasting",
+      "path": "~/Recipes/Smelting"
     }
   ],
   "variable_elements": [],
@@ -2176,8 +2416,8 @@
   "language_map": {
     "en_us": {
       "item.filler.blazing_crystal": "Blazing Crystal",
-      "item.filler.amazonite_disc": "Amazonite Disc",
       "item.filler.blazing_core": "Blazing Core",
+      "item.filler.amazonite_disc": "Amazonite Disc",
       "item.filler.amazonite_disc.desc": "Schitiffles - Merp Merp",
       "item.filler.spectrolite_armor_chestplate": "Spectrolite Chestplate",
       "subtitles.merpmerp": "Schtiffles - Merp Merp",
@@ -2185,16 +2425,18 @@
       "item.filler.spectrolite_hoe": "Spectrolite Hoe",
       "block.filler.amazonite_ore": "Amazonite Ore",
       "advancements.get_blazing_core.descr": "Fabricate an armor core using a blazing crystal",
-      "advancements.get_amazonite.title": "Hidden in the amazon",
       "item.filler.bismuth_armor_helmet": "Bismuth Helmet",
+      "advancements.get_amazonite.title": "Hidden in the amazon",
       "item.filler.biotite_disc": "Biotite Disc",
-      "entity.filler.launcher": "Sittable",
+      "item.filler.biotite_sword": "Biotite Sword",
       "item.filler.manganese_disc.desc": "Viscerality - Bliss",
+      "entity.filler.launcher": "Sittable",
       "item.filler.spectrolite_armor_helmet": "Spectrolite Helmet",
       "advancements.get_blazing_rod.descr": "Fabricate a blazing tool rod with a blazing crystal",
       "item.filler.nether_star_nugget": "Nether Star Nugget",
       "advancements.get_obsidian_rod.descr": "Fabricate a tool rod with an obsidian crystal",
       "item.filler.amazonite": "Amazonite",
+      "item.filler.biotite_pickaxe": "Biotite Pickaxe",
       "item.filler.neptunite_disc": "Neptunite Disc",
       "advancements.get_diamond_core.title": "Protective",
       "item.filler.manganese_shovel": "Manganese Shovel",
@@ -2204,6 +2446,7 @@
       "item.filler.bismuth_hoe": "Bismuth Hoe",
       "item.filler.amazonite_armor_chestplate": "Amazonite Chestplate",
       "item.filler.bismuth": "Bismuth",
+      "item.filler.biotite_shovel": "Biotite Shovel",
       "item.filler.amazonite_hoe": "Amazonite Hoe",
       "advancements.get_bismuth_pickaxe.descr": "Use your bismuth to craft a pickaxe",
       "advancements.get_amazonite_armor.title": "King of the jungle",
@@ -2267,6 +2510,7 @@
       "key.filler.sit_key": "Sit Down",
       "advancements.get_obsidian_rod.title": "Will this ever break?",
       "advancements.get_diamond_core.descr": "Fabricate a diamond armor core with your new armor core factory",
+      "item.filler.biotite_hoe": "Biotite Hoe",
       "advancements.get_rod_machine.title": "Mechanical",
       "advancements.get_manganese_pickaxe.title": "Tool of darkness",
       "item.filler.manganese_disc": "Manganese Disc",
@@ -2292,7 +2536,8 @@
       "item.filler.amazonite_axe": "Amazonite Axe",
       "advancements.get_bismuth_armor.descr": "Wear a full set of bismuth armor",
       "advancements.mineralis.title": "Mineralis",
-      "block.filler.neptunite_block": "Biotite Block",
+      "item.filler.biotite_axe": "Biotite Axe",
+      "block.filler.neptunite_block": "Neptunite Block",
       "item.filler.amazonite_armor_leggings": "Amazonite Leggings",
       "item.filler.biotite_nugget": "Biotite Nugget",
       "advancements.get_bismuth.title": "Rainbow Ore",
@@ -2330,7 +2575,12 @@
     "children": [
       {
         "name": "Recipes",
-        "children": []
+        "children": [
+          {
+            "name": "Smelting",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Blocks",

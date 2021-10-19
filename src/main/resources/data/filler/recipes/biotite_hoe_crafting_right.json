@@ -1,0 +1,27 @@
+{
+  "group": "filler",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "2 ",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "filler:biotite"
+    },
+    "1": {
+      "item": "filler:biotite"
+    },
+    "2": {
+      "item": "filler:infernal_rod"
+    },
+    "4": {
+      "item": "filler:infernal_rod"
+    }
+  },
+  "result": {
+    "item": "filler:biotite_hoe",
+    "count": 1
+  }
+}

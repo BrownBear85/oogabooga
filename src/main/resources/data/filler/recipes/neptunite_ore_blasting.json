@@ -1,0 +1,12 @@
+{
+  "group": "filler",
+  "type": "minecraft:blasting",
+  "experience": 4,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "filler:neptunite_ore"
+  },
+  "result": {
+    "item": "filler:neptunite"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "group": "filler",
+  "type": "minecraft:blasting",
+  "experience": 4,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "filler:amazonite_ore"
+  },
+  "result": {
+    "item": "filler:amazonite"
+  }
+}

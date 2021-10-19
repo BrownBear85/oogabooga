@@ -41,7 +41,7 @@
     "creativeTab": {
       "value": "CUSTOM:CreativeTabBlocks"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
@@ -96,7 +96,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 7,
+    "breakHarvestLevel": 8,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

@@ -1,0 +1,30 @@
+{
+  "group": "filler",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "filler:biotite"
+    },
+    "1": {
+      "item": "filler:biotite"
+    },
+    "2": {
+      "item": "filler:biotite"
+    },
+    "4": {
+      "item": "filler:infernal_rod"
+    },
+    "7": {
+      "item": "filler:infernal_rod"
+    }
+  },
+  "result": {
+    "item": "filler:biotite_pickaxe",
+    "count": 1
+  }
+}

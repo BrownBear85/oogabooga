@@ -1,0 +1,12 @@
+{
+  "group": "filler",
+  "type": "minecraft:smelting",
+  "experience": 4,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "filler:spectrolite_ore"
+  },
+  "result": {
+    "item": "filler:spectrolite"
+  }
+}

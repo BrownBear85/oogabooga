@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "biotite_axe",
+    "customModelName": "Normal",
+    "name": "Biotite Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:CreativeTabTools"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 8,
+    "efficiency": 30.0,
+    "attackSpeed": 1.0,
+    "enchantability": 32,
+    "damageVsEntity": 18.0,
+    "usageCount": 3500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Biotite"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

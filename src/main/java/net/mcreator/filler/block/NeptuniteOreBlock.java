@@ -113,7 +113,7 @@ public class NeptuniteOreBlock extends FillerModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 4)).range(140)
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 4)).range(48)
 					.square().func_242731_b(5);
 			event.getRegistry().register(feature.setRegistryName("neptunite_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("filler:neptunite_ore"), configuredFeature);

@@ -2,6 +2,7 @@
 package net.mcreator.filler.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
@@ -36,7 +37,8 @@ public class BiotiteBlockBlock extends FillerModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(225f, 2000f).setLightLevel(s -> 0));
+			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(225f, 2000f).setLightLevel(s -> 0)
+					.harvestLevel(8).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("biotite_block");
 		}
 
