@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "neptunite_hoe",
+    "customModelName": "Normal",
+    "name": "Neptunite Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:CreativeTabTools"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 8,
+    "efficiency": 33.0,
+    "attackSpeed": 2.0,
+    "enchantability": 25,
+    "damageVsEntity": 13.0,
+    "usageCount": 3200,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Neptunite"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

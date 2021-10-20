@@ -39,7 +39,7 @@ public class BismuthArmorItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:bismuth_armor_boots")
 	public static final Item boots = null;
 	public BismuthArmorItem(FillerModElements instance) {
-		super(instance, 68);
+		super(instance, 78);
 	}
 
 	@Override

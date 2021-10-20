@@ -17,7 +17,7 @@ public class BiotiteAxeItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:biotite_axe")
 	public static final Item block = null;
 	public BiotiteAxeItem(FillerModElements instance) {
-		super(instance, 199);
+		super(instance, 70);
 	}
 
 	@Override

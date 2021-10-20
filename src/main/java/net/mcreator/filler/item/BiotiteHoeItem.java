@@ -17,7 +17,7 @@ public class BiotiteHoeItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:biotite_hoe")
 	public static final Item block = null;
 	public BiotiteHoeItem(FillerModElements instance) {
-		super(instance, 201);
+		super(instance, 72);
 	}
 
 	@Override

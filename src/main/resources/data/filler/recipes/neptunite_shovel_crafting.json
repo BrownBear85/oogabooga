@@ -1,0 +1,24 @@
+{
+  "group": "filler",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "filler:neptunite"
+    },
+    "1": {
+      "item": "filler:infernal_rod"
+    },
+    "2": {
+      "item": "filler:infernal_rod"
+    }
+  },
+  "result": {
+    "item": "filler:neptunite_shovel",
+    "count": 1
+  }
+}

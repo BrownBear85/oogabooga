@@ -17,7 +17,7 @@ public class BiotitePickaxeItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:biotite_pickaxe")
 	public static final Item block = null;
 	public BiotitePickaxeItem(FillerModElements instance) {
-		super(instance, 198);
+		super(instance, 69);
 	}
 
 	@Override

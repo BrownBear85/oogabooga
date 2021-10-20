@@ -13,26 +13,26 @@ import net.mcreator.filler.itemgroup.CreativeTabToolsItemGroup;
 import net.mcreator.filler.FillerModElements;
 
 @FillerModElements.ModElement.Tag
-public class BiotiteShovelItem extends FillerModElements.ModElement {
-	@ObjectHolder("filler:biotite_shovel")
+public class NeptuniteHoeItem extends FillerModElements.ModElement {
+	@ObjectHolder("filler:neptunite_hoe")
 	public static final Item block = null;
-	public BiotiteShovelItem(FillerModElements instance) {
-		super(instance, 71);
+	public NeptuniteHoeItem(FillerModElements instance) {
+		super(instance, 77);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ShovelItem(new IItemTier() {
 			public int getMaxUses() {
-				return 3500;
+				return 3200;
 			}
 
 			public float getEfficiency() {
-				return 30f;
+				return 33f;
 			}
 
 			public float getAttackDamage() {
-				return 7f;
+				return 11f;
 			}
 
 			public int getHarvestLevel() {
@@ -40,13 +40,13 @@ public class BiotiteShovelItem extends FillerModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 32;
+				return 25;
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(BiotiteItem.block));
+				return Ingredient.fromStacks(new ItemStack(NeptuniteItem.block));
 			}
-		}, 1, -2.8f, new Item.Properties().group(CreativeTabToolsItemGroup.tab).isImmuneToFire()) {
-		}.setRegistryName("biotite_shovel"));
+		}, 1, -2f, new Item.Properties().group(CreativeTabToolsItemGroup.tab)) {
+		}.setRegistryName("neptunite_hoe"));
 	}
 }
