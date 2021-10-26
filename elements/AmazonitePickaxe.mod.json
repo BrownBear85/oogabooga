@@ -6,9 +6,7 @@
     "texture": "amazonite_pickaxe",
     "customModelName": "Normal",
     "name": "Amazonite Pickaxe",
-    "specialInfo": [
-      "§7§oThe head shimmers..."
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:CreativeTabTools"
     },

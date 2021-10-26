@@ -33,9 +33,7 @@
       }
     ],
     "name": "Amazonite Ore",
-    "specialInfo": [
-      "§7§oJungle vines hang off of the ore"
-    ],
+    "specialInfo": [],
     "hardness": 125.0,
     "resistance": 1400.0,
     "hasGravity": false,

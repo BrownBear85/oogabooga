@@ -53,7 +53,7 @@ public class EmptyDiskItem extends FillerModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("\u00A77\u00A7oCan you even put it in a jukebox?"));
+			list.add(new StringTextComponent("\u00A77\u00A7oYou can't put it in a jukebox"));
 		}
 	}
 }

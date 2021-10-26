@@ -6,9 +6,7 @@
     "texture": "spectrolite_hoe",
     "customModelName": "Normal",
     "name": "Spectrolite Hoe",
-    "specialInfo": [
-      "§7§oStill feels a bit cold..."
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:CreativeTabTools"
     },

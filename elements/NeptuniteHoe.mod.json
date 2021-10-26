@@ -5,12 +5,12 @@
     "renderType": 0,
     "texture": "neptunite_hoe",
     "customModelName": "Normal",
-    "name": "Neptunite Shovel",
+    "name": "Neptunite Hoe",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:CreativeTabTools"
     },
-    "toolType": "Spade",
+    "toolType": "Hoe",
     "harvestLevel": 8,
     "efficiency": 33.0,
     "attackSpeed": 2.0,

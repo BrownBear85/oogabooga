@@ -6,9 +6,7 @@
     "texture": "amazonite_sword",
     "customModelName": "Normal",
     "name": "Amazonite Sword",
-    "specialInfo": [
-      "§7§oThe blade shimmers..."
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:CreativeTabTools"
     },

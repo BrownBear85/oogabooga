@@ -1,8 +1,8 @@
 {
   "display": {
-    "background": "minecraft:textures/block/stone.png",
+    "background": "filler:textures/amazonite_block.png",
     "icon": {
-      "item": "filler:bismuth_ore"
+      "item": "filler:neptunite_block"
     },
     "title": {
       "translate": "advancements.mineralis.title"
@@ -32,6 +32,6 @@
     }
   },
   "rewards": {
-    "experience": 1
+    "experience": 0
   }
 }

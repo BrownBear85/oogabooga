@@ -21,18 +21,10 @@
     "bodyName": "Manganese Body",
     "leggingsName": "Manganese Leggings",
     "bootsName": "Manganese Boots",
-    "helmetSpecialInfo": [
-      "§7§oIt's like a void"
-    ],
-    "bodySpecialInfo": [
-      "§7§oIt's like a void"
-    ],
-    "leggingsSpecialInfo": [
-      "§7§oIt's like a void"
-    ],
-    "bootsSpecialInfo": [
-      "§7§oIt's like a void"
-    ],
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",

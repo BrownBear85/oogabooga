@@ -4,10 +4,10 @@ package net.mcreator.filler.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.ShovelItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
+import net.minecraft.item.HoeItem;
 
 import net.mcreator.filler.itemgroup.CreativeTabToolsItemGroup;
 import net.mcreator.filler.FillerModElements;
@@ -22,7 +22,7 @@ public class NeptuniteHoeItem extends FillerModElements.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ShovelItem(new IItemTier() {
+		elements.items.add(() -> new HoeItem(new IItemTier() {
 			public int getMaxUses() {
 				return 3200;
 			}
@@ -46,7 +46,7 @@ public class NeptuniteHoeItem extends FillerModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(NeptuniteItem.block));
 			}
-		}, 1, -2f, new Item.Properties().group(CreativeTabToolsItemGroup.tab)) {
+		}, 0, -2f, new Item.Properties().group(CreativeTabToolsItemGroup.tab)) {
 		}.setRegistryName("neptunite_hoe"));
 	}
 }

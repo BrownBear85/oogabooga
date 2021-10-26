@@ -105,7 +105,7 @@ public class ArmorMachineBlock extends FillerModElements.ModElement {
 		@OnlyIn(Dist.CLIENT)
 		public void addInformation(ItemStack itemstack, IBlockReader world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("\u00A77\u00A7oIt clanks and clicks"));
+			list.add(new StringTextComponent("\u00A77\u00A7oUsed to fabricate armor cores"));
 		}
 
 		@Override

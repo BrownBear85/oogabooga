@@ -6,9 +6,7 @@
     "texture": "bismuth_hoe",
     "customModelName": "Normal",
     "name": "Bismuth Hoe",
-    "specialInfo": [
-      "§7§oDreams come true..."
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:CreativeTabTools"
     },

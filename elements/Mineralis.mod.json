@@ -5,9 +5,9 @@
     "achievementName": "Mineralis",
     "achievementDescription": "This mod is about finding materials in stages",
     "achievementIcon": {
-      "value": "CUSTOM:BismuthOre"
+      "value": "CUSTOM:NeptuniteBlock"
     },
-    "background": "Default",
+    "background": "amazonite_block.png",
     "disableDisplay": false,
     "showPopup": false,
     "announceToChat": false,
@@ -15,7 +15,7 @@
     "rewardLoot": [],
     "rewardRecipes": [],
     "rewardFunction": "No function",
-    "rewardXP": 1,
+    "rewardXP": 0,
     "achievementType": "task",
     "parent": {
       "value": "No parent: root"

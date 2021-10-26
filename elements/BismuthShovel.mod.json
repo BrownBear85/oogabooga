@@ -6,9 +6,7 @@
     "texture": "bismuth_shovel",
     "customModelName": "Normal",
     "name": "Bismuth Shovel",
-    "specialInfo": [
-      "§7§oDreams come true..."
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:CreativeTabTools"
     },

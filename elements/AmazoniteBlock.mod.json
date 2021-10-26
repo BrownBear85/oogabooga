@@ -33,9 +33,7 @@
       }
     ],
     "name": "Amazonite Block",
-    "specialInfo": [
-      "§7§oIt might attract some jungle creatures"
-    ],
+    "specialInfo": [],
     "hardness": 150.0,
     "resistance": 1500.0,
     "hasGravity": false,

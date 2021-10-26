@@ -6,9 +6,7 @@
     "texture": "spectrolite_axe",
     "customModelName": "Normal",
     "name": "Spectrolite Axe",
-    "specialInfo": [
-      "§7§oStill feels a bit cold..."
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:CreativeTabTools"
     },

@@ -48,7 +48,7 @@ public class NeptuniteOreBlock extends FillerModElements.ModElement {
 	@ObjectHolder("filler:neptunite_ore")
 	public static final Block block = null;
 	public NeptuniteOreBlock(FillerModElements instance) {
-		super(instance, 46);
+		super(instance, 41);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

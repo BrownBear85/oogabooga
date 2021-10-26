@@ -7,8 +7,6 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ItemStack;
@@ -18,14 +16,12 @@ import net.minecraft.item.ArmorItem;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
-import net.minecraft.client.util.ITooltipFlag;
 
 import net.mcreator.filler.procedures.SpectroliteArmorAdvancementProcedure;
 import net.mcreator.filler.itemgroup.CreativeTabToolsItemGroup;
 import net.mcreator.filler.FillerModElements;
 
 import java.util.Map;
-import java.util.List;
 import java.util.HashMap;
 
 @FillerModElements.ModElement.Tag
@@ -88,12 +84,6 @@ public class SpectroliteArmorItem extends FillerModElements.ModElement {
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(CreativeTabToolsItemGroup.tab)) {
 			@Override
-			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
-				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("\u00A77\u00A7oStill feels a bit cold..."));
-			}
-
-			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "filler:textures/models/armor/spectrolite_armor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
@@ -113,35 +103,17 @@ public class SpectroliteArmorItem extends FillerModElements.ModElement {
 		}.setRegistryName("spectrolite_armor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(CreativeTabToolsItemGroup.tab)) {
 			@Override
-			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
-				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("\u00A77\u00A7oStill feels a bit cold..."));
-			}
-
-			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "filler:textures/models/armor/spectrolite_armor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("spectrolite_armor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(CreativeTabToolsItemGroup.tab)) {
 			@Override
-			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
-				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("\u00A77\u00A7oStill feels a bit cold..."));
-			}
-
-			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "filler:textures/models/armor/spectrolite_armor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("spectrolite_armor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(CreativeTabToolsItemGroup.tab)) {
-			@Override
-			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
-				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("\u00A77\u00A7oStill feels a bit cold..."));
-			}
-
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "filler:textures/models/armor/spectrolite_armor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";

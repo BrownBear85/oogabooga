@@ -25,7 +25,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "§7§oCan you even put it in a jukebox?"
+      "§7§oYou can't put it in a jukebox"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

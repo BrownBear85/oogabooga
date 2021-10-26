@@ -29,7 +29,6 @@ import net.minecraft.entity.Entity;
 import net.minecraft.client.gui.ScreenManager;
 
 import net.mcreator.filler.procedures.RodButtonClickedProcedure;
-import net.mcreator.filler.item.IronRodItem;
 import net.mcreator.filler.FillerModElements;
 import net.mcreator.filler.FillerMod;
 
@@ -116,10 +115,6 @@ public class RodMachineGUIGui extends FillerModElements.ModElement {
 				}
 			}
 			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 16, 26) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return (IronRodItem.block == stack.getItem());
-				}
 			}));
 			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 88, 26) {
 			}));

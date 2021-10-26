@@ -105,7 +105,7 @@ public class RodMachineBlock extends FillerModElements.ModElement {
 		@OnlyIn(Dist.CLIENT)
 		public void addInformation(ItemStack itemstack, IBlockReader world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("\u00A77\u00A7oIt whirs and hums"));
+			list.add(new StringTextComponent("\u00A77\u00A7oUsed to fabricate tool rods"));
 		}
 
 		@Override

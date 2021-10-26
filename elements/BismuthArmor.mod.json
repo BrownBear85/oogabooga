@@ -21,18 +21,10 @@
     "bodyName": "Bismuth Chestplate",
     "leggingsName": "Bismuth Leggings",
     "bootsName": "Bismuth Boots",
-    "helmetSpecialInfo": [
-      "§7§oDreams come true..."
-    ],
-    "bodySpecialInfo": [
-      "§7§oDreams come true..."
-    ],
-    "leggingsSpecialInfo": [
-      "§7§oDreams come true..."
-    ],
-    "bootsSpecialInfo": [
-      "§7§oDreams come true..."
-    ],
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",

@@ -53,7 +53,7 @@ public class BlazingCrystalItem extends FillerModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("\u00A77\u00A7oIt can be used as fuel"));
+			list.add(new StringTextComponent("\u00A77\u00A7oCan be used as fuel in furnace"));
 		}
 	}
 }

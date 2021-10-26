@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Destroying the amazon",
-    "achievementDescription": "Craft an amazonite pickaxe\\nThese are slightly faster than manganese, but less durable",
+    "achievementDescription": "Craft an amazonite pickaxe",
     "achievementIcon": {
       "value": "CUSTOM:AmazonitePickaxe"
     },

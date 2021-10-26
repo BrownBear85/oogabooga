@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "filler:biotite"
+    },
+    "title": {
+      "translate": "advancements.get_biotite.title"
+    },
+    "description": {
+      "translate": "advancements.get_biotite.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_biotite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "filler:biotite",
+            "count": {
+              "min": 1,
+              "max": 1000
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "filler:get_manganese"
+}

@@ -6,9 +6,7 @@
     "texture": "spectrolite_pickaxe",
     "customModelName": "Normal",
     "name": "Spectrolite Pickaxe",
-    "specialInfo": [
-      "§7§oStill feels a bit cold..."
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:CreativeTabTools"
     },

@@ -6,9 +6,7 @@
     "texture": "manganese_shovel",
     "customModelName": "Normal",
     "name": "Manganese Shovel",
-    "specialInfo": [
-      "§7§oIt's like a void"
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:CreativeTabTools"
     },

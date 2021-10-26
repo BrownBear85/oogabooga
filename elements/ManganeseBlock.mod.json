@@ -33,9 +33,7 @@
       }
     ],
     "name": "Manganese Block",
-    "specialInfo": [
-      "§7§oIt looks like a solid void"
-    ],
+    "specialInfo": [],
     "hardness": 125.0,
     "resistance": 1000.0,
     "hasGravity": false,

@@ -26,7 +26,7 @@ public class BiotiteBlockBlock extends FillerModElements.ModElement {
 	@ObjectHolder("filler:biotite_block")
 	public static final Block block = null;
 	public BiotiteBlockBlock(FillerModElements instance) {
-		super(instance, 45);
+		super(instance, 46);
 	}
 
 	@Override

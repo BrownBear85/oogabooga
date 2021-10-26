@@ -6,9 +6,7 @@
     "texture": "manganese_axe",
     "customModelName": "Normal",
     "name": "Manganese Axe",
-    "specialInfo": [
-      "§7§oIt's like a void"
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:CreativeTabTools"
     },

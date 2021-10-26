@@ -6,9 +6,7 @@
     "texture": "amazonite_hoe",
     "customModelName": "Normal",
     "name": "Amazonite Hoe",
-    "specialInfo": [
-      "§7§oThe head shimmers..."
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:CreativeTabTools"
     },

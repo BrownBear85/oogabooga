@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "filler:neptunite"
+    },
+    "title": {
+      "translate": "advancements.get_neptunite.title"
+    },
+    "description": {
+      "translate": "advancements.get_neptunite.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_neptunite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "filler:neptunite",
+            "count": {
+              "min": 1,
+              "max": 1000
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "filler:get_amazonite"
+}

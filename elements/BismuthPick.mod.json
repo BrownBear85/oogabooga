@@ -6,9 +6,7 @@
     "texture": "bismuth_pickaxe",
     "customModelName": "Normal",
     "name": "Bismuth Pickaxe",
-    "specialInfo": [
-      "§7§oDreams come true..."
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:CreativeTabTools"
     },

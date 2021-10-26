@@ -33,9 +33,7 @@
       }
     ],
     "name": "Spectrolite Block",
-    "specialInfo": [
-      "§7§oYour hand has frozen"
-    ],
+    "specialInfo": [],
     "hardness": 100.0,
     "resistance": 1200.0,
     "hasGravity": false,

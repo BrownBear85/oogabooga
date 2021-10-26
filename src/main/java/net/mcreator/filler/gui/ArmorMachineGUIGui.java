@@ -29,7 +29,6 @@ import net.minecraft.entity.Entity;
 import net.minecraft.client.gui.ScreenManager;
 
 import net.mcreator.filler.procedures.ArmorButtonClickedProcedure;
-import net.mcreator.filler.item.IronCoreItem;
 import net.mcreator.filler.FillerModElements;
 import net.mcreator.filler.FillerMod;
 
@@ -42,7 +41,7 @@ public class ArmorMachineGUIGui extends FillerModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
 	public ArmorMachineGUIGui(FillerModElements instance) {
-		super(instance, 156);
+		super(instance, 148);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
@@ -116,10 +115,6 @@ public class ArmorMachineGUIGui extends FillerModElements.ModElement {
 				}
 			}
 			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 16, 26) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return (IronCoreItem.block == stack.getItem());
-				}
 			}));
 			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 88, 26) {
 			}));

@@ -6,9 +6,7 @@
     "texture": "bismuth_sword",
     "customModelName": "Normal",
     "name": "Bismuth Sword",
-    "specialInfo": [
-      "§7§oDreams come true..."
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:CreativeTabTools"
     },

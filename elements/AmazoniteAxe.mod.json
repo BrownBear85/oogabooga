@@ -6,9 +6,7 @@
     "texture": "amazonite_axe",
     "customModelName": "Normal",
     "name": "Amazonite Axe",
-    "specialInfo": [
-      "§7§oThe head shimmers..."
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:CreativeTabTools"
     },

@@ -33,9 +33,7 @@
       }
     ],
     "name": "Bismuth Block",
-    "specialInfo": [
-      "§7§oThis block looks alien"
-    ],
+    "specialInfo": [],
     "hardness": 75.0,
     "resistance": 1000.0,
     "hasGravity": false,

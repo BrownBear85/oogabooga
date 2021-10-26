@@ -16,7 +16,7 @@ public class InfernalRodItem extends FillerModElements.ModElement {
 	@ObjectHolder("filler:infernal_rod")
 	public static final Item block = null;
 	public InfernalRodItem(FillerModElements instance) {
-		super(instance, 33);
+		super(instance, 32);
 	}
 
 	@Override

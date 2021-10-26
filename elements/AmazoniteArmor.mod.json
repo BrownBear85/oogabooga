@@ -21,18 +21,10 @@
     "bodyName": "Amazonite Chestplate",
     "leggingsName": "Amazonite Leggings",
     "bootsName": "Amazonite Boots",
-    "helmetSpecialInfo": [
-      "§7§oFrom the jungle!"
-    ],
-    "bodySpecialInfo": [
-      "§7§oFrom the jungle!"
-    ],
-    "leggingsSpecialInfo": [
-      "§7§oFrom the jungle!"
-    ],
-    "bootsSpecialInfo": [
-      "§7§oFrom the jungle!"
-    ],
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",

@@ -21,18 +21,10 @@
     "bodyName": "Spectrolite Chestplate",
     "leggingsName": "Spectrolite Leggings",
     "bootsName": "Spectrolite Boots",
-    "helmetSpecialInfo": [
-      "§7§oStill feels a bit cold..."
-    ],
-    "bodySpecialInfo": [
-      "§7§oStill feels a bit cold..."
-    ],
-    "leggingsSpecialInfo": [
-      "§7§oStill feels a bit cold..."
-    ],
-    "bootsSpecialInfo": [
-      "§7§oStill feels a bit cold..."
-    ],
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",

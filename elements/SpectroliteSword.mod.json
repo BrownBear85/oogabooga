@@ -6,9 +6,7 @@
     "texture": "spectrolite_sword",
     "customModelName": "Normal",
     "name": "Spectrolite Sword",
-    "specialInfo": [
-      "§7§oStill feels a bit cold..."
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:CreativeTabTools"
     },

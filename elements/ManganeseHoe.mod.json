@@ -6,9 +6,7 @@
     "texture": "manganese_hoe",
     "customModelName": "Normal",
     "name": "Manganese Hoe",
-    "specialInfo": [
-      "§7§oIt's like a void"
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:CreativeTabTools"
     },

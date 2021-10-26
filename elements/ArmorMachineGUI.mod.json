@@ -27,7 +27,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": "CUSTOM:IronCore"
+            "value": ""
           },
           "id": 0,
           "disableStackInteraction": false,

@@ -6,9 +6,7 @@
     "texture": "spectrolite_shovel",
     "customModelName": "Normal",
     "name": "Spectrolite Shovel",
-    "specialInfo": [
-      "§7§oStill feels a bit cold..."
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:CreativeTabTools"
     },
